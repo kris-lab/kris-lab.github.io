@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- v4.2 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=1000">
+<link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
+<link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+<!--[if LT IE 7]>
+	<link type="text/css" rel="stylesheet" href="assets/css/ie6.css"/>
+<![endif]-->
+<!-- jQuery -->
+<script type="text/javascript" src="assets/js/libs/jquery/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="assets/js/libs/jquery/jquery.effects.core.js"></script>
+<!--[if LT IE 7]>
+			<script type="text/javascript" src="assets/js/libs/DD_belatedPNG_0.0.8a.js"></script>
+		<![endif]-->
+<script type="text/javascript" src="assets/js/libs/modernizr.touch.js"></script>
+<script type="text/javascript" src="assets/js/utilities.js"></script>
+<script type="text/javascript" src="assets/js/init.js"></script>
+<script type="text/javascript">
+	function sendSelfHealForm(){
+		document.formnext.js_disabled.value = "";
+		document.formnext.submit();
+	}
+	//
+	window.onload = sendSelfHealForm;
+</script>
+<title>NOW TV Hub Two&gt; Connection Diagnosis</title>
+</head>
+<body>
+<script type="text/javascript">
+document.body.style.display = 'none';
+</script>
+<!-- head -->
+<div id="head">
+	<div id="header">
+		<div class="layout"><span id="header-title-self-help">Connection Diagnosis</span><span id="header-logo"></span><br class="clear-break" /></div>
+	</div>
+</div>
+<!-- head end -->
+<!-- content -->
+<div id="content">
+	<!-- layout -->
+	<div class="layout">
+		<!-- page -->
+		<div class="page">
+			<div class="page-content-message">
+				<h1>Connection successful</h1>
+				<p>Click the button below to finish your setup.</p>
+				<form name="formnext" method="post" action="Now_TV_self_heal.cgi">
+					<input name="next_page" value="" type="hidden"/>
+					<input name="js_disabled" value="yes" type="hidden"/>
+					<input type="submit" value="Finish setup" class="btn42 btn-custom btn-pink-162"/>
+				</form>
+			</div>
+		</div>
+		<!-- page end -->
+	</div>
+	<!-- layout end -->
+</div>
+<!-- content end -->
+</body>
+</html>

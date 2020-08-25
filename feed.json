@@ -1,0 +1,258 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Chris Stasiak",
+    "description": "",
+    "home_page_url": "https://blog.kris-lab.com",
+    "feed_url": "https://blog.kris-lab.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Chris Stasiak"
+    },
+    "items": [
+        {
+            "id": "https://blog.kris-lab.com/enable-machine-self-learning-12.html",
+            "url": "https://blog.kris-lab.com/enable-machine-self-learning-12.html",
+            "title": "Enable Machine Self Learning",
+            "summary": "elasticfeed.ioelasticfeed is implementation of ICSE class architecture and provides flexible configuration model. This mode detects the type of input content and&hellip;",
+            "content_html": "<h3>elasticfeed.io</h3>\n<p><strong>elasticfeed</strong> is implementation of <a href=\"http://blog.kris-lab.com/intelligent-content-streaming-engine-icse-part-1-introduction/\">ICSE class</a> architecture and provides flexible configuration model.</p>\n<h4>Automatic mode: content recognition, learning and streaming</h4>\n<p>This mode detects the type of input content and enables (configures) available plugins for storing, distribution and learning sections of JSON `Scenariofile` (see below)</p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/517/CbVPddI7Azi5s247ro9Mu3LYmOSJNWzzb_kIG7TOsnYMGCSBDAABYIK6dk2RepnHb7pQDepebRoqESwYBSMuecDnGcRqgeR2qO9aqO7rhFc6XYDWOd_7GF-DROYmn1OFWHZpUSU\" alt=\"\" width=\"624px;\" height=\"164px;\"></figure>\n<p> </p>\n<h4>Manual mode: content recognition, learning, distribution and maintenance</h4>\n<p>This mode allows to configure the `Scenariofile` workflow plugins on every level for each event or hook by simple drag&amp;drop.</p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/517/uI4zDJz8_ZlxQLsAUYi5AXblywvfzYXeQgAj6kx7iVxgbb_Y7CPQwgYmIsH_ZUcOxIrkj7Lq4j-SqXAh9Nz1gNXRLquv--YaiQFbYrVjPc6BHSge3Flv5o5odeuy_jq9QqN3wb4\" alt=\"\" width=\"624px;\" height=\"711px;\"></figure>\n<h4>JSON</h4>\n<p>The `Scenariofile` is defined per \"FEED PAGE\" by simple JSON and can be uploaded by API and also CLI tool. Each section collects and pipes data in order of defined events then plugins.</p>\n<pre>{\n    \"enabled\": true,\n    \"storing\": {\n        \"create-entry\": {\n            \"indexer\": [\n                {\n                    \"type\": \"image\",\n                    \"blocking\": \"true\",\n                    \"setings\": {}\n                }\n            ],\n            \"crawler\": []\n        }\n    },\n    \"processing\": {\n        \"feed-maintainer\": {\n            \"scenario\": []\n        },\n        \"sensor-update\": {\n            \"sensor\": [\n                {\n                    \"type\": \"location\",\n                },\n                {\n                    \"type\": \"weather\",\n                },\n                {\n                    \"type\": \"timing\",\n                }\n            ]\n        },\n    },\n    \"distribution\": {\n        \"push-entry-to-ui\": {\n            \"pipeline\": [\n                {\n                    \"type\": \"ai-nn-brain\",\n                    \"source\": \"viewer\"\n                }\n            ]\n        }\n    },\n    \"learning\": {\n        \"create-metric\": {\n            \"scenario\": [\n                {\n                    \"type\": \"ai-nn-brian-teacher\",\n                    \"mode\": \"metric-builder\"\n                }\n            ]\n        }\n    }\n}</pre>\n<h3><strong>Contribution</strong></h3>\n<p>Please contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…).</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> or please leave your e-mail address <a href=\"http://www.feedlabs.io/\">here</a> if you want be notified when the open source is released.</p>",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-camera.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-camera.html",
+            "title": "Art 3D/VR challenge – waiting for camera",
+            "summary": "Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;",
+            "content_html": "<p><strong>Introduction</strong></p>\n<p>I was researching the right cameras for very long time. The market is full of products on every level:</p>\n<ul>\n<li>plain CMOS image sensor</li>\n<li>camera modules with e.g. MIPI/CSI interface</li>\n<li>dedicated camera boards with e.g. USB 2.0/3.0, HDMI interface</li>\n<li>final products with e.g. lenses, enclosure</li>\n</ul>\n<p>I have found a plenty of producers and I did research on following:</p>\n<ul>\n<li>Sony (IMX series: IMX135, IMX214)</li>\n<li>Aptina (AR series: AR1820, AR0330)</li>\n<li>OmniVision (OV series, OV4682, OV5680)</li>\n</ul>\n<p>This is my very abstract drawing of what I have found so far...</p>\n<p><a title=\"Camera technology workflow\" href=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" target=\"_blank\"><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" width=\"1600\" height=\"528\" /></a></p>\n<p><strong>Requirements</strong></p>\n<p>My main requirements is compatibility with Ubuntu and Jetson TX1 which runs kernel of 3.10.67 version and also:</p>\n<ul>\n<li>min. FullHD with min. 30fps</li>\n<li>support for min. MIPI/CSI-2 and USB 3.0 (prototype only)</li>\n<li>min. 1/3\" image sensor</li>\n<li>support for 16:9 and 4:3</li>\n<li>support for M12, S-mount</li>\n<li>built-in ISP (Image Signal Processing)</li>\n<li>configurable: Brightness, Contrast, Sharpness, Saturation control, Gamma control Gain, Exposure (Manual and Auto), White Balance (Manual and Auto)</li>\n<li>preferably configurable scene modes: auto, night, sport, normal, high sensitive, prtraint, landscape and more</li>\n<li>preferably configurable special effects: grayscale, negtive, solarize, sepia and more</li>\n<li>support for external trigger</li>\n<li>support for extra GPIO</li>\n<li>support for YUV422 (uncompressed)</li>\n<li>preferably BSI technology</li>\n<li>preferably 10+ bit per pixel (RAW10)</li>\n<li>support for electronic rolling shutter (and also global shutter reset)</li>\n<li>very low SNR</li>\n<li>very small, less than 35Hx35Wx20D mm</li>\n</ul>\n<p><strong>Betting on...</strong></p>\n<p>I have decided to go with <strong>Aptina AR1820HS</strong> module with <strong>USB3.0</strong> adapter board. I have high hopes to use just module without USB adapter in final version. The main interface will be MIPI/CSI-2 which is properly supported with Jetson TX1. Also <strong>AR1820HS</strong> seems to be supported by linux with MIPI/CSI-2 and I2C interface.</p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  alt=\"\" src=\"https://blog.kris-lab.com/media/posts/883/LAsaKZq6MLwsJIos_4X-29M8TxXqqDiZpZP3vxAfwaZBIUypz-nrs5FND92yf97AmxekOOtmFDCS18WkAdNfWbtdIYXdP2OUkSDEJGS-CFJ3Lws7cQvSq2v9D-U_u-DHz54BJtOj\" width=\"310\" height=\"269\" /></figure>\n<hr />\n<h6 style=\"text-align: center;\">Stereo cameras have been just ordered. Delivery time is 3 weeks so let's wait and test another options in meantime! total cost is <strong>$550</strong> including delivery to UK.</h6>\n<hr />\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "virtual reality",
+                   "VR",
+                   "USB",
+                   "Stereoscopic",
+                   "MIPI",
+                   "M12",
+                   "Lens",
+                   "Jetson TX1",
+                   "Jetson",
+                   "ISP",
+                   "Chihuahua-VR",
+                   "Camera",
+                   "CSI-2",
+                   "CSI",
+                   "3D"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016.html",
+            "title": "Art 3D/VR challenge – progress by April 2016",
+            "summary": " Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project&hellip;",
+            "content_html": "<figure class=\"aligncenter\"><a title=\"VR progress\" href=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" target=\"_blank\"><img loading=\"lazy\"  alt=\"\" src=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" width=\"50%\" height=\"1103\" /></figure></a></p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "virtual reality",
+                   "VR/3D",
+                   "VR",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/say-hello-to-chihuahua-vr-box-project.html",
+            "url": "https://blog.kris-lab.com/say-hello-to-chihuahua-vr-box-project.html",
+            "title": "Say hello to Chihuahua-VR box project",
+            "summary": "What is that? As you can find on my blog (tag: VR) I have been working for few weeks on the&hellip;",
+            "content_html": "<p><strong>What is that?</strong></p>\n<p>As you can find on my blog (tag: <a href=\"http://blog.kris-lab.com/tag/vr/\">VR</a>) I have been working for few weeks on the 3D/VR real-time platform for streaming and communication. The main goal is to find the cutting edge technology which would allow to build an open hardware and software stack available for everyone interested in bridging the real world with VR world.</p>\n<p>In short, I try to capture surrounding environment, process, convert to 3D convention, unify information and stream into the VR ready players.</p>\n<p>There is still incredible amount of work to be done on the hardware and especially on the software side. Anyway, I am focused mostly on connecting bricks rather than implementing new stuff at the moment.</p>\n<p><strong>What is Chihuahua-VR?</strong></p>\n<p>During last year (2015), I was working on bringing a very interesting platform for real time VR streaming to the market. The project has been launched with huge success in my opinion. During development time we have combined a lot of technologies with a lot of power (read \"SIZE\"). To have some fun on the way, we called the biggest processing servers as <strong>BULLDOG</strong>s!</p>\n<p>This project is about using the open hardware and software platforms to minimize the size and cost of VR devices, getting more people involved and bringing this kind of solutions on the next level.</p>\n<p>My good friend and great open source engineer <a href=\"https://github.com/tomaszdurka\">Tomasz Durka</a> has proposed the most awesome name: <strong>Chihuahua-VR,</strong> which actually expresses everything what that new hardware/software stack will offer to the community. It should be cheap, small, portable, powerful, open for everyone.</p>\n<p>Some (not serious) <strong>funny</strong> photo story to summarize main features...</p>\n<figure class=\"alignleft\"><a title=\"Chihuahua-VR story\" href=\"https://blog.kris-lab.com/media/posts/892/tP4XOsB7F-jKJ3Qi8jAN_ASmCC6IbElhBBx2z-7FzU_pv1bbv4QNM4S-9Zx_REBPez3Uxus-RtfZFj0bfAm5YSji9Sq6AVXCQzHlBBI7Q0gdLdE1KxB8IcpTkqkJzw82pTybBhlD\" target=\"_blank\"><img loading=\"lazy\"  title=\"Chihuahua-VR\" alt=\"Chihuahua VR box\" src=\"https://blog.kris-lab.com/media/posts/892/tP4XOsB7F-jKJ3Qi8jAN_ASmCC6IbElhBBx2z-7FzU_pv1bbv4QNM4S-9Zx_REBPez3Uxus-RtfZFj0bfAm5YSji9Sq6AVXCQzHlBBI7Q0gdLdE1KxB8IcpTkqkJzw82pTybBhlD\" width=\"70%\" height=\"740\" /></figure></a></p>\n<p><img loading=\"lazy\" title=\"Chihuahua-VR\" alt=\"Chihuahua VR box\" src=\"https://blog.kris-lab.com/media/posts/892/qvyiX0IbzQizudpiAUTXqvbky57LqHL86oCX0QNJ1CtpCx4_jsmCB_MngZFEd-8rsm8ynWbUUuG9g4dCNF-Y0dPDrwcRWAQ_aBBPXYdmBGjjORbaZh2XOwr3cx7KnKlsUc7yAt0J\" width=\"23%\" height=\"1600\" /></p>\n<p style=\"text-align: center;\">(source: google engine inspired)</p>\n<p><strong>Logo idea</strong></p>\n<p>As every project also this one need some nice face. Let's design something soon...</p>\n<figure class=\"aligncenter\"><a title=\"Chihuahua-VR logo basic\" href=\"https://blog.kris-lab.com/media/posts/892/dNPBbNbk28RLLlPPI_CAO9D0bSggepUHdwbylykPAKINxP7G65mRUSdL3TtwFdfFHm-I28fEuHvX6GO1nXfwZp026ddUFG-tdQVGqLAHVy3Q6N-4Mv54_mCY8G0jlaWNQ0_FW4YC\" target=\"_blank\"><img loading=\"lazy\"  alt=\"\" src=\"https://blog.kris-lab.com/media/posts/892/dNPBbNbk28RLLlPPI_CAO9D0bSggepUHdwbylykPAKINxP7G65mRUSdL3TtwFdfFHm-I28fEuHvX6GO1nXfwZp026ddUFG-tdQVGqLAHVy3Q6N-4Mv54_mCY8G0jlaWNQ0_FW4YC\" width=\"33%\" /></figure></a></p>\n<p style=\"text-align: center;\">(re-design by M.C.)</p>\n<p><strong>Contribution</strong></p>\n<p><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/892/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd\" width=\"1600\" height=\"1038\" /></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR...).</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "real-time",
+                   "nvidia",
+                   "VR-Box",
+                   "VR",
+                   "Tomasz Durka",
+                   "TX1",
+                   "TK1",
+                   "M.C.",
+                   "Jetson",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua",
+                   "Bulldog",
+                   "Auvidea",
+                   "3D"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-jetson-tx1-module-with-auvidea-j100-carrier-lite-board.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-jetson-tx1-module-with-auvidea-j100-carrier-lite-board.html",
+            "title": "Art 3D/VR challenge – Jetson TX1 module with Auvidea J100 carrier lite board",
+            "summary": "Jetson TX1 works perfectly when mounted on Auvidea J100 carrier board. It is powered with 12V, starts automatically and boots&hellip;",
+            "content_html": "<p>Jetson TX1 works perfectly when mounted on Auvidea J100 carrier board. It is powered with 12V, starts automatically and boots without any troubles.</p>\n<p>TX1 + J100 is fully independent platform. Please see the photo below which presents working setup with extra USB key for wireless keyboard/touchpad (on the right), HDMI output (at the back), MIPI/CSI-2 output (at the back), power cable (on the left) and Wifi antennas (on the left).</p>\n<p><img loading=\"lazy\" style=\"font-style: inherit;\" title=\"Jetson TX1 + Auvidea J100\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/890/WRVK1D8ejNPfH3TjXFKsbuVny9NymcW210AU_vx5fvsgjjlD0LG0Rr8tBmSAmvksazQC7DF76Wo9X_DKCeiPxVJJWRs_lONioe3IEjTgQiiI_Dx7ZZTbDL--DSwSR121AWr3Bq-u\" width=\"1600\" height=\"1600\" /><img loading=\"lazy\" style=\"font-style: inherit;\" title=\"Jetson TX1 module\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/890/C9nNBsp-XHUP3_ZeSUHiRyjJG4FyJ1IEBUSXJ_d92vfD9sYrnfYtww1FreyjTA4dwtZ9ebrz4ZahrzWd1VgKPVV5nXGX5qRmZswuUFW6ZLy5-nT_BGDv-2MSvQPUnU2nP2Iw-0cc\" width=\"50%\" height=\"1600\" /><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/890/xsyTlTwFkvR3RtVxsBEjIB1_HcxhV7gOcMlWT3z3GJpX4MKPjPRkB109AGhSFoBfTbgEI91uhECld5-5valzRtlbiGROadQHWayEEVdFwxXPWIIUMYzYHwMrj0vuPgko3ahmSj5s\" width=\"50%\" /></p>\n<p><strong>Jetson TX1 module specification</strong></p>\n<div>\n<table width=\"371\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>GPU</td>\n<td>1 TFLOP/s 256-core with <a href=\"https://developer.nvidia.com/maxwell-compute-architecture\" target=\"_blank\">NVIDIA Maxwell™ Architecture</a></td>\n</tr>\n<tr>\n<td>CPU</td>\n<td>64-bit ARM® A57 CPUs</td>\n</tr>\n<tr>\n<td>Memory</td>\n<td>4 GB LPDDR4 | 25.6 GB/s</td>\n</tr>\n<tr>\n<td>Video decode</td>\n<td>4K 60 Hz</td>\n</tr>\n<tr>\n<td>Video encode</td>\n<td>4K 30 Hz</td>\n</tr>\n<tr>\n<td>CSI</td>\n<td>Up to 6 cameras | 1400 Mpix/s</td>\n</tr>\n<tr>\n<td>Display</td>\n<td>2x DSI, 1x eDP 1.4, 1x DP 1.2/HDMI</td>\n</tr>\n<tr>\n<td>Connectivity</td>\n<td>Connects to 802.11ac Wi-Fi and Bluetooth-enabled devices</td>\n</tr>\n<tr>\n<td>Networking</td>\n<td>1 Gigabit Ethernet</td>\n</tr>\n<tr>\n<td>PCIE</td>\n<td>Gen 2 1x1 + 1x4</td>\n</tr>\n<tr>\n<td>Storage</td>\n<td>16 GB eMMC, SDIO, SATA</td>\n</tr>\n<tr>\n<td>Other</td>\n<td>3x UART, 3x SPI, 4x I2C, 4x I2S, GPIOs</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><img loading=\"lazy\" title=\"Jetson TX1 module\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/890/mVLx1AqrGdaXqzGNYC6ATFMUAiXovWO8HOdyhoi9mt5y-8ydycJsXGdyKrhb-Feoj1dphc1GMLE6RM0F1g5aeXAeq6tgUhatChYvrvelivPn26W0aFZNbCHmfukL6eh3TNuOSqTA\" width=\"33%\" height=\"1600\" /><img loading=\"lazy\" title=\"Jetson TX1 module\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/890/sfcLieDxibElFZUSbb-mlEcJ2KXHbDEaOPn6mJ6Fbd6TtKv8tsQuZjNRo6jUhtMD5zCTiL-EWKp9llgMEMKPZl1phsl8txyK0VKkQ9JIAwidXfZqNEL6LkZYtZrRyLBcPAlYRKSj\" width=\"33%\" height=\"1200\" /><img loading=\"lazy\" title=\"Jetson TX1 + Auvidea J100\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/890/lTaD-6Ks_XUQXIrJQV1vhkGpnVgL5IAfGELHTEARegAvFgCbNf4uKjzQ-Aka_QYaneFbNrjLUEJxbfGbJApvgVtbFyHQ9fk4hDALqhWZ8DHN8-CqAQqtWN_FSv8RzeCLNVq78kDj\" width=\"33%\" height=\"1600\" /></p>\n<p><strong>Auvidea J100 technical details</strong></p>\n<div title=\"Page 3\">\n<ul>\n<li>carrier board for one NVIDIA® JetsonTM TX1 compute module</li>\n<li>standalone or mounted on modular motherboard</li>\n<li>two 4 lane CSI-2 (22 pin FPC 0.5mm pitch)</li>\n<li>two 2 lane CSI-2 (15 pin FPC 1.0mm pitch)</li>\n<li>micro SD card</li>\n<li>2 USB3 type A (10 pin micro USB3)</li>\n<li>UART 0 (3.3V TTL) (6 pin) - console access</li>\n<li>2 I2S digital audio (6 pins each)</li>\n<li>fan connector (4 pin)</li>\n<li>mini HDMI out</li>\n<li>UART, Gb Ethernet, I2C, USB2, SATA, 4x PCIe and CAN (on 3 motherboard connectors on the bottom)</li>\n<li>power: 12V (4 pin) - alternatively powered by motherboard (redundant)</li>\n<li>size: 50 x 87 mm (same size as TX1)</li>\n<li>weight: 26 grams (just the J100)</li>\n<li>model: 38188-2 (J100 rev 2)</li>\n</ul>\n</div>\n<hr />\n<h6 style=\"text-align: center;\">The cost of jetson tx1 is <strong>$650</strong> including delivery to UK. the cost of j100 is <strong>$330</strong> including delivery to UK.</h6>\n<hr />\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…).</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "nvidia",
+                   "WiFi",
+                   "VR",
+                   "Ubuntu",
+                   "USB3.0",
+                   "USB",
+                   "Tegra X1",
+                   "TX1",
+                   "MIPI",
+                   "Linux",
+                   "Jetson TX1",
+                   "Jetson",
+                   "J100",
+                   "HDMI",
+                   "GStreamer",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua",
+                   "Carrier board",
+                   "CSI-2",
+                   "Auvidea"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-a-star-has-arrived.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-a-star-has-arrived.html",
+            "title": "Art 3D/VR challenge – a star has arrived",
+            "summary": "Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than&hellip;",
+            "content_html": "<p>Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than expected, but let's see what we can squeeze out of this tiny Nvidia's baby...</p>\n<p><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/JSmJFqW4334Zmod2FAdevUM7iyH2paUz4AVhNkWZe-iY9KqJLchcZ25MC5eQSIZJShJsTR14GTnkOGyygTdRDIGTBDdnGeO_yH5bRWuAlsSHqv24ZnghhgTk8oqSr3kjWKRVFPLR\" width=\"1600\" height=\"1200\" /><br />\n<img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/y6_AWhZM9s_dLP52WR7ykPU-T7oQwAAtFiKS7BNcNNz-DDIC4_e9cZgv4sF29P7KeAc0oTVkEOyN2HiRwfLBanQc6VA5PhjkzF2DuBSR0lW4WsNMl47KFf-3Qineddge2WY4fRNc\" width=\"1600\" height=\"800\" /><br />\n<img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/7y7EvU5KZN08H2Am2QBGZGu89wAmtVdBwYkIsU-tMW13Zq-wvJFRuukD9gnvcx0-tluqlmciIuKVYZkYggOK0cr8Pvt-6ZU6K5VD7ZtzUVCTvOHi_wmBq3iQULMcuE2aLboGFkXV\" width=\"50%\" /><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/a5JxoqQN_KU_s_eOtPZfre0DBy9tGFsmhb1DpPHK879qcK1Ew9o9d_TP_qUE2cVUSdXAteBYZH1OHon54QaaaEAg4GNQqVRSeI13yVRWDraAV6XMcHCiZOgmqy5j3zbXXQtRTf7A\" width=\"50%\" /><br />\n<img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/Wb9pw_v5wDgpaAR5r0-O6FFxruE48nFrte8hPlbH8zi9zHKDH09FPfG6an_zlUAB343VfDSM6MLXlyoC6X9IG4fVYRWHI7SrGpCuCEUO5lTsN3LL1zdldELwoT8brykbWAm7a-au\" width=\"1600\" height=\"1168\" /></p>\n<p>Booted, upgraded, connected to Wifi, tested USB audio, tested MIPI camera with GStreamer... all works great!</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "kris-lab",
+                   "audio card",
+                   "VR",
+                   "Ubuntu",
+                   "Tegra TX1",
+                   "Tegra",
+                   "MIPI",
+                   "Linux",
+                   "Jetson TX1",
+                   "Jetson",
+                   "GStreamer",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua",
+                   "Camera",
+                   "CSI-2",
+                   "Auvidea"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts.html",
+            "title": "Art 3D/VR challenge - more parts",
+            "summary": "A very interesting audio device has arrived today. This is USB2.0 audio card based on chipset from C-Media Electronics Inc.",
+            "content_html": "<p>A very interesting audio device has arrived today. This is USB2.0 audio card based on chipset from C-Media Electronics Inc. which supports stereo output and input with sampling 44.1k and 48k. Tested, it works with Linux kernel 3.19 out of the box. I assume it works with older kernels as well (will test asap also with Jetson which is 3.10).</p>\n<p>Photos of two different products based on the same chipset...</p>\n<p><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/888/m9PxINt1U8uvrwTqqhuZNaL9v5PZeCP19Hmcau5haZZEP9uCG5do0ughErov4FNM8d8V1s3bd7fG9fppesMApKdW3cDDT8pjcz2mkt8-AeEFBI0UMU3mD73DogGzk8Vb875uZ_wc\" width=\"100%\" /><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/888/h0lj1VuIp2V4nfiGgHPmzLdgle37I5FWhBKWW-Ssiwc2JUKjRstc6wU77QiysbA-u6bX4HQh6_GHJxKBeCejVxSkvmyyfKGWENYu_1k9NpKIfFUcmk3m1RJhHpQf_rMGc0aqFMsT\" width=\"50%\" /><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/888/Df1PzQUB4gijRkaLkwmcpHHNPepyvt6rE1i-dEkSK15r0dXziAG8RUDlEjqf6fhTu9jHcMykzXutjnnOwIdqpb3Ee7kkCtbuSNKCFnX--AXh2gFpt_xpCDCNrzWud1fiPkIa_RmK\" width=\"50%\" /></p>\n<p>As far as I can see and test there is a high hope to use this audio input/output in the VR projects. I would use one audio card as external input/output and one internally for built-in speaker and built-in microphones.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "audio card",
+                   "audio",
+                   "VR",
+                   "Ubuntu",
+                   "USB",
+                   "Linux",
+                   "Jetson",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-cameras-and-sensors-mount.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-cameras-and-sensors-mount.html",
+            "title": "Art 3D/VR challenge – cameras and sensors mount",
+            "summary": "I have designed a very first prototype of camera mount which could be used in the VR project. It is&hellip;",
+            "content_html": "<p>I have designed a very first prototype of camera mount which could be used in the VR project. It is very rough construction, but the idea is that:</p>\n<ul>\n<li>should be fairly small</li>\n<li>should allow to mount 2 or 4 cameras</li>\n<li>should allow to change distance between cameras</li>\n<li>should allow to mount extra 3D/depth sensors</li>\n<li>should allow to mount extra light sensor</li>\n<li>should allow to moutn extra 3-axis sensor</li>\n<li>should be very stable - vibrations resistant</li>\n<li>should allow to replace camera and/or lenses</li>\n<li>should allow to control camera distance over API</li>\n</ul>\n<p>Below some photos of my design. There is still missing camera, servo and other parts but it hasn't arrived yet!</p>\n<p><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/893/lWcuKSUOVHjA-hpC9pE-dD7c3HoIMYoyTyETlOiEDwBYmqaDyOvrLrS-0MhEK8Hz3a5URzHqPD0qza4AReZjGLIdDlMY0lbmg1mLy9GZr1CP7I9ggCSew13Cc4LpgNFayp6R3vax\" alt=\"\" width=\"1600\" height=\"1600\"><br><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/893/Onf6ikYLla26ETxRzbAHY5dZqB10LzPQ8nfAzzDwRPKJ9XAEYlD9zDshHtiDiSqcGPUAr1jBko0ou4yR4u1dEyiFhcPG2gBEBeYCsqYr69t_0cD_rVNqB1CbdYvZ2yh0lXBqtxOv\" alt=\"\" width=\"1600\" height=\"1600\"><br><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/893/H-d77dqgXQJ985X2EpTwooH8C0jIJJOohCSrW8biAint2JM_MioK--8QkeQl9GmzwDvT5N-vyEn4ZStOe2Lxh4qzFNgOC8qhsRHcV7-PNR1MXk6W8o1idAe_LaP36ZLWH95rDKJL\" alt=\"\" width=\"1600\" height=\"1600\"></p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
+            "image": "https://blog.kris-lab.com/media/posts/893/lWcuKSUOVHjA-hpC9pE-dD7c3HoIMYoyTyETlOiEDwBYmqaDyOvrLrS-0MhEK8Hz3a5URzHqPD0qza4AReZjGLIdDlMY0lbmg1mLy9GZr1CP7I9ggCSew13Cc4LpgNFayp6R3vax-2",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "Vir",
+                   "VR/3D",
+                   "VR",
+                   "Jetson TK1",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-missing-parts.html",
+            "url": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-missing-parts.html",
+            "title": "Art 3D/VR challenge - waiting for missing parts...",
+            "summary": "Quick update I am still waiting for many parts for the VR project. Have a look on the list and&hellip;",
+            "content_html": "<p><strong>Quick update</strong></p>\n<p>I am still waiting for many parts for the VR project. Have a look on the list and photos of stuff I have already received:</p>\n<ul>\n<li>Auvidea/J100 carrier board for TX1</li>\n<li>e-con System FullHD camera USB3.0</li>\n<li>FullHD camera MIPI/CSI-2</li>\n<li>HD Creative Senz3D Gesture Camera USB2.0</li>\n<li>HD camera USB2.0</li>\n<li>Nvidia Jetson TK1 Development Kit</li>\n<li>M12 wide angle lenses 122.4H x 85V x 170D</li>\n<li>8x8 LEDs Display - i2c, Capacitive Touch Sensor Controller - i2c</li>\n<li>IMU-i2c sensors, Servos + controller/UART</li>\n<li>Logic Level Shifter, I2C Level Translator, Colour Sensor</li>\n</ul>\n<p><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/bjUXa3mKmDtAxaEr8kHpdz7iB2AZbSAOy7NolP0zvAEsgcAUUqzUPGrLeVSX3L5QPN1g8ns6E_M8tyaCJp5MFALMr1RagCAosx-KurLzzo2LwJg5PpipHQsCENSINe4YNbxWMqQ4\" width=\"1600\" height=\"1200\" /><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/OPT_UnIlrXV74bYC1hTYWpv_8yJUv14ep9_ydZJ4vW_chlgefVemFHGGNvfjWWLlzbO6SDE8ZmHUw-CY7CVDtQO89TkmiqjgLLxyI-KfcatVg_YOK0REBsoMDvSAiCvvAFbuQOlf\" width=\"1600\" height=\"1200\" /><br />\n<img loading=\"lazy\" style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/EpdNobP3id2sKHmKRnPPRt2fkTIN_sIWLv3ZQQVZMotVQ3Jv_64jg4tYGUBNEl_cbvgtH9_aOFw7B2xwcDPBRZegAAke-VkhZRsH1mOMKzdD44LlowYgkJx4ppYIgGKeGOKjAisq\" width=\"1600\" height=\"1200\" /><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd\" width=\"1600\" height=\"1038\" /></p>\n<p>All parts seem to be working very well. I have already done a lot of performance tests, experiments etc. More soon...</p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "virtual reality",
+                   "opencv",
+                   "live streaming",
+                   "VR/3D",
+                   "VR",
+                   "OpenGL",
+                   "Jetson TX1",
+                   "Jetson TK1",
+                   "GPU",
+                   "Chihuahua-VR box",
+                   "Chihuahua-VR",
+                   "Chihuahua"
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        },
+        {
+            "id": "https://blog.kris-lab.com/moved-to-london.html",
+            "url": "https://blog.kris-lab.com/moved-to-london.html",
+            "title": "Moved to London",
+            "summary": "Quick update: I have just moved to London for a bit... I will try to get back to work on&hellip;",
+            "content_html": "<p>Quick update: I have just moved to London for a bit...</p>\n<p>I will try to get back to work on VR project as soon as possible. If anyone in London is willing to meet, share thoughts or create a team... please let me know.</p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/886/mSMaU8rdgi9MftqeMriRcoXfYSehm7kyVSc6MQpBPgZ2kBV5KWL3wbQZIGedu_gjK1N56ql07IH8HbQQ_nyAdeE3NUijsBf0R060RGjM2Og7zoEGBbccTCiAeqXt5pY7ePFxdxqw\" alt=\"\" width=\"1600\" height=\"1200\"></figure>\n<p>and what I found in the <strong>London Science Museum...</strong></p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/886/BtARPiirqkXVInfBCpx5X8rt6oKaVBx2Ue8dfWNsHxUyD9-6vdCgYDRljSqduI-nldg_y5QhPE_yZ-FsltISQXgGTnqJtJ-FXI952FQ0E1xiLQiYgfK8vUe3__lV_lJaRdwdHU4p\" alt=\"\" width=\"1200\" height=\"1600\"></figure>\n<p style=\"text-align: left;\">...and this is the best of <strong>London</strong> design! as you know the weather in England is awesome, so this purchase keeps me alive :) the <strong>ROK coffee maker</strong>…</p>\n<p><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/886/WFuXcuqBFoFGNpZCrMEoItH0xfNj4O1F78O3MgdOhRBI1Fnju-Ck9l2WcOCX58xOFpQH7teEEyl16zATJiXgmiqfJ2_cB75zhvsIYQhr73BqODyhCUa0-lAPMjZO9WLv3vU9dQ8d\" alt=\"\" width=\"1600\" height=\"1063\"></p>",
+            "image": "https://blog.kris-lab.com/media/posts/886/IMG_8138.jpeg",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-25T21:21:55+01:00",
+            "date_modified": "2020-08-25T21:21:55+01:00"
+        }
+    ]
+}
