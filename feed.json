@@ -14,7 +14,7 @@
             "url": "https://blog.kris-lab.com/book-the-nature-of-code.html",
             "title": "Book: The Nature of Code",
             "summary": "During the Covid-19 lockdown there is a lot of time for reading. There was a book on my shelf since&hellip;",
-            "content_html": "<hr>\n<p>During the Covid-19 lockdown there is a lot of time for reading. There was a book on my shelf since 2013 which I did approach for multiple times, but never luckily enough to take is properly and seriously.<br><br>However there is a special time for everything I guess - the book is actually fascinating. I found it interesting to go again over the basics of math, physics, real world perception from ONLY code point of view (mixed with physics) rather than ONLY business point of view (mixed with chase for growth only).<br><br>Over last 15 years of commercial experience there was so many decision taken by me with focus on profit first (and delivery deadline) rather than the code quality and proper research/abstraction so seems I forgot what it mean the real science and simply math &amp; physics with pleasure of coding.<br><br>Anyway, I recommend that book to everyone who is deep in heart a scientist and engineer but in the real world has been hacked by a \"virus\" called responsible management and then by profits, investors, partners and co-founders.</p>\n<p>Finally, there is no \"magic\" and we have to live with growing technical debt in backlog! Maybe it's worth sometimes to try a long term thinking rather than short term thinking only: seed, series A and hopefully B, too.</p>\n<p>I guess there is no magic equation and we simply have to keep being responsible and try to balance the chaos.</p>\n<p>The official website of <strong><a href=\"https://natureofcode.com/\" target=\"_blank\" rel=\"noopener noreferrer\">The Nature of Code</a></strong></p>",
+            "content_html": "<hr>\n<p>During the Covid-19 lockdown there is a lot of time for reading. There was a book on my shelf since 2013 which I did approach for multiple times, but never luckily enough to take it properly and seriously.<br><br>However there is a special time for everything (I guess) - the book is actually fascinating. I found it very interesting to go again over the basics of math, physics, real world perception from ONLY source code point of view (mixed with physics) rather than ONLY business point of view (mixed with chase for growth only).<br><br>Over last 15 years of commercial experience there was so many decision taken by me with focus on profit first (and delivery deadline) rather than the code quality and proper research/abstraction so seems I forgot what it mean the real science and simply math &amp; physics with pleasure of coding.<br><br>Anyway, I recommend that book to everyone who is deep in heart a scientist and engineer but in the real world has been hacked by a \"virus\" called responsible management and then by profits, investors, partners and co-founders.</p>\n<p>Finally, there is no \"magic\" and we have to live with growing technical debt in backlog! Maybe it's worth sometimes to try a long term thinking rather than short term thinking only: seed, series A and hopefully B, too.</p>\n<p>I guess there is no magic equation and we simply have to keep being responsible and try to balance the chaos.</p>\n<p>The official website of <strong><a href=\"https://natureofcode.com/\" target=\"_blank\" rel=\"noopener noreferrer\">The Nature of Code</a></strong></p>",
             "image": "https://blog.kris-lab.com/media/posts/898/IMG_1470.JPG",
             "author": {
                 "name": "Chris Stasiak"
@@ -24,8 +24,8 @@
                    "news",
                    "books"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-camera.html",
@@ -53,8 +53,8 @@
                    "CSI",
                    "3D"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016.html",
@@ -73,8 +73,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/say-hello-to-chihuahua-vr-box-project.html",
@@ -103,8 +103,8 @@
                    "Auvidea",
                    "3D"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-jetson-tx1-module-with-auvidea-j100-carrier-lite-board.html",
@@ -139,8 +139,8 @@
                    "CSI-2",
                    "Auvidea"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-a-star-has-arrived.html",
@@ -170,8 +170,8 @@
                    "CSI-2",
                    "Auvidea"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts.html",
@@ -195,8 +195,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-cameras-and-sensors-mount.html",
@@ -217,8 +217,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-missing-parts.html",
@@ -243,8 +243,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/moved-to-london.html",
@@ -258,8 +258,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-26T20:32:53+01:00",
-            "date_modified": "2020-08-26T20:32:53+01:00"
+            "date_published": "2020-08-26T22:21:54+01:00",
+            "date_modified": "2020-08-26T22:21:54+01:00"
         }
     ]
 }
