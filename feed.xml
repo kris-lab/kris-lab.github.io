@@ -10,6 +10,89 @@
     <id>https://blog.kris-lab.com</id>
 
     <entry>
+        <title>References</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/references.html"/>
+        <id>https://blog.kris-lab.com/references.html</id>
+
+        <updated>2020-08-26T14:20:23+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="4">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/cargo1.png" data-size="580x900"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/cargo1-thumbnail.png" alt="" width="580" height="900"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/newicon.jpg" data-size="637x885"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/newicon-thumbnail.jpg" alt="" width="637" height="885"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/kwg1.jpg" data-size="637x900"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/kwg1-thumbnail.jpg" alt="" width="637" height="900"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/kwg2.jpg" data-size="637x900"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/kwg2-thumbnail.jpg" alt="" width="637" height="900"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/ds1.jpg" data-size="637x900"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/ds1-thumbnail.jpg" alt="" width="637" height="900"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/ds2.jpg" data-size="637x900"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/ds2-thumbnail.jpg" alt="" width="637" height="900"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/895/gallery/kg1.jpg" data-size="637x900"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/895/gallery/kg1-thumbnail.jpg" alt="" width="637" height="900"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Gallery</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/gallery.html"/>
+        <id>https://blog.kris-lab.com/gallery.html</id>
+
+        <updated>2020-08-26T14:20:23+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Selected Hardware Projects
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Selected Hardware Projects</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="4">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/iClick2_obudowa1.jpg" data-size="1000x489"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/iClick2_obudowa1-thumbnail.jpg" alt="" width="768" height="376"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/board22_add_isp.jpg" data-size="1000x489"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/board22_add_isp-thumbnail.jpg" alt="" width="768" height="376"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/board21_add_isp.jpg" data-size="1000x489"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/board21_add_isp-thumbnail.jpg" alt="" width="768" height="376"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/board19_add_isp.jpg" data-size="1000x489"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/board19_add_isp-thumbnail.jpg" alt="" width="768" height="376"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/board17_add_isp_m.jpg" data-size="320x300"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/board17_add_isp_m-thumbnail.jpg" alt="" width="320" height="300"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/pcb12.png" data-size="836x473"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/pcb12-thumbnail.png" alt="" width="768" height="435"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/pcb11.png" data-size="847x497"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/pcb11-thumbnail.png" alt="" width="768" height="451"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/iclick4.jpg" data-size="920x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/iclick4-thumbnail.jpg" alt="" width="768" height="376"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/iclick3.jpg" data-size="678x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/iclick3-thumbnail.jpg" alt="" width="678" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/iclick2.jpg" data-size="554x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/iclick2-thumbnail.jpg" alt="" width="554" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/iclick1s.jpg" data-size="320x240"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/iclick1s-thumbnail.jpg" alt="" width="320" height="240"></a></figure>
+</div></div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="4">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/pcb1_s.png" data-size="563x317"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/pcb1_s-thumbnail.png" alt="" width="563" height="317"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/pcb1.jpg" data-size="325x251"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/pcb1-thumbnail.jpg" alt="" width="325" height="251"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sch_1.jpg" data-size="550x290"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sch_1-thumbnail.jpg" alt="" width="550" height="290"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo9.png" data-size="667x382"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo9-thumbnail.png" alt="" width="667" height="382"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo9_s.png" data-size="524x300"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo9_s-thumbnail.png" alt="" width="524" height="300"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/pcb13.png" data-size="945x295"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/pcb13-thumbnail.png" alt="" width="768" height="240"></a></figure>
+</div></div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="4">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo8.JPG" data-size="450x338"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo8-thumbnail.JPG" alt="" width="450" height="338"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo2.jpg" data-size="599x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo2-thumbnail.jpg" alt="" width="599" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo3.jpg" data-size="678x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo3-thumbnail.jpg" alt="" width="678" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo4.jpg" data-size="600x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo4-thumbnail.jpg" alt="" width="600" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo7.jpg" data-size="599x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo7-thumbnail.jpg" alt="" width="599" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo6.jpg" data-size="678x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo6-thumbnail.jpg" alt="" width="678" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo1.jpg" data-size="704x573"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo1-thumbnail.jpg" alt="" width="704" height="573"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/sumo5.jpg" data-size="678x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/sumo5-thumbnail.jpg" alt="" width="678" height="450"></a></figure>
+</div></div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="2">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/atom1.jpg" data-size="3460x740"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/atom1-thumbnail.jpg" alt="" width="768" height="164"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894/gallery/miniServer4.jpg" data-size="1000x508"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894/gallery/miniServer4-thumbnail.jpg" alt="" width="768" height="390"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/atom3.jpg" data-size="512x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/atom3-thumbnail.jpg" alt="" width="512" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894//gallery/atom2.jpg" data-size="537x450"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894//gallery/atom2-thumbnail.jpg" alt="" width="537" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894/gallery/miniServer1.jpg" data-size="1000x508"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894/gallery/miniServer1-thumbnail.jpg" alt="" width="768" height="390"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/894/gallery/miniServer5.jpg" data-size="1000x508"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/894/gallery/miniServer5-thumbnail.jpg" alt="" width="768" height="390"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>Art 3D/VR challenge – waiting for camera</title>
         <author>
             <name>Chris Stasiak</name>
@@ -32,7 +115,7 @@
             <category term="CSI"/>
             <category term="3D"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;
@@ -104,7 +187,7 @@
             <category term="Chihuahua-VR"/>
             <category term="Chihuahua"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                      Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project&hellip;
@@ -143,7 +226,7 @@
             <category term="Auvidea"/>
             <category term="3D"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/892/dNPBbNbk28RLLlPPI_CAO9D0bSggepUHdwbylykPAKINxP7G65mRUSdL3TtwFdfFHm-I28fEuHvX6GO1nXfwZp026ddUFG-tdQVGqLAHVy3Q6N-4Mv54_mCY8G0jlaWNQ0_FW4YC.png" alt="" />
@@ -206,7 +289,7 @@
             <category term="CSI-2"/>
             <category term="Auvidea"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/890/WRVK1D8ejNPfH3TjXFKsbuVny9NymcW210AU_vx5fvsgjjlD0LG0Rr8tBmSAmvksazQC7DF76Wo9X_DKCeiPxVJJWRs_lONioe3IEjTgQiiI_Dx7ZZTbDL-DSwSR121AWr3Bq-u" alt="" />
@@ -330,7 +413,7 @@
             <category term="CSI-2"/>
             <category term="Auvidea"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                     Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than&hellip;
@@ -367,7 +450,7 @@
             <category term="Chihuahua-VR"/>
             <category term="Chihuahua"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/888/dcd2eb933754229bac5c65277bf296e1.jpeg" alt="" />
@@ -400,7 +483,7 @@
             <category term="Chihuahua-VR"/>
             <category term="Chihuahua"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/893/lWcuKSUOVHjA-hpC9pE-dD7c3HoIMYoyTyETlOiEDwBYmqaDyOvrLrS-0MhEK8Hz3a5URzHqPD0qza4AReZjGLIdDlMY0lbmg1mLy9GZr1CP7I9ggCSew13Cc4LpgNFayp6R3vax-2" alt="" />
@@ -451,7 +534,7 @@
             <category term="Chihuahua-VR"/>
             <category term="Chihuahua"/>
 
-        <updated>2020-08-26T11:49:28+01:00</updated>
+        <updated>2020-08-26T14:20:23+01:00</updated>
             <summary>
                 <![CDATA[
                     Quick update I am still waiting for many parts for the VR project. Have a look on the list and&hellip;
@@ -478,370 +561,6 @@
 <p><strong>Contribution</strong></p>
 <p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>
 <p>See <a href="https://blog.kris-lab.com/contact.html">my contact page</a> if required.</p>
-<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Moved to London</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/moved-to-london.html"/>
-        <id>https://blog.kris-lab.com/moved-to-london.html</id>
-
-        <updated>2020-08-26T11:49:28+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/886/IMG_8138.jpeg" alt="" />
-                    Quick update: I have just moved to London for a bit... I will try to get back to work on&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/886/IMG_8138.jpeg" alt="" />
-                <p>Quick update: I have just moved to London for a bit...</p>
-<p>I will try to get back to work on VR project as soon as possible. If anyone in London is willing to meet, share thoughts or create a team... please let me know.</p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/886/mSMaU8rdgi9MftqeMriRcoXfYSehm7kyVSc6MQpBPgZ2kBV5KWL3wbQZIGedu_gjK1N56ql07IH8HbQQ_nyAdeE3NUijsBf0R060RGjM2Og7zoEGBbccTCiAeqXt5pY7ePFxdxqw" alt="" width="1600" height="1200"></figure>
-<p>and what I found in the <strong>London Science Museum...</strong></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/886/BtARPiirqkXVInfBCpx5X8rt6oKaVBx2Ue8dfWNsHxUyD9-6vdCgYDRljSqduI-nldg_y5QhPE_yZ-FsltISQXgGTnqJtJ-FXI952FQ0E1xiLQiYgfK8vUe3__lV_lJaRdwdHU4p" alt="" width="1200" height="1600"></figure>
-<p style="text-align: left;">...and this is the best of <strong>London</strong> design! as you know the weather in England is awesome, so this purchase keeps me alive :) the <strong>ROK coffee maker</strong>…</p>
-<p><img loading="lazy" src="https://blog.kris-lab.com/media/posts/886/WFuXcuqBFoFGNpZCrMEoItH0xfNj4O1F78O3MgdOhRBI1Fnju-Ck9l2WcOCX58xOFpQH7teEEyl16zATJiXgmiqfJ2_cB75zhvsIYQhr73BqODyhCUa0-lAPMjZO9WLv3vU9dQ8d" alt="" width="1600" height="1063"></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Art 3D/VR challenge – week 2 - looking for performance</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/art-3dvr-challenge-week-2-looking-for-performance.html"/>
-        <id>https://blog.kris-lab.com/art-3dvr-challenge-week-2-looking-for-performance.html</id>
-            <category term="virtual reality"/>
-            <category term="real-time"/>
-            <category term="VR/3D"/>
-            <category term="VR"/>
-            <category term="Stereoscopic"/>
-            <category term="Jetson TX1"/>
-            <category term="Jetson TK1"/>
-            <category term="Jet"/>
-            <category term="GPU"/>
-            <category term="Chihuahua-VR box"/>
-            <category term="Chihuahua-VR"/>
-            <category term="Chihuahua"/>
-            <category term="Camera"/>
-
-        <updated>2020-08-26T11:49:28+01:00</updated>
-            <summary>
-                <![CDATA[
-                    Previous weekNext week coming soon...Introduction This article is continuation of Art 3D/VR challenge. Please note, I don't describe all possible technologies,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <table style="font-size: 14px; border: none;">
-<tbody>
-<tr>
-<td><a href="https://blog.kris-lab.com/art-3dvr-challenge-week-1-abstract-overview.html" title="Art 3D/VR challenge – week 1 – abstract overview">Previous week</a></td>
-<td style="text-align: right;"><a href="https://blog.kris-lab.com/art-challenge-with-ultrahd4k-3dvr-hardware-accelerated-relatime-hdmirtpwebrtc-live-streaming-and-communication-portable-device.html">Next week coming soon...</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Introduction</strong></p>
-<p>This article is continuation of <a href="https://blog.kris-lab.com/art-challenge-with-ultrahd4k-3dvr-hardware-accelerated-relatime-hdmirtpwebrtc-live-streaming-and-communication-portable-device.html" title="ART-Challenge with UltraHD/4K + 3D/VR hardware accelerated, relatime HDMI/RTP/WebRTC live streaming and communication – portable device">Art 3D/VR challenge</a>.</p>
-<p>Please note, I don't describe all possible technologies, knowledge, science, models and approaches you can find on the search engine.</p>
-<hr>
-<h6>FOLLOWING INFORMATION IS MY PERSONAL EXPERIENCE I HAVE GAINED OVER LAST 10+ YEARS OF MY CAREER. BY APPLYING PRESENTED MODELS AND STACK I CAN GUARANTEE TO ACHIEVE FAIR ENOUGH RESULTS.</h6>
-<hr>
-<p><strong>Performance utilisation</strong></p>
-<p>As we are going to process a lot of data; we have to make sure about high availability, reliability and scalability on each level of hardware and software stack.</p>
-<p>There are the most important characteristics we should keep in mind when selecting the right platform:</p>
-<ul>
-<li>Short <a title="Response time (technology)" href="https://en.wikipedia.org/wiki/Response_time_(technology)">response time</a> for a given piece of work</li>
-<li>High <a title="Throughput" href="https://en.wikipedia.org/wiki/Throughput">throughput</a> (rate of processing work)</li>
-<li>Low utilization of <a title="Computing resource" href="https://en.wikipedia.org/wiki/Computing_resource">computing resource</a>(s)</li>
-<li><a title="High availability" href="https://en.wikipedia.org/wiki/High_availability">High availability</a> of the computing system or application</li>
-<li>Fast (or highly compact) <a title="Data compression" href="https://en.wikipedia.org/wiki/Data_compression">data compression</a> and decompression</li>
-<li>High <a title="Bandwidth (computing)" href="https://en.wikipedia.org/wiki/Bandwidth_(computing)">bandwidth</a></li>
-<li>Short <a title="Data transmission" href="https://en.wikipedia.org/wiki/Data_transmission">data transmission</a> time</li>
-</ul>
-<p>Basically, each characteristic affects hardware and software.</p>
-<h3 style="text-align: center;">REQUIREMENTS</h3>
-<p style="font-size: 18px;">In previous blogpost <a title="Art 3D/VR challenge – week 1 – abstract overview" href="http://blog.kris-lab.com/art-3dvr-challenge-week-1-abstract-overview/">"Abstract overview"</a> I have listed and compared some of hardware and software technologies, techniques and standards we could consider in this challenge. In current blogpost I will short the list with the most important hardware and software components we should to include in the <strong>VR</strong> device.</p>
-<p style="font-size: 18px;"><strong>Hardware</strong></p>
-<p style="font-size: 18px;">The device has to be very efficient bridge, converter and gateway for media. To achieve this goal we have to make sure the interfaces provide highest possible throughput. There is the list of basic interfaces we should consider:</p>
-<table style="font-size: 14px;"><colgroup> <col width="275"> <col width="176"> <col width="173"></colgroup>
-<tbody>
-<tr>
-<td><strong>Interfaces</strong></td>
-<td><strong>Priority</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td>CSI-2</td>
-<td>HIGH</td>
-<td>min. 2 for v1</td>
-</tr>
-<tr>
-<td>USB 3.0</td>
-<td>HIGH</td>
-<td>min. 2 for v1</td>
-</tr>
-<tr>
-<td>HDMI output</td>
-<td>HIGH</td>
-<td>min. 1 for v1</td>
-</tr>
-<tr>
-<td>HDMI input</td>
-<td>LOW</td>
-<td>is optional in v1</td>
-</tr>
-<tr>
-<td>AUDIO output</td>
-<td>LOW</td>
-<td>is optional in v1</td>
-</tr>
-<tr>
-<td>AUDIO input</td>
-<td>HIGH</td>
-<td>min. 1 for v1</td>
-</tr>
-<tr>
-<td>Ethernet</td>
-<td>HIGH</td>
-<td>min. 1 for v1</td>
-</tr>
-<tr>
-<td>PCIe</td>
-<td>MEDIUM</td>
-<td>is optional in v1; min. 1 for v2</td>
-</tr>
-<tr>
-<td>GPIO</td>
-<td>HIGH</td>
-<td>min. 8 pins for v1</td>
-</tr>
-</tbody>
-</table>
-<p>After collecting RAW data on the memory we have to make sure to compute and push it out with highest possible rate. As we gonna collect multiple FullHD RAW streams, process, encode and push it out; we require extremely high BUS/RAM throughput and hardware acceleration on each level of media processing.</p>
-<table style="font-size: 14px;">
-<tbody>
-<tr>
-<td><strong>Computing</strong></td>
-<td><strong>Priority</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td>CPU multicore</td>
-<td>HIGH</td>
-<td>min. 4 cores for v1</td>
-</tr>
-<tr>
-<td>GPU</td>
-<td>HIGH</td>
-<td>high efficient architecture is required</td>
-</tr>
-<tr>
-<td>Dedicated Video Chip</td>
-<td>HIGH</td>
-<td>can be integrated in CPU or GPU chip for v1</td>
-</tr>
-<tr>
-<td>DDR4-RAM</td>
-<td>MEDIUM</td>
-<td>faster is better</td>
-</tr>
-<tr>
-<td>eMMC</td>
-<td>HIGH</td>
-<td>high IO embedded storage</td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: 18px;">Basically the perfect hardware setup should comes with full software stack. There are many producers like Intel, Nvidia, AMD which provides such solutions.</p>
-<p style="font-size: 18px;"><strong>Software</strong></p>
-<p style="font-size: 18px;">Software stack is the most important part. We should choose the platform which comes with the most advanced, most up to date <strong>science as a software</strong>.</p>
-<div dir="ltr">
-<table style="font-size: 14px;"><colgroup> <col width="175"> <col width="176"> <col width="173"></colgroup>
-<tbody>
-<tr>
-<td><strong>Frameworks</strong></td>
-<td><strong>Priority</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td>Graphics</td>
-<td>HIGH</td>
-<td>OpenGL preferred</td>
-</tr>
-<tr>
-<td>Vision</td>
-<td>HIGH</td>
-<td>VisionWorks and OpenCV preferred</td>
-</tr>
-<tr>
-<td>Parallel computing</td>
-<td>HIGH</td>
-<td>CUDA and OpenCL preferred</td>
-</tr>
-<tr>
-<td>Multimedia</td>
-<td>HIGH</td>
-<td>GStreamer, OpenMAX preferred</td>
-</tr>
-<tr>
-<td>Deep learning</td>
-<td>LOW</td>
-<td>optional for v1, preferred cuDNN</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div dir="ltr">
-<table style="font-size: 14px;"><colgroup> <col width="275"> <col width="176"> <col width="173"></colgroup>
-<tbody>
-<tr>
-<td><strong>Standards</strong></td>
-<td><strong>Priority</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td>VAAPI</td>
-<td>HIGH</td>
-<td>Ubuntu 14.04 or higher</td>
-</tr>
-<tr>
-<td>VDPAU</td>
-<td>HIGH</td>
-<td>Ubuntu 14.04 or higher</td>
-</tr>
-<tr>
-<td>GLX</td>
-<td>HIGH</td>
-<td>Ubuntu 14.04 or higher</td>
-</tr>
-<tr>
-<td>TCP/UDP</td>
-<td>HIGH</td>
-<td>Ubuntu 14.04 or higher</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p style="font-size: 18px;">As the operating system I would recommend Ubuntu in the latest version (15.04/Vivid). It comes with the up to date libraries for all required technologies by this challenge.</p>
-<p style="font-size: 18px;"><strong>Physical</strong></p>
-<p style="font-size: 18px;">Smaller is better! The challenge is about bringing portable, energy efficient, plug&amp;play device. We should at least focus and the size, noise and power consumption.</p>
-<table style="font-size: 14px;">
-<tbody>
-<tr>
-<td><strong>Component</strong></td>
-<td><strong>Priority</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td>Small size motherboard</td>
-<td>HIGH</td>
-<td>best is ITX or smaller</td>
-</tr>
-<tr>
-<td>FAN and radiator</td>
-<td>HIGH</td>
-<td>best without FAN, small radiator</td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: 18px;"><strong>Support</strong></p>
-<p style="font-size: 18px;">Ideally if the supplier of hardware provides world wide full support for all segments.</p>
-<p style="font-size: 18px;"><strong>Manufacture</strong></p>
-<p style="font-size: 18px;">Ideally if supplier of components provides long term products cycle.</p>
-<p style="font-size: 18px;"><strong>Budget</strong></p>
-<p style="font-size: 18px;">We should focus on low budget solutions with aim on customer market.</p>
-<p> </p>
-<h3 style="text-align: center;">MARKET OVERVIEW</h3>
-<p>Please have a look on very short list of available mini computers. They differ by size, power consumption, number of cores, GPU model, hardware multimedia support, performance of interfaces, storage and price!</p>
-<p>I will give a short comment for pros &amp; cons of each one. Please follow by URL to gain more knowledge.</p>
-<p><strong>96Boards HiKey Board (LeMaker)</strong></p>
-<p>See more: <a href="http://www.96boards.org/products/ce/hikey/start/">http://www.96boards.org/products/ce/hikey/start/</a></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/oQArFYviFB8r7_BDpashwbfWkukKQxMzby9R5YnL8bEwaCDj883XPJVY5uNeAY7GrnFF-LwckkPCZ25PbsG1mrOA87jhhUYkAXTGs_LSpocxB9_gEAcMJgQ4JDCZNczAIRy5cJKr" alt="" width="367" height="251"></figure>
-<p>Pros: Octa-Core 64bit CPU, 2GB DDR3, Bluetooth</p>
-<p>Cons: missing GPU, only USB 2.0, no CSI-2, no Ethernet</p>
-<p>Verdict: <strong>NO</strong>, missing graphic acceleration and efficient camera ports</p>
-<p> </p>
-<p><strong>SNAPDRAGON 805 DEVELOPMENT KIT</strong></p>
-<p>See more: <a href="https://www.intrinsyc.com/snapdragon-embedded-development-kits/snapdragon-805-development-kit/">http://shop.intrinsyc.com/collections/product-development-kits</a></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/bHlfXX1HxuA2HDWpMeq_PtJ9bEh5FDTmP10VG9iu37EHXnlg5DjxTF3txR61zM8bVM-XUcX7zZQ1eJyBr9RqVDgphTtcL95Z9sA98v5252n8dnw66WFxjj9GKJzatpZtKFlgbmU1" alt="" width="624" height="591"></figure>
-<p>Pros:  Adreno™ 420 GPU, Hexagon™ DSP, Krait® 450 CPU quad-core 2.5GHz, 2x MIPI-DSI 4-lane, MIPI-CSI 4-lane</p>
-<p>Cons: no VP8 hardware encoding, single USB 3.0, high price</p>
-<p>Verdict: <strong>YES</strong>, this platform provides 90% of features we need for 3D/VR device</p>
-<p> </p>
-<p><strong>Nvidia Development Kit - Jetson TK1</strong></p>
-<p>See more: <a href="http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html">http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html</a></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/wy1Ekmi_m-41NwbhHfl358oOOCTQH5ifaa2V_M8dBRKn25qqve9tfMTxwqWA43IL0cQj9suYjUlWtOyB_nsNrOJx1SRq8CYMd74wqoe1Tw-FOYC3ItTtJhGuWVYeVVq_5vobOfip" alt="" width="624" height="371"></figure>
-<p>Pros: NVIDIA 4-Plus-1™ Quad-Core ARM® Cortex™-A15 CPU, NVIDIA Kepler GPU with 192 CUDA Cores, hardware VP8 encoding, low price</p>
-<p>Cons: single 2 lane CSI-2, single USB 3.0</p>
-<p>Verdict: <strong>YES</strong>, this platform provides 75% of features we need for 3D/VR device</p>
-<p> </p>
-<p><strong>Nvidia Development Kit - Jetson TX1</strong></p>
-<p>See more: <a href="http://www.nvidia.com/object/jetson-tx1-module.html">http://www.nvidia.com/object/jetson-tx1-module.html</a></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/_ePtnpppmDW6tZ7JGVxmHGqavjOgnHahi-EHgJmcTnT_d3S8AkhXQ4gAQedRuKS2dhKnIBaX-Ou-Fz5V4U5olUTjD4kMWMiVX6S3AxffYaHBdSuhmzSj5Ec1x93zGnX6vS-U5iUF" alt="" width="624" height="621"></figure>
-<p>Pros: 64-bit ARM® A57 CPUs, 1 TFLOP/s 256-core with NVIDIA Maxwell™ Architecture, 4 GB LPDDR4 | 25.6 GB/s, Up to 6 cameras | 1400 Mpix/s, VP8 hardware encoding</p>
-<p>Cons: high price</p>
-<p>Verdict: <strong>YES</strong>, this platform provides more than 100% of features we need for 3D/VR device</p>
-<p> </p>
-<p><strong>Gigabyte GeForce Mini-ITX with ITX platform</strong></p>
-<p>See more: <a href="http://www.gigabyte.com/products/product-page.aspx?pid=5252">http://www.gigabyte.com/products/product-page.aspx?pid=5252</a></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/q4Um41B8DXfCeLeAWnwAOBPIXLu8L93Bf2dfaURES4jGe_ifiPvVg_8cpHbRBk4jdrmKPxZEi6IBcWBtHXsVnWMGesN6Nk1zq-LC8bFeLo88faQdl-bpj1k3TAr_Nbo-fQ3TPnDO" alt="" width="535" height="385"></figure>
-<p>This is very flexible and configurable ITX platform. We can install many types of CPUs, RAM and GPU chipsets.</p>
-<p>Pros: configurable, supports all features</p>
-<p>Cons: high price, quite big</p>
-<p>Verdict: <strong>YES</strong>, this platform provides more than 100% of features we need for 3D/VR</p>
-<p> </p>
-<p><strong>Mali-T604 Low-cost Development Board</strong></p>
-<p>See more: <a href="http://malideveloper.arm.com/news/mali-t604-low-cost-development-board/">http://malideveloper.arm.com/news/mali-t604-low-cost-development-board/</a></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/-gRXMYAG-beUJXBU09q3gd__UVAlOIzoUOuZLb1VypeQI7mgnnAXGrRRrWv_xI4qTO0sB09uLG2mDT1_qQ29qHMFwrVbMQRjn4-__DbnmJNXmJBRFW4IFpNlzjwPMyvfYt85mYoq" alt="" width="545" height="407"></figure>
-<p>Pros: Quad-core Mali-T604 GPU</p>
-<p>Cons: Dual-core Cortex-A15 CPU, only OpenGL ES 2.0, no USB 3.0, only CSI v1, no VP8 hardware encoder</p>
-<p>Verdict: <strong>NO</strong>,<strong> </strong>missing OpenGL 3+ and efficient camera ports</p>
-<p> </p>
-<h3 style="text-align: center;">QUICK BENCHMARK</h3>
-<p style="text-align: left;">My research lead me to give a try with <strong>Nvidia Development Kit - Jetson TK1</strong>. Comparing most of development kits available on the market (right now) the Jetson TK1 seems to be a good match for initial benchmarking.<strong> </strong>It is built with mobile performance in mind, supported by huge community and under continues development of Nvidia researchers.</p>
-<p style="text-align: left;">Jetson TK1 is built on top of Tegra K1 chipset based on "NVIDIA Kepler GPU with 192 CUDA Cores". Supported by "NVIDIA 4-Plus-1™ Quad-Core ARM® Cortex™-A15 CPU" gives a lot of flexibility and performance in media processing for decoding and encoding up to 2160p.</p>
-<blockquote>
-<p style="text-align: left;"><em><a title="Nvidia" href="https://en.wikipedia.org/wiki/Nvidia">Nvidia</a>’s Tegra K1 (codenamed "Logan") features ARM Cortex-A15 cores in a 4+1 configuration similar to Tegra 4, or Nvidia's <a title="64-bit computing" href="https://en.wikipedia.org/wiki/64-bit_computing">64-bit</a> <a title="Project Denver" href="https://en.wikipedia.org/wiki/Project_Denver">Project Denver</a> dual-core processor as well as a <a title="Kepler (microarchitecture)" href="https://en.wikipedia.org/wiki/Kepler_(microarchitecture)">Kepler</a> graphics processing unit with support for Direct3D 12, OpenGL ES 3.1, CUDA 6.5 and <a title="OpenGL" href="https://en.wikipedia.org/wiki/OpenGL">OpenGL 4.4</a>/<a title="OpenGL" href="https://en.wikipedia.org/wiki/OpenGL">OpenGL 4.5</a>.<a href="https://en.wikipedia.org/wiki/Tegra#cite_note-59">[59]</a> Nvidia claims that it outperforms both the Xbox 360 and the PS3, whilst consuming significantly less power</em></p>
-</blockquote>
-<p style="text-align: left;"><strong>What does it mean for us?</strong></p>
-<p style="text-align: left;">In short the goal is to capture 2 RAW video streams of 1080p, stitch them, process by video filters, add OpenGL features and output to media format as VP8/Opus over network and digital media over HDMI.</p>
-<p style="text-align: left;">Development Kit comes with pre-installed <strong>Ubuntu for Tegra R21.4</strong>. It has pre-installed core of <strong>GStreamer</strong> multimedia framework in version <strong>1.2.4. </strong>Nvidia delivers also <strong>gst-omx</strong> plugins which allows to use all features of Tegra encoding/decoding and also to easily operate on CSI-2/USB (cameras) and HDMI interfaces end points.</p>
-<p>In my opinion Nvidia solutions is exactly what is needed for portable 3D/VR device. I decided to take the next step and decided on my...</p>
-<h3 style="text-align: center;">MY FINAL CHOICE</h3>
-<p>I have made very intensive testing and benchmarking of <strong>Jetson TK1</strong>. It looks very promising on every level. Hardware is efficient enough to handle RAW media via interfaces and efficient enough to process, encode and stream video/audio in realtime up to 30fps.</p>
-<p>Taking all aspects and facts into account I am going to bet on the next generation of <strong>Jetson</strong> called <strong>TX1</strong>.</p>
-<blockquote>
-<p>NVIDIA Jetson TX1 with GPU-accelerated parallel processing is the world’s leading embedded visual computing platform. It features high-performance, low-energy computing for deep learning and computer vision making the Jetson platform ideal for compute-intensive embedded projects like drones, autonomous robotic systems, Advanced Driver Assistance Systems (ADAS), mobile medical imaging, and Intelligent Video Analytics (IVA). OEMs, independent developers, makers and hobbyists can use the NVIDIA Jetson TX1 to explore the future of embedded computing.</p>
-</blockquote>
-<p>Have a brief look on the facts about Jetson TX1 platform which fits all requirements of <strong>VR</strong> device challenge:</p>
-<h6><strong>SUPER COMPUTING PLATFORM...</strong></h6>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/_14sK_k1cMOLi1D94MuXQtGKZxR2CB3wh2lvDLLXfASPBAX0ElfrRaMnOyllgaW2a2m4I3sM0jykLjdKwlPyZLfVkiA4KaYyMFQ0fQXY1nyp8W0FLXh2GZVMvifXzVOy7JiocoYn" alt="" width="624" height="399"></figure>
-<h6><strong><strong>...</strong>AND VERY TINY<strong>...</strong></strong></h6>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/vgJwJ03eZxfACQz7Zjim8bkGRMSsSJN5jeiWzBYhsVFl9zbqH7eiJemB7HIEbhGyEghSdlJW1m0_W9rGnuVOqIHq7Kqe7Y7C6rJRWy-z8yp5Xvgnblk_7_uB1IR8vHPYEF8YNxCd" alt="" width="624" height="114"></figure>
-<h6><strong><strong>...</strong>AND WITH INCREDIBLE SOFTWARE STACK<strong>...</strong></strong></h6>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/BSLVCBHZnT1S6--VeLtzIQlB_g2ObkINFd4WjfYIyyHx__IA4HkflDcFTWWcHy5sm75U7yX1DbytGSSwt6UJWmorrHFK7nDymkEsmEYlb5BiirZY4p7xQwSlQedatkt99KuWfqu4" alt="" width="624" height="277"></figure>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/881/bCLljNoBWsMUja_JKI1XGeH8Q8qfbQgJxgKz7yQCRVA8Iq_6kYDm2GSCT2favJnesmbh_k5vXhONqqZpCPCusXopZCGx5MduqKl3lpyUdRo33SybsZQ-5XEGtFrdkXkS0Eg82gZZ" alt="" width="624" height="436"></figure>
-<p>Jetson TX1 feels to be perfect match for stereoscopic device. It will be released to the market in middle of March 2016. It brings a higher efficiency, next generation of ARM CPU, next generation of Nvidia GPU, next generation of DDR RAM, next generation of CSI, next generation of USB, next generation of Ubuntu for Tegra, next generation of software stack and many many other improvements!</p>
-<p> </p>
-<h3 style="text-align: center;">SUMMARY</h3>
-<p>I am very happy with current state of project. Taking into account all of my research I am pretty sure to deliver 3D/VR advanced device in next 12-16 weeks.</p>
-<p>I am about to order Jetson TX1 which will be released in Europe in March 2016. Hopefully it can be delivered to London (where I relocate in 3 days) on time!</p>
-<p>For now, I will focus on more detailed benchmarking of Jetson TK1.</p>
-<p><strong>Next step</strong></p>
-<p>During the next week I will focus on looking into detailed benchmarking and performance characteristics of Jetson platforms...</p>
-<p>Topic: <a href="http://blog.kris-lab.com/art-3dvr-challenge-week-3-looking-for-more-power">Art 3D/VR challenge – week 3 - FullHD processing on portable GPU vs CPU</a><a title="Art 3D/VR challenge – week 2 – looking for performance" href="http://blog.kris-lab.com/art-3dvr-challenge-week-2-looking-for-performance/"><br></a></p>
-<p><strong>Contribution</strong></p>
-<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java...). This project is parked on Github.</p>
-<p>See <a href="https://blog.kris-lab.com/contact.html">my contact page</a> if required.</p>
-<p><strong>Resources</strong></p>
-<p>Multiple parts of my blogpost have its source in remote articles, blogposts and wiki for which I have no rights. I am not able to link all external sources to my blogpost. I would like to say thank you to everyone who shares the knowledge publicly. If you think I have illegally used any of your thoughts, products, patents please let me know and I will fix the issue asap.</p>
 <p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
             ]]>
         </content>
