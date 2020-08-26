@@ -14,8 +14,7 @@
             "url": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-camera.html",
             "title": "Art 3D/VR challenge – waiting for camera",
             "summary": "Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;",
-            "content_html": "<p><strong>Introduction</strong></p>\n<p>I was researching the right cameras for very long time. The market is full of products on every level:</p>\n<ul>\n<li>plain CMOS image sensor</li>\n<li>camera modules with e.g. MIPI/CSI interface</li>\n<li>dedicated camera boards with e.g. USB 2.0/3.0, HDMI interface</li>\n<li>final products with e.g. lenses, enclosure</li>\n</ul>\n<p>I have found a plenty of producers and I did research on following:</p>\n<ul>\n<li>Sony (IMX series: IMX135, IMX214)</li>\n<li>Aptina (AR series: AR1820, AR0330)</li>\n<li>OmniVision (OV series, OV4682, OV5680)</li>\n</ul>\n<p>This is my very abstract drawing of what I have found so far...</p>\n<p><a title=\"Camera technology workflow\" href=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" target=\"_blank\" rel=\"noopener\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" alt=\"\" width=\"1600\" height=\"528\"></a></p>\n<p><strong>Requirements</strong></p>\n<p>My main requirements is compatibility with Ubuntu and Jetson TX1 which runs kernel of 3.10.67 version and also:</p>\n<ul>\n<li>min. FullHD with min. 30fps</li>\n<li>support for min. MIPI/CSI-2 and USB 3.0 (prototype only)</li>\n<li>min. 1/3\" image sensor</li>\n<li>support for 16:9 and 4:3</li>\n<li>support for M12, S-mount</li>\n<li>built-in ISP (Image Signal Processing)</li>\n<li>configurable: Brightness, Contrast, Sharpness, Saturation control, Gamma control Gain, Exposure (Manual and Auto), White Balance (Manual and Auto)</li>\n<li>preferably configurable scene modes: auto, night, sport, normal, high sensitive, prtraint, landscape and more</li>\n<li>preferably configurable special effects: grayscale, negtive, solarize, sepia and more</li>\n<li>support for external trigger</li>\n<li>support for extra GPIO</li>\n<li>support for YUV422 (uncompressed)</li>\n<li>preferably BSI technology</li>\n<li>preferably 10+ bit per pixel (RAW10)</li>\n<li>support for electronic rolling shutter (and also global shutter reset)</li>\n<li>very low SNR</li>\n<li>very small, less than 35Hx35Wx20D mm</li>\n</ul>\n<p><strong>Betting on...</strong></p>\n<p>I have decided to go with <strong>Aptina AR1820HS</strong> module with <strong>USB3.0</strong> adapter board. I have high hopes to use just module without USB adapter in final version. The main interface will be MIPI/CSI-2 which is properly supported with Jetson TX1. Also <strong>AR1820HS</strong> seems to be supported by linux with MIPI/CSI-2 and I2C interface.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/883/LAsaKZq6MLwsJIos_4X-29M8TxXqqDiZpZP3vxAfwaZBIUypz-nrs5FND92yf97AmxekOOtmFDCS18WkAdNfWbtdIYXdP2OUkSDEJGS-CFJ3Lws7cQvSq2v9D-U_u-DHz54BJtOj\" alt=\"\" width=\"310\" height=\"269\"></figure>\n<hr>\n<h6 style=\"text-align: center;\">Stereo cameras have been just ordered. Delivery time is 3 weeks so let's wait and test another options in meantime! total cost is <strong>$550</strong> including delivery to UK.</h6>\n<hr>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
-            "image": "https://blog.kris-lab.com/media/posts/883/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd.png",
+            "content_html": "<p><strong>Introduction</strong></p>\n<p>I was researching the right cameras for very long time. The market is full of products on every level:</p>\n<ul>\n<li>plain CMOS image sensor</li>\n<li>camera modules with e.g. MIPI/CSI interface</li>\n<li>dedicated camera boards with e.g. USB 2.0/3.0, HDMI interface</li>\n<li>final products with e.g. lenses, enclosure</li>\n</ul>\n<p>I have found a plenty of producers and I did research on following:</p>\n<ul>\n<li>Sony (IMX series: IMX135, IMX214)</li>\n<li>Aptina (AR series: AR1820, AR0330)</li>\n<li>OmniVision (OV series, OV4682, OV5680)</li>\n</ul>\n<p>This is my very abstract drawing of what I have found so far...</p>\n<p><a title=\"Camera technology workflow\" href=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" target=\"_blank\" rel=\"noopener\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" alt=\"\" width=\"1600\" height=\"528\"></a></p>\n<p><strong>Requirements</strong></p>\n<p>My main requirements is compatibility with Ubuntu and Jetson TX1 which runs kernel of 3.10.67 version and also:</p>\n<ul>\n<li>min. FullHD with min. 30fps</li>\n<li>support for min. MIPI/CSI-2 and USB 3.0 (prototype only)</li>\n<li>min. 1/3\" image sensor</li>\n<li>support for 16:9 and 4:3</li>\n<li>support for M12, S-mount</li>\n<li>built-in ISP (Image Signal Processing)</li>\n<li>configurable: Brightness, Contrast, Sharpness, Saturation control, Gamma control Gain, Exposure (Manual and Auto), White Balance (Manual and Auto)</li>\n<li>preferably configurable scene modes: auto, night, sport, normal, high sensitive, prtraint, landscape and more</li>\n<li>preferably configurable special effects: grayscale, negtive, solarize, sepia and more</li>\n<li>support for external trigger</li>\n<li>support for extra GPIO</li>\n<li>support for YUV422 (uncompressed)</li>\n<li>preferably BSI technology</li>\n<li>preferably 10+ bit per pixel (RAW10)</li>\n<li>support for electronic rolling shutter (and also global shutter reset)</li>\n<li>very low SNR</li>\n<li>very small, less than 35Hx35Wx20D mm</li>\n</ul>\n<p><strong>Betting on...</strong></p>\n<p>I have decided to go with <strong>Aptina AR1820HS</strong> module with <strong>USB3.0</strong> adapter board. I have high hopes to use just module without USB adapter in final version. The main interface will be MIPI/CSI-2 which is properly supported with Jetson TX1. Also <strong>AR1820HS</strong> seems to be supported by linux with MIPI/CSI-2 and I2C interface.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/883/LAsaKZq6MLwsJIos_4X-29M8TxXqqDiZpZP3vxAfwaZBIUypz-nrs5FND92yf97AmxekOOtmFDCS18WkAdNfWbtdIYXdP2OUkSDEJGS-CFJ3Lws7cQvSq2v9D-U_u-DHz54BJtOj\" alt=\"\" width=\"310\" height=\"269\"></figure>\n<hr>\n<h6 style=\"text-align: center;\">Stereo cameras have been just ordered. Delivery time is 3 weeks so let's wait and test another options in meantime! total cost is <strong>$550</strong> including delivery to UK.</h6>\n<hr>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"https://blog.kris-lab.com/contact.html\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
             "author": {
                 "name": "Chris Stasiak"
             },
@@ -36,15 +35,15 @@
                    "CSI",
                    "3D"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016.html",
             "url": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016.html",
             "title": "Art 3D/VR challenge – progress by April 2016",
             "summary": " Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project&hellip;",
-            "content_html": "<figure class=\"post__image post__image--center\"><a title=\"VR progress\" href=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" target=\"_blank\" rel=\"noopener\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" alt=\"\" width=\"50%\" height=\"1103\"></figure></a></p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
+            "content_html": "<figure class=\"post__image post__image--center\"><a title=\"VR progress\" href=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" target=\"_blank\" rel=\"noopener\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" alt=\"\" width=\"50%\" height=\"1103\"></figure></a></p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"https://blog.kris-lab.com/contact.html\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
             "author": {
                 "name": "Chris Stasiak"
             },
@@ -56,8 +55,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/say-hello-to-chihuahua-vr-box-project.html",
@@ -86,8 +85,8 @@
                    "Auvidea",
                    "3D"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-jetson-tx1-module-with-auvidea-j100-carrier-lite-board.html",
@@ -122,8 +121,8 @@
                    "CSI-2",
                    "Auvidea"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-a-star-has-arrived.html",
@@ -153,8 +152,8 @@
                    "CSI-2",
                    "Auvidea"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts.html",
@@ -178,8 +177,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-cameras-and-sensors-mount.html",
@@ -200,15 +199,15 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-missing-parts.html",
             "url": "https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-missing-parts.html",
             "title": "Art 3D/VR challenge - waiting for missing parts...",
             "summary": "Quick update I am still waiting for many parts for the VR project. Have a look on the list and&hellip;",
-            "content_html": "<p><strong>Quick update</strong></p>\n<p>I am still waiting for many parts for the VR project. Have a look on the list and photos of stuff I have already received:</p>\n<ul>\n<li>Auvidea/J100 carrier board for TX1</li>\n<li>e-con System FullHD camera USB3.0</li>\n<li>FullHD camera MIPI/CSI-2</li>\n<li>HD Creative Senz3D Gesture Camera USB2.0</li>\n<li>HD camera USB2.0</li>\n<li>Nvidia Jetson TK1 Development Kit</li>\n<li>M12 wide angle lenses 122.4H x 85V x 170D</li>\n<li>8x8 LEDs Display - i2c, Capacitive Touch Sensor Controller - i2c</li>\n<li>IMU-i2c sensors, Servos + controller/UART</li>\n<li>Logic Level Shifter, I2C Level Translator, Colour Sensor</li>\n</ul>\n<p><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/bjUXa3mKmDtAxaEr8kHpdz7iB2AZbSAOy7NolP0zvAEsgcAUUqzUPGrLeVSX3L5QPN1g8ns6E_M8tyaCJp5MFALMr1RagCAosx-KurLzzo2LwJg5PpipHQsCENSINe4YNbxWMqQ4\" width=\"1600\" height=\"1200\" /><img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/OPT_UnIlrXV74bYC1hTYWpv_8yJUv14ep9_ydZJ4vW_chlgefVemFHGGNvfjWWLlzbO6SDE8ZmHUw-CY7CVDtQO89TkmiqjgLLxyI-KfcatVg_YOK0REBsoMDvSAiCvvAFbuQOlf\" width=\"1600\" height=\"1200\" /><br />\n<img loading=\"lazy\" style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/EpdNobP3id2sKHmKRnPPRt2fkTIN_sIWLv3ZQQVZMotVQ3Jv_64jg4tYGUBNEl_cbvgtH9_aOFw7B2xwcDPBRZegAAke-VkhZRsH1mOMKzdD44LlowYgkJx4ppYIgGKeGOKjAisq\" width=\"1600\" height=\"1200\" /><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/885/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd\" width=\"1600\" height=\"1038\" /></p>\n<p>All parts seem to be working very well. I have already done a lot of performance tests, experiments etc. More soon...</p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>\n<p>See <a href=\"http://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "content_html": "<p><strong>Quick update</strong></p>\n<p>I am still waiting for many parts for the VR project. Have a look on the list and photos of stuff I have already received:</p>\n<ul>\n<li>Auvidea/J100 carrier board for TX1</li>\n<li>e-con System FullHD camera USB3.0</li>\n<li>FullHD camera MIPI/CSI-2</li>\n<li>HD Creative Senz3D Gesture Camera USB2.0</li>\n<li>HD camera USB2.0</li>\n<li>Nvidia Jetson TK1 Development Kit</li>\n<li>M12 wide angle lenses 122.4H x 85V x 170D</li>\n<li>8x8 LEDs Display - i2c, Capacitive Touch Sensor Controller - i2c</li>\n<li>IMU-i2c sensors, Servos + controller/UART</li>\n<li>Logic Level Shifter, I2C Level Translator, Colour Sensor</li>\n</ul>\n<p><img loading=\"lazy\" style=\"font-style: inherit;\" src=\"https://blog.kris-lab.com/media/posts/885/bjUXa3mKmDtAxaEr8kHpdz7iB2AZbSAOy7NolP0zvAEsgcAUUqzUPGrLeVSX3L5QPN1g8ns6E_M8tyaCJp5MFALMr1RagCAosx-KurLzzo2LwJg5PpipHQsCENSINe4YNbxWMqQ4\" alt=\"\" width=\"1600\" height=\"1200\"><img loading=\"lazy\" style=\"font-style: inherit;\" src=\"https://blog.kris-lab.com/media/posts/885/OPT_UnIlrXV74bYC1hTYWpv_8yJUv14ep9_ydZJ4vW_chlgefVemFHGGNvfjWWLlzbO6SDE8ZmHUw-CY7CVDtQO89TkmiqjgLLxyI-KfcatVg_YOK0REBsoMDvSAiCvvAFbuQOlf\" alt=\"\" width=\"1600\" height=\"1200\"><br><img loading=\"lazy\" style=\"font-family: inherit; font-style: inherit; font-weight: inherit;\" src=\"https://blog.kris-lab.com/media/posts/885/EpdNobP3id2sKHmKRnPPRt2fkTIN_sIWLv3ZQQVZMotVQ3Jv_64jg4tYGUBNEl_cbvgtH9_aOFw7B2xwcDPBRZegAAke-VkhZRsH1mOMKzdD44LlowYgkJx4ppYIgGKeGOKjAisq\" alt=\"\" width=\"1600\" height=\"1200\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/885/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd\" alt=\"\" width=\"1600\" height=\"1038\"></p>\n<p>All parts seem to be working very well. I have already done a lot of performance tests, experiments etc. More soon...</p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>\n<p>See <a href=\"https://blog.kris-lab.com/contact.html\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
             "author": {
                 "name": "Chris Stasiak"
             },
@@ -226,8 +225,8 @@
                    "Chihuahua-VR",
                    "Chihuahua"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/moved-to-london.html",
@@ -241,8 +240,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-week-2-looking-for-performance.html",
@@ -268,8 +267,8 @@
                    "Chihuahua",
                    "Camera"
             ],
-            "date_published": "2020-08-26T10:28:20+01:00",
-            "date_modified": "2020-08-26T10:28:20+01:00"
+            "date_published": "2020-08-26T11:25:02+01:00",
+            "date_modified": "2020-08-26T11:25:02+01:00"
         }
     ]
 }
