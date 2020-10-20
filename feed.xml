@@ -3,12 +3,39 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-08-26T23:21:32+02:00</updated>
+    <updated>2020-10-20T10:42:36+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
+    <entry>
+        <title>Moved to Barcelona</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/moved-to-barcelona/"/>
+        <id>https://blog.kris-lab.com/moved-to-barcelona/</id>
+
+        <updated>2020-10-20T10:42:36+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg" alt="" />
+                    [2020/Q3] Quick update: I have just moved to Barcelona for a bit to continue working on VR/AR/360 projects and additionally&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg" alt="" />
+                <p>[2020/Q3] Quick update: I have just moved to Barcelona for a bit to continue working on VR/AR/360 projects and additionally focus on fashion tech and PropTech using the newest achievements of researchers from Max Planck Institutes.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/469C25B4-6F2B-4B5F-841C-31B8E858DFDD.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/469C25B4-6F2B-4B5F-841C-31B8E858DFDD-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/IMG_1980.jpeg" data-size="3024x4032"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/IMG_1980-thumbnail.jpeg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/IMG_2447.jpeg" data-size="4032x2823"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/IMG_2447-thumbnail.jpeg" alt="" width="768" height="538"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Book: The Nature of Code</title>
         <author>
@@ -508,34 +535,6 @@
 <p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>
 <p>See <a href="https://blog.kris-lab.com/contact/">my contact page</a> if required.</p>
 <p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Moved to London</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/moved-to-london/"/>
-        <id>https://blog.kris-lab.com/moved-to-london/</id>
-
-        <updated>2020-08-25T20:31:53+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/886/IMG_8138.jpeg" alt="" />
-                    Quick update: I have just moved to London for a bit... I will try to get back to work on&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/886/IMG_8138.jpeg" alt="" />
-                <p>Quick update: I have just moved to London for a bit...</p>
-<p>I will try to get back to work on VR project as soon as possible. If anyone in London is willing to meet, share thoughts or create a team... please let me know.</p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/886/mSMaU8rdgi9MftqeMriRcoXfYSehm7kyVSc6MQpBPgZ2kBV5KWL3wbQZIGedu_gjK1N56ql07IH8HbQQ_nyAdeE3NUijsBf0R060RGjM2Og7zoEGBbccTCiAeqXt5pY7ePFxdxqw" alt="" width="1600" height="1200"></figure>
-<p>and what I found in the <strong>London Science Museum...</strong></p>
-<figure class="aligncenter"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/886/BtARPiirqkXVInfBCpx5X8rt6oKaVBx2Ue8dfWNsHxUyD9-6vdCgYDRljSqduI-nldg_y5QhPE_yZ-FsltISQXgGTnqJtJ-FXI952FQ0E1xiLQiYgfK8vUe3__lV_lJaRdwdHU4p" alt="" width="1200" height="1600"></figure>
-<p style="text-align: left;">...and this is the best of <strong>London</strong> design! as you know the weather in England is awesome, so this purchase keeps me alive :) the <strong>ROK coffee maker</strong>…</p>
-<p><img loading="lazy" src="https://blog.kris-lab.com/media/posts/886/WFuXcuqBFoFGNpZCrMEoItH0xfNj4O1F78O3MgdOhRBI1Fnju-Ck9l2WcOCX58xOFpQH7teEEyl16zATJiXgmiqfJ2_cB75zhvsIYQhr73BqODyhCUa0-lAPMjZO9WLv3vU9dQ8d" alt="" width="1600" height="1063"></p>
             ]]>
         </content>
     </entry>

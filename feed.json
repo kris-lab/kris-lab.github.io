@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.kris-lab.com/moved-to-barcelona/",
+            "url": "https://blog.kris-lab.com/moved-to-barcelona/",
+            "title": "Moved to Barcelona",
+            "summary": "[2020/Q3] Quick update: I have just moved to Barcelona for a bit to continue working on VR/AR/360 projects and additionally&hellip;",
+            "content_html": "<p>[2020/Q3] Quick update: I have just moved to Barcelona for a bit to continue working on VR/AR/360 projects and additionally focus on fashion tech and PropTech using the newest achievements of researchers from Max Planck Institutes.</p>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/901/gallery/469C25B4-6F2B-4B5F-841C-31B8E858DFDD.jpeg\" data-size=\"3024x3024\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/901/gallery/469C25B4-6F2B-4B5F-841C-31B8E858DFDD-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"768\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/901/gallery/IMG_1980.jpeg\" data-size=\"3024x4032\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/901/gallery/IMG_1980-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"1024\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/901/gallery/IMG_2447.jpeg\" data-size=\"4032x2823\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/901/gallery/IMG_2447-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"538\"></a></figure>\n</div></div>",
+            "image": "https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-10-20T10:42:36+02:00",
+            "date_modified": "2020-10-20T10:42:36+02:00"
+        },
+        {
             "id": "https://blog.kris-lab.com/book-the-nature-of-code/",
             "url": "https://blog.kris-lab.com/book-the-nature-of-code/",
             "title": "Book: The Nature of Code",
@@ -245,21 +260,6 @@
             ],
             "date_published": "2016-04-21T18:51:48+02:00",
             "date_modified": "2020-08-26T12:11:51+02:00"
-        },
-        {
-            "id": "https://blog.kris-lab.com/moved-to-london/",
-            "url": "https://blog.kris-lab.com/moved-to-london/",
-            "title": "Moved to London",
-            "summary": "Quick update: I have just moved to London for a bit... I will try to get back to work on&hellip;",
-            "content_html": "<p>Quick update: I have just moved to London for a bit...</p>\n<p>I will try to get back to work on VR project as soon as possible. If anyone in London is willing to meet, share thoughts or create a team... please let me know.</p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/886/mSMaU8rdgi9MftqeMriRcoXfYSehm7kyVSc6MQpBPgZ2kBV5KWL3wbQZIGedu_gjK1N56ql07IH8HbQQ_nyAdeE3NUijsBf0R060RGjM2Og7zoEGBbccTCiAeqXt5pY7ePFxdxqw\" alt=\"\" width=\"1600\" height=\"1200\"></figure>\n<p>and what I found in the <strong>London Science Museum...</strong></p>\n<figure class=\"aligncenter\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/886/BtARPiirqkXVInfBCpx5X8rt6oKaVBx2Ue8dfWNsHxUyD9-6vdCgYDRljSqduI-nldg_y5QhPE_yZ-FsltISQXgGTnqJtJ-FXI952FQ0E1xiLQiYgfK8vUe3__lV_lJaRdwdHU4p\" alt=\"\" width=\"1200\" height=\"1600\"></figure>\n<p style=\"text-align: left;\">...and this is the best of <strong>London</strong> design! as you know the weather in England is awesome, so this purchase keeps me alive :) the <strong>ROK coffee maker</strong>…</p>\n<p><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/886/WFuXcuqBFoFGNpZCrMEoItH0xfNj4O1F78O3MgdOhRBI1Fnju-Ck9l2WcOCX58xOFpQH7teEEyl16zATJiXgmiqfJ2_cB75zhvsIYQhr73BqODyhCUa0-lAPMjZO9WLv3vU9dQ8d\" alt=\"\" width=\"1600\" height=\"1063\"></p>",
-            "image": "https://blog.kris-lab.com/media/posts/886/IMG_8138.jpeg",
-            "author": {
-                "name": "Chris Stasiak"
-            },
-            "tags": [
-            ],
-            "date_published": "2016-03-18T15:21:44+01:00",
-            "date_modified": "2020-08-25T20:31:53+02:00"
         }
     ]
 }
