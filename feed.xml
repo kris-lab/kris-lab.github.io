@@ -3,12 +3,48 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-20T19:31:09+02:00</updated>
+    <updated>2020-10-20T19:57:47+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
+    <entry>
+        <title>ZED-2 AI Stereo Camera</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/zed-2-ai-stereo-camera/"/>
+        <id>https://blog.kris-lab.com/zed-2-ai-stereo-camera/</id>
+            <category term="zed-2"/>
+            <category term="zed"/>
+            <category term="stereolabs"/>
+            <category term="stereo-vision"/>
+            <category term="point-cloud"/>
+            <category term="depth-vision"/>
+            <category term="depth-maps"/>
+
+        <updated>2020-10-20T19:57:47+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
+                    In a few words... this is a great camera and ecosystem (you need) if you start the prototyping phase of&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
+                <p>In a few words... this is a great camera and ecosystem (you need) if you start the prototyping phase of the product in the early stage.</p>
+<p><a href="https://www.stereolabs.com" target="_blank" rel="noopener noreferrer">Stereolab</a> delivers a solid SDK with plenty of examples, wrappers, and integrations (there are sometimes issues with compilation, but in most cases, it's due to bugs in dependencies). In my case, the camera is used with Jetson Nano 4GB, Jetson TX-1, and Jetson Xavier AGX.</p>
+<p>It works perfectly well on TX-1 and Xavier, while Jetson Nano can experience performance problems in higher resolutions (due to limited CUDA throughput and slow 4GB memory).</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/54AE58D0-9216-4C9D-95B1-73B66FDC485B_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/54AE58D0-9216-4C9D-95B1-73B66FDC485B_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/8F68C8B2-A926-4922-A69F-822AF367BD05.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/8F68C8B2-A926-4922-A69F-822AF367BD05-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/A876865B-B691-40F4-8000-495741C6AE7D_1_201_a.jpeg" data-size="2127x2127"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/A876865B-B691-40F4-8000-495741C6AE7D_1_201_a-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>2017...2020 journey with Vresh &amp; Tag-ya</title>
         <author>
@@ -181,16 +217,16 @@
             <category term="CSI"/>
             <category term="3D"/>
 
-        <updated>2020-10-20T19:24:21+02:00</updated>
+        <updated>2020-10-20T19:40:44+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/883/13MP-Camera_v1.png" alt="" />
+                        <img src="https://blog.kris-lab.com/media/posts/883/lowlight_usb_camera_board-zoom.jpg" alt="" />
                     Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/883/13MP-Camera_v1.png" alt="" />
+                    <img src="https://blog.kris-lab.com/media/posts/883/lowlight_usb_camera_board-zoom.jpg" alt="" />
                 <p><strong>Introduction</strong></p>
 <p>I was researching the right cameras for very long time. The market is full of products on every level:</p>
 <ul>
@@ -530,52 +566,6 @@
 <p>Photos of two different products based on the same chipset...</p>
 <p><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/888/m9PxINt1U8uvrwTqqhuZNaL9v5PZeCP19Hmcau5haZZEP9uCG5do0ughErov4FNM8d8V1s3bd7fG9fppesMApKdW3cDDT8pjcz2mkt8-AeEFBI0UMU3mD73DogGzk8Vb875uZ_wc" alt="" width="100%"><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/888/h0lj1VuIp2V4nfiGgHPmzLdgle37I5FWhBKWW-Ssiwc2JUKjRstc6wU77QiysbA-u6bX4HQh6_GHJxKBeCejVxSkvmyyfKGWENYu_1k9NpKIfFUcmk3m1RJhHpQf_rMGc0aqFMsT" alt="" width="50%"><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/888/Df1PzQUB4gijRkaLkwmcpHHNPepyvt6rE1i-dEkSK15r0dXziAG8RUDlEjqf6fhTu9jHcMykzXutjnnOwIdqpb3Ee7kkCtbuSNKCFnX--AXh2gFpt_xpCDCNrzWud1fiPkIa_RmK" alt="" width="50%"></p>
 <p>As far as I can see and test there is a high hope to use this audio input/output in the VR projects. I would use one audio card as external input/output and one internally for built-in speaker and built-in microphones.</p>
-<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Art 3D/VR challenge – cameras and sensors mount</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/art-3dvr-challenge-cameras-and-sensors-mount/"/>
-        <id>https://blog.kris-lab.com/art-3dvr-challenge-cameras-and-sensors-mount/</id>
-            <category term="Vir"/>
-            <category term="VR/3D"/>
-            <category term="VR"/>
-            <category term="Jetson TK1"/>
-            <category term="Chihuahua-VR box"/>
-            <category term="Chihuahua-VR"/>
-            <category term="Chihuahua"/>
-
-        <updated>2020-08-26T12:12:17+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/893/lWcuKSUOVHjA-hpC9pE-dD7c3HoIMYoyTyETlOiEDwBYmqaDyOvrLrS-0MhEK8Hz3a5URzHqPD0qza4AReZjGLIdDlMY0lbmg1mLy9GZr1CP7I9ggCSew13Cc4LpgNFayp6R3vax-2" alt="" />
-                    I have designed a very first prototype of camera mount which could be used in the VR project. It is&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/893/lWcuKSUOVHjA-hpC9pE-dD7c3HoIMYoyTyETlOiEDwBYmqaDyOvrLrS-0MhEK8Hz3a5URzHqPD0qza4AReZjGLIdDlMY0lbmg1mLy9GZr1CP7I9ggCSew13Cc4LpgNFayp6R3vax-2" alt="" />
-                <p>I have designed a very first prototype of camera mount which could be used in the VR project. It is very rough construction, but the idea is that:</p>
-<ul>
-<li>should be fairly small</li>
-<li>should allow to mount 2 or 4 cameras</li>
-<li>should allow to change distance between cameras</li>
-<li>should allow to mount extra 3D/depth sensors</li>
-<li>should allow to mount extra light sensor</li>
-<li>should allow to moutn extra 3-axis sensor</li>
-<li>should be very stable - vibrations resistant</li>
-<li>should allow to replace camera and/or lenses</li>
-<li>should allow to control camera distance over API</li>
-</ul>
-<p>Below some photos of my design. There is still missing camera, servo and other parts but it hasn't arrived yet!</p>
-<p><img loading="lazy" src="https://blog.kris-lab.com/media/posts/893/H-d77dqgXQJ985X2EpTwooH8C0jIJJOohCSrW8biAint2JM_MioK--8QkeQl9GmzwDvT5N-vyEn4ZStOe2Lxh4qzFNgOC8qhsRHcV7-PNR1MXk6W8o1idAe_LaP36ZLWH95rDKJL" alt="" width="1600" height="1600"></p>
-<p><strong>Contribution</strong></p>
-<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…). This project is parked on Github.</p>
-<p>See <a href="https://blog.kris-lab.com/contact/">my contact page</a> if required.</p>
 <p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
             ]]>
         </content>
