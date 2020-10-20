@@ -6,7 +6,11 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/20172020-journey/</loc>
-<lastmod>2020-10-20T13:24:29+02:00</lastmod>
+<lastmod>2020-10-20T13:38:06+02:00</lastmod>
+<image:image>
+<image:loc>https://blog.kris-lab.com/media/posts/902/4520687C-AB4A-43B5-BF70-818D9289ABAD_1_102_o-2.jpeg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 <image:image>
 <image:loc>https://blog.kris-lab.com/media/posts/902//gallery/9F0AE4CC-71AD-4C97-9BDC-14BDE879BC19_1_102_o-thumbnail.jpeg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -1043,6 +1047,9 @@
 </image:image>
 </url>
 <url>
+<loc>https://blog.kris-lab.com/tag/360/</loc>
+</url>
+<url>
 <loc>https://blog.kris-lab.com/tag/3d/</loc>
 </url>
 <url>
@@ -1571,6 +1578,9 @@
 <loc>https://blog.kris-lab.com/tag/svm/</loc>
 </url>
 <url>
+<loc>https://blog.kris-lab.com/tag/tagya/</loc>
+</url>
+<url>
 <loc>https://blog.kris-lab.com/tag/tdd/</loc>
 </url>
 <url>
@@ -1662,6 +1672,12 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/tag/vr3d/</loc>
+</url>
+<url>
+<loc>https://blog.kris-lab.com/tag/vrenetic/</loc>
+</url>
+<url>
+<loc>https://blog.kris-lab.com/tag/vresh/</loc>
 </url>
 <url>
 <loc>https://blog.kris-lab.com/tag/webrick/</loc>
