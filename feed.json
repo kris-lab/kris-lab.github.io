@@ -44,8 +44,8 @@
             "tags": [
                    "news"
             ],
-            "date_published": "2020-10-20T10:42:36+02:00",
-            "date_modified": "2020-10-20T16:11:29+02:00"
+            "date_published": "2020-09-13T10:42:00+02:00",
+            "date_modified": "2020-10-20T18:03:01+02:00"
         },
         {
             "id": "https://blog.kris-lab.com/book-the-nature-of-code/",
@@ -71,6 +71,7 @@
             "title": "Art 3D/VR challenge – waiting for camera",
             "summary": "Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;",
             "content_html": "<p><strong>Introduction</strong></p>\n<p>I was researching the right cameras for very long time. The market is full of products on every level:</p>\n<ul>\n<li>plain CMOS image sensor</li>\n<li>camera modules with e.g. MIPI/CSI interface</li>\n<li>dedicated camera boards with e.g. USB 2.0/3.0, HDMI interface</li>\n<li>final products with e.g. lenses, enclosure</li>\n</ul>\n<p>I have found a plenty of producers and I did research on following:</p>\n<ul>\n<li>Sony (IMX series: IMX135, IMX214)</li>\n<li>Aptina (AR series: AR1820, AR0330)</li>\n<li>OmniVision (OV series, OV4682, OV5680)</li>\n</ul>\n<p>This is my very abstract drawing of what I have found so far...</p>\n<p><a title=\"Camera technology workflow\" href=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" target=\"_blank\" rel=\"noopener\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8\" alt=\"\" width=\"1600\" height=\"528\"></a></p>\n<p><strong>Requirements</strong></p>\n<p>My main requirements is compatibility with Ubuntu and Jetson TX1 which runs kernel of 3.10.67 version and also:</p>\n<ul>\n<li>min. FullHD with min. 30fps</li>\n<li>support for min. MIPI/CSI-2 and USB 3.0 (prototype only)</li>\n<li>min. 1/3\" image sensor</li>\n<li>support for 16:9 and 4:3</li>\n<li>support for M12, S-mount</li>\n<li>built-in ISP (Image Signal Processing)</li>\n<li>configurable: Brightness, Contrast, Sharpness, Saturation control, Gamma control Gain, Exposure (Manual and Auto), White Balance (Manual and Auto)</li>\n<li>preferably configurable scene modes: auto, night, sport, normal, high sensitive, prtraint, landscape and more</li>\n<li>preferably configurable special effects: grayscale, negtive, solarize, sepia and more</li>\n<li>support for external trigger</li>\n<li>support for extra GPIO</li>\n<li>support for YUV422 (uncompressed)</li>\n<li>preferably BSI technology</li>\n<li>preferably 10+ bit per pixel (RAW10)</li>\n<li>support for electronic rolling shutter (and also global shutter reset)</li>\n<li>very low SNR</li>\n<li>very small, less than 35Hx35Wx20D mm</li>\n</ul>\n<p><strong>Betting on...</strong></p>\n<p>I have decided to go with <strong>Aptina AR1820HS</strong> module with <strong>USB3.0</strong> adapter board. I have high hopes to use just module without USB adapter in final version. The main interface will be MIPI/CSI-2 which is properly supported with Jetson TX1. Also <strong>AR1820HS</strong> seems to be supported by linux with MIPI/CSI-2 and I2C interface.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/883/LAsaKZq6MLwsJIos_4X-29M8TxXqqDiZpZP3vxAfwaZBIUypz-nrs5FND92yf97AmxekOOtmFDCS18WkAdNfWbtdIYXdP2OUkSDEJGS-CFJ3Lws7cQvSq2v9D-U_u-DHz54BJtOj\" alt=\"\" width=\"310\" height=\"269\"></figure>\n<hr>\n<h6 style=\"text-align: center;\">Stereo cameras have been just ordered. Delivery time is 3 weeks so let's wait and test another options in meantime! total cost is <strong>$550</strong> including delivery to UK.</h6>\n<hr>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"https://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
+            "image": "https://blog.kris-lab.com/media/posts/883/13MP-Camera_v1.png",
             "author": {
                 "name": "Chris Stasiak"
             },
@@ -92,7 +93,7 @@
                    "3D"
             ],
             "date_published": "2016-05-01T19:35:49+02:00",
-            "date_modified": "2020-08-26T12:11:19+02:00"
+            "date_modified": "2020-10-20T19:24:21+02:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016/",
@@ -112,7 +113,7 @@
                    "Chihuahua"
             ],
             "date_published": "2016-05-01T15:46:28+02:00",
-            "date_modified": "2020-08-26T12:11:02+02:00"
+            "date_modified": "2020-10-20T19:21:09+02:00"
         },
         {
             "id": "https://blog.kris-lab.com/say-hello-to-chihuahua-vr-box-project/",
@@ -185,7 +186,8 @@
             "url": "https://blog.kris-lab.com/art-3dvr-challenge-a-star-has-arrived/",
             "title": "Art 3D/VR challenge – a star has arrived",
             "summary": "Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than&hellip;",
-            "content_html": "<p>Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than expected, but let's see what we can squeeze out of this tiny Nvidia's baby...</p>\n<p><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/JSmJFqW4334Zmod2FAdevUM7iyH2paUz4AVhNkWZe-iY9KqJLchcZ25MC5eQSIZJShJsTR14GTnkOGyygTdRDIGTBDdnGeO_yH5bRWuAlsSHqv24ZnghhgTk8oqSr3kjWKRVFPLR\" width=\"1600\" height=\"1200\" /><br />\n<img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/y6_AWhZM9s_dLP52WR7ykPU-T7oQwAAtFiKS7BNcNNz-DDIC4_e9cZgv4sF29P7KeAc0oTVkEOyN2HiRwfLBanQc6VA5PhjkzF2DuBSR0lW4WsNMl47KFf-3Qineddge2WY4fRNc\" width=\"1600\" height=\"800\" /><br />\n<img loading=\"lazy\" style=\"font-style: inherit;\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/7y7EvU5KZN08H2Am2QBGZGu89wAmtVdBwYkIsU-tMW13Zq-wvJFRuukD9gnvcx0-tluqlmciIuKVYZkYggOK0cr8Pvt-6ZU6K5VD7ZtzUVCTvOHi_wmBq3iQULMcuE2aLboGFkXV\" width=\"50%\" /><img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/a5JxoqQN_KU_s_eOtPZfre0DBy9tGFsmhb1DpPHK879qcK1Ew9o9d_TP_qUE2cVUSdXAteBYZH1OHon54QaaaEAg4GNQqVRSeI13yVRWDraAV6XMcHCiZOgmqy5j3zbXXQtRTf7A\" width=\"50%\" /><br />\n<img loading=\"lazy\" alt=\"\" src=\"https://blog.kris-lab.com/media/posts/887/Wb9pw_v5wDgpaAR5r0-O6FFxruE48nFrte8hPlbH8zi9zHKDH09FPfG6an_zlUAB343VfDSM6MLXlyoC6X9IG4fVYRWHI7SrGpCuCEUO5lTsN3LL1zdldELwoT8brykbWAm7a-au\" width=\"1600\" height=\"1168\" /></p>\n<p>Booted, upgraded, connected to Wifi, tested USB audio, tested MIPI camera with GStreamer... all works great!</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>\n",
+            "content_html": "<p>Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than expected, but let's see what we can squeeze out of this tiny Nvidia's baby...</p>\n<p><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/887/JSmJFqW4334Zmod2FAdevUM7iyH2paUz4AVhNkWZe-iY9KqJLchcZ25MC5eQSIZJShJsTR14GTnkOGyygTdRDIGTBDdnGeO_yH5bRWuAlsSHqv24ZnghhgTk8oqSr3kjWKRVFPLR\" alt=\"\" width=\"1600\" height=\"1200\"><br><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/887/y6_AWhZM9s_dLP52WR7ykPU-T7oQwAAtFiKS7BNcNNz-DDIC4_e9cZgv4sF29P7KeAc0oTVkEOyN2HiRwfLBanQc6VA5PhjkzF2DuBSR0lW4WsNMl47KFf-3Qineddge2WY4fRNc\" alt=\"\" width=\"1600\" height=\"800\"><br><img loading=\"lazy\" style=\"font-style: inherit;\" src=\"https://blog.kris-lab.com/media/posts/887/7y7EvU5KZN08H2Am2QBGZGu89wAmtVdBwYkIsU-tMW13Zq-wvJFRuukD9gnvcx0-tluqlmciIuKVYZkYggOK0cr8Pvt-6ZU6K5VD7ZtzUVCTvOHi_wmBq3iQULMcuE2aLboGFkXV\" alt=\"\" width=\"50%\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/887/a5JxoqQN_KU_s_eOtPZfre0DBy9tGFsmhb1DpPHK879qcK1Ew9o9d_TP_qUE2cVUSdXAteBYZH1OHon54QaaaEAg4GNQqVRSeI13yVRWDraAV6XMcHCiZOgmqy5j3zbXXQtRTf7A\" alt=\"\" width=\"50%\"><br><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/887/Wb9pw_v5wDgpaAR5r0-O6FFxruE48nFrte8hPlbH8zi9zHKDH09FPfG6an_zlUAB343VfDSM6MLXlyoC6X9IG4fVYRWHI7SrGpCuCEUO5lTsN3LL1zdldELwoT8brykbWAm7a-au\" alt=\"\" width=\"1600\" height=\"1168\"></p>\n<p>Booted, upgraded, connected to Wifi, tested USB audio, tested MIPI camera with GStreamer... all works great!</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
+            "image": "https://blog.kris-lab.com/media/posts/887/Jetson_TX1_Press_Deck_Final-page-005.jpg",
             "author": {
                 "name": "Chris Stasiak"
             },
@@ -209,7 +211,7 @@
                    "Auvidea"
             ],
             "date_published": "2016-04-26T13:06:37+02:00",
-            "date_modified": "2020-08-25T14:04:43+02:00"
+            "date_modified": "2020-10-20T19:31:09+02:00"
         },
         {
             "id": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts/",

@@ -3,7 +3,7 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-20T16:29:27+02:00</updated>
+    <updated>2020-10-20T19:31:09+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -102,7 +102,7 @@
         <id>https://blog.kris-lab.com/moved-to-barcelona/</id>
             <category term="news"/>
 
-        <updated>2020-10-20T16:11:29+02:00</updated>
+        <updated>2020-10-20T18:03:01+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg" alt="" />
@@ -181,14 +181,16 @@
             <category term="CSI"/>
             <category term="3D"/>
 
-        <updated>2020-08-26T12:11:19+02:00</updated>
+        <updated>2020-10-20T19:24:21+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/883/13MP-Camera_v1.png" alt="" />
                     Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/883/13MP-Camera_v1.png" alt="" />
                 <p><strong>Introduction</strong></p>
 <p>I was researching the right cameras for very long time. The market is full of products on every level:</p>
 <ul>
@@ -253,7 +255,7 @@
             <category term="Chihuahua-VR"/>
             <category term="Chihuahua"/>
 
-        <updated>2020-08-26T12:11:02+02:00</updated>
+        <updated>2020-10-20T19:21:09+02:00</updated>
             <summary>
                 <![CDATA[
                      Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project&hellip;
@@ -479,22 +481,20 @@
             <category term="CSI-2"/>
             <category term="Auvidea"/>
 
-        <updated>2020-08-25T14:04:43+02:00</updated>
+        <updated>2020-10-20T19:31:09+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/887/Jetson_TX1_Press_Deck_Final-page-005.jpg" alt="" />
                     Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/887/Jetson_TX1_Press_Deck_Final-page-005.jpg" alt="" />
                 <p>Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than expected, but let's see what we can squeeze out of this tiny Nvidia's baby...</p>
-<p><img loading="lazy" alt="" src="https://blog.kris-lab.com/media/posts/887/JSmJFqW4334Zmod2FAdevUM7iyH2paUz4AVhNkWZe-iY9KqJLchcZ25MC5eQSIZJShJsTR14GTnkOGyygTdRDIGTBDdnGeO_yH5bRWuAlsSHqv24ZnghhgTk8oqSr3kjWKRVFPLR" width="1600" height="1200" /><br />
-<img loading="lazy" alt="" src="https://blog.kris-lab.com/media/posts/887/y6_AWhZM9s_dLP52WR7ykPU-T7oQwAAtFiKS7BNcNNz-DDIC4_e9cZgv4sF29P7KeAc0oTVkEOyN2HiRwfLBanQc6VA5PhjkzF2DuBSR0lW4WsNMl47KFf-3Qineddge2WY4fRNc" width="1600" height="800" /><br />
-<img loading="lazy" style="font-style: inherit;" alt="" src="https://blog.kris-lab.com/media/posts/887/7y7EvU5KZN08H2Am2QBGZGu89wAmtVdBwYkIsU-tMW13Zq-wvJFRuukD9gnvcx0-tluqlmciIuKVYZkYggOK0cr8Pvt-6ZU6K5VD7ZtzUVCTvOHi_wmBq3iQULMcuE2aLboGFkXV" width="50%" /><img loading="lazy" alt="" src="https://blog.kris-lab.com/media/posts/887/a5JxoqQN_KU_s_eOtPZfre0DBy9tGFsmhb1DpPHK879qcK1Ew9o9d_TP_qUE2cVUSdXAteBYZH1OHon54QaaaEAg4GNQqVRSeI13yVRWDraAV6XMcHCiZOgmqy5j3zbXXQtRTf7A" width="50%" /><br />
-<img loading="lazy" alt="" src="https://blog.kris-lab.com/media/posts/887/Wb9pw_v5wDgpaAR5r0-O6FFxruE48nFrte8hPlbH8zi9zHKDH09FPfG6an_zlUAB343VfDSM6MLXlyoC6X9IG4fVYRWHI7SrGpCuCEUO5lTsN3LL1zdldELwoT8brykbWAm7a-au" width="1600" height="1168" /></p>
+<p><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/JSmJFqW4334Zmod2FAdevUM7iyH2paUz4AVhNkWZe-iY9KqJLchcZ25MC5eQSIZJShJsTR14GTnkOGyygTdRDIGTBDdnGeO_yH5bRWuAlsSHqv24ZnghhgTk8oqSr3kjWKRVFPLR" alt="" width="1600" height="1200"><br><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/y6_AWhZM9s_dLP52WR7ykPU-T7oQwAAtFiKS7BNcNNz-DDIC4_e9cZgv4sF29P7KeAc0oTVkEOyN2HiRwfLBanQc6VA5PhjkzF2DuBSR0lW4WsNMl47KFf-3Qineddge2WY4fRNc" alt="" width="1600" height="800"><br><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/887/7y7EvU5KZN08H2Am2QBGZGu89wAmtVdBwYkIsU-tMW13Zq-wvJFRuukD9gnvcx0-tluqlmciIuKVYZkYggOK0cr8Pvt-6ZU6K5VD7ZtzUVCTvOHi_wmBq3iQULMcuE2aLboGFkXV" alt="" width="50%"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/a5JxoqQN_KU_s_eOtPZfre0DBy9tGFsmhb1DpPHK879qcK1Ew9o9d_TP_qUE2cVUSdXAteBYZH1OHon54QaaaEAg4GNQqVRSeI13yVRWDraAV6XMcHCiZOgmqy5j3zbXXQtRTf7A" alt="" width="50%"><br><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/Wb9pw_v5wDgpaAR5r0-O6FFxruE48nFrte8hPlbH8zi9zHKDH09FPfG6an_zlUAB343VfDSM6MLXlyoC6X9IG4fVYRWHI7SrGpCuCEUO5lTsN3LL1zdldELwoT8brykbWAm7a-au" alt="" width="1600" height="1168"></p>
 <p>Booted, upgraded, connected to Wifi, tested USB audio, tested MIPI camera with GStreamer... all works great!</p>
 <p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
-
             ]]>
         </content>
     </entry>
