@@ -4,14 +4,14 @@ Chief Technology Officer (CTO), Co-founder & Partner
 Barcelona
 +447526568409
 
-Visionary and goal-oriented executive, researcher, software engineer and system architect with over 15 years of commercial experience for European, US and Chinese market. Mainly focused on unique and large scale platforms under agile, kanban or scrum development. Initiated and enforced strict budget controlling tools addressing business needs and supporting development. Adept at crisis management, trouble-shooting and problem-solving.
+Visionary and goal-oriented executive, researcher, software engineer, and system architect with over 15 years of commercial experience for European, US, and Chinese markets. Mainly focused on unique and large-scale platforms under agile, kanban, and scrum development. Initiated and enforced strict budget controlling tools addressing business needs and supporting development. Adept at crisis management, trouble-shooting and problem-solving.
 
 PERSONAL INFORMATION
   Address: Carrer de Calabria 86, Barcelona, 08015
   Date of birth: 26.08.1982 Poland
   Nationality: Polish
   Driving License: B
-  Hobbies: hiking, travelling, skiing, robotics, machine learning
+  Hobbies: hiking, traveling, skiing, robotics, machine learning
 
 SOCIAL PROFILES
   * LinkedIn: https://www.linkedin.com/in/krzysztof-chris-stasiak-6261244b/
@@ -44,28 +44,28 @@ SKILLS
 WORK EXPERIENCE
   * April 2017 – Present
     CTO & Partner at Vrenetic, Inc., Los Angeles, London, Warsaw, Kiev, Bejing
-      Bringing the next generation of ultra-high quality 360&amp;VR live streaming and low-latency communication on consumer mobile devices and enabling the VR ready social interactions using the VR publishing tools for user generated content. Transforming challenging vision and ideas into a self-breathing ecosystem. Focused on customer and b2b oriented products
+      Bringing the next generation of ultra-high quality 360&amp;VR live streaming and low-latency communication on consumer mobile devices and enabling VR ready social interactions using the VR publishing tools for user-generated content. Transforming challenging vision and ideas into a self-breathing ecosystem. Focused on customer and b2b oriented products
 
   Hiring from scratch &amp; managing 40+ people team in California/Europe (LeSS/Scrum)
-  Research for next generation of VR/AR/MR and social media
+  Research for the next generation of VR/AR/MR and social media
   Recommendations and support for CEO and stakeholders
-  Vision definition, clarification and roadmap planning &amp; controlling
-  Customer and b2b products definition, schedule, roadmap and sing off
-  Budget estimations, planning, controlling and reporting to stakeholders.
-  Business model definition, execution, adjustments and controlling
+  Vision definition, clarification, and roadmap planning &amp; controlling
+  Customer and b2b products definition, schedule, roadmap, and sing-off
+  Budget estimations, planning, controlling, and reporting to stakeholders.
+  Business model definition, execution, adjustments, and controlling
   Startup culture and best practices overview
   Coordination of product managers and product owners
   Coordination of project managers
-  Technology roadmap, planning, execution and controlling
-  Coordination of platform and media Solution Architects, DevOps and SysAdmins
-  Long term and large scale operations roadmap, optimisation and migrations
+  Technology roadmap, planning, execution, and controlling
+  Coordination of platform and media Solution Architects, DevOps, and SysAdmins
+  Long term and large scale operations roadmap, optimization, and migrations
   Security audits and controlling
   Best practices roadmap, planning and controlling
-  Occasionally leading low level teams of various expertise
+  Occasionally leading low-level teams of various expertise
   Source code quality reviews and best practices audits
   Source code and products roadmap coverage review and orchestration
-  Making sure the business needs are met on design, development and operation level
-  Occasionally coding in puppet, ruby, cpp, js, php and performing devops tasks!
+  Making sure the business needs are met on design, development, and operation level
+  Occasionally coding in puppet, ruby, CPP, js, PHP, and performing DevOps tasks!
   Overview and management of day-to-day delivery risks
   Managing cooperation with outsourcing development organizations. Lead for 3rd party project managers and solution architects.
 
@@ -78,35 +78,35 @@ Technical leadership for Vrenetic's stack
   CI/CD: multi-region cluster of Jenkins Master/Slaves; Travis; BitRise
   BI: Tableau Ecosystem; StitchData with RedShift; Matillion ETL
   DC: Softlayer, AWS, Hetzner
-  Monitoring: Grafana, Karma, Prometheus,, PagerDuty, AlertManager
+  Monitoring: Grafana, Karma, Prometheus, PagerDuty, AlertManager
   Encryption: BlackBox, GPG, Keybase, Loggly
   Infra: Kubernetes, Traefik, Docker, Terraform, Ansible, Nexus
   Standards: oAuth, OpenAPI/Swagger, ProtoBuf/ZMQ, REST
   Protocols: HLS/TCP, RTP/UDP, RTCP/UDP; h.264/h.265/Opus; WebRTC; NVENC
   Media: GStreamer Framework, FFmpeg, Spring, Angular, iOS API, Android API
-  VR/360: GPU/Media real time 360 Transcoding/Reprojections/Transformations/Effects; Janus WebRTC; UDP Proxy
-  Architecture: micro-services oriented; full OOP, TDD, E2E, MVC; abstracted to backend (business logic layer,media engine layer, AI layer), middleware, frontend with SDKs, libs, plugins and clients
+  VR/360: GPU/Media real-time 360 Transcoding/Reprojections/Transformations/Effects; Janus WebRTC; UDP Proxy
+  Architecture: micro-services oriented; full OOP, TDD, E2E, MVC; abstracted to the backend (business logic layer, media engine layer, AI layer), middleware, frontend with SDKs, libs, plugins, and clients
   Patterns: high availability, scalability with multi-region zero downtime deployment and data residency (GDPR) support; global media replication
 
 
   * March 2013 – March 2017
     DevOps Architect & Team Lead, Researcher at Cargomedia AG        (4 years), Basel
       
-  Responsible for global automation, scalability, security, monitoring of applications &amp; infrastructure deployment. Large scale deployment with 20+ million registered users and 30+ million monthly unique active users. Constantly researching, proving concepts and introducing new solutions. Leading teams.
-  Expertise in high performance, clean OO PHP, Node.JS, Puppet, Ruby, Go, JS, Shell. Agile, Kanban. Full TDD and BDD. Focused on full DevOps workflow with AWS, Softlayer and Hetzner solutions.
+  Responsible for global automation, scalability, security, monitoring of applications &amp; infrastructure deployment. Large scale deployment with 20+ million registered users and 30+ million monthly unique active users. Constantly researching, proving concepts, and introducing new solutions. Leading teams.
+  Expertise in high performance, clean OO PHP, Node.JS, Puppet, Ruby, Go, JS, Shell. Agile, Kanban. Full TDD and BDD. Focused on full DevOps workflow with AWS, Softlayer, and Hetzner solutions.
 
 
   * June 2012 – March 2013
     Senior Software Engineer & Researcher at Newicon, Ltd                    (1 year), Bristol
       
-  Researching, designing and implementing iOS app (Objective-C) for image processing, objects recognition and machine learning - more at https://newicon.net/case-study-airbus-app
-  Researching, designing and implementing web-based systems and applications (PHP, JS, Yii, Backbone.js, MongoDB, Redis, Node.js, Sockets etc.) with real time communication
-  Researching, designing and implementing Client-Server real-time messaging system: multiclient/multichannel architecture. Support for user authorisation, activity history, users on-line, auto-login, storing undelivered messages, receipts etc. (Node.js, Socket.io; Redis, MongoDB; Curl, Websockets, API; PHP/JavaScript etc.). Responsible for DevOps, scalability and GEO architecture.
+  Researching, designing, and implementing iOS app (Objective-C) for image processing, object recognition, and machine learning - more at https://newicon.net/case-study-airbus-app
+  Researching, designing, and implementing web-based systems and applications (PHP, JS, Yii, Backbone.js, MongoDB, Redis, Node.js, Sockets, etc.) with real-time communication
+  Researching, designing, and implementing a Client-Server real-time messaging system: multiclient/multichannel architecture. Support for user authorization, activity history, users on-line, auto-login, storing undelivered messages, receipts, etc. (Node.js, Socket.io; Redis, MongoDB; Curl, Websockets, API; PHP/JavaScript, etc.). Responsible for DevOps, scalability, and GEO architecture.
 
 
   * August 2008 – February 2012
     Chief Technology Officer at KWG S.A. (PBG Group)                          (4 years), Szczecin
-      Responsible for planning of the IT strategy and cost reduction. Acceptance of IT documents and costs using company ERP system. Collaborating with all departments to improve the information technologies and enhance communication.
+      Responsible for planning of the IT strategy and cost reduction. Acceptance of IT documents and costs using the company ERP system. Collaborating with all departments to improve information technologies and enhance communication.
 
   auditing, reporting to the board
   planning and controlling annual budgets
@@ -119,11 +119,11 @@ EDUCATION
   * September 2005 – September 2007
     Technical University of Poznan, Poznań MSc
 
-    MSc course completed. Embedded Microprocessor Systems @ Faculty of Computer Science
+    The MSc course was completed. Embedded Systems @ Faculty of Computer Science
   * September 2002 – September 2005
     Technical University of Poznan, Poznań BSc
 
-    BSc, Automation and Management @ Faculty of Computer Science
+    BSc, Automation, and Management @ Faculty of Computer Science
 
 REFERENCES
   * Latest references only upon request from 
