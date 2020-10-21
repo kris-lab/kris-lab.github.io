@@ -1,4 +1,4 @@
-Chris Stasiak
+Krzysztof (Chris) Stasiak
 Chief Technology Officer (CTO), Co-founder & Partner
 
 Barcelona
@@ -11,12 +11,12 @@ PERSONAL INFORMATION
   Date of birth: 26.08.1982 Poland
   Nationality: Polish
   Driving License: B
-  Hobbies: hiking, traveling, skiing, robotics, machine learning
+  Hobbies: cooking, hiking, traveling, skiing, robotics, machine learning
 
 SOCIAL PROFILES
-  * LinkedIn: https://www.linkedin.com/in/krzysztof-chris-stasiak-6261244b/
-  * GitHub: https://github.com/kris-lab
   * Blog: https://blog.kris-lab.com
+  * GitHub: https://github.com/kris-lab
+  * LinkedIn: https://www.linkedin.com/in/krzysztof-chris-stasiak-6261244b/
 
 LANGUAGES
   ★★★★★ Polish
@@ -28,7 +28,7 @@ SKILLS
   ★★★★★ Highly Motivated
   ★★★★★ Leadership and Teamwork
   ★★★★★ LeSS, Scrum, Agile, Kanban
-  ★★★★★ Global, Distributed & Domain Driver Architecture, High Availability Ecosystems
+  ★★★★★ Global, Distributed & Domain Driven Architecture, High Availability Ecosystems
   ★★★★★ PHP5+, Golang, Node.js, Python, Ruby, Bash, Terraform, Puppet
   ★★★★☆ AI, Machine Learning, Data Science, Tensorflow, Torch
   ★★★★★ DevOps & Sysadmin, Kubernetes, Docker, Ansible
