@@ -3,7 +3,7 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-21T17:33:05+02:00</updated>
+    <updated>2020-10-21T18:04:29+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -99,7 +99,7 @@
             <category term="depth-vision"/>
             <category term="depth-maps"/>
 
-        <updated>2020-10-21T13:22:05+02:00</updated>
+        <updated>2020-10-21T18:04:29+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
@@ -119,6 +119,8 @@
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/A876865B-B691-40F4-8000-495741C6AE7D_1_201_a.jpeg" data-size="2127x2127"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/A876865B-B691-40F4-8000-495741C6AE7D_1_201_a-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/ABC58B4A-CEA3-4195-A6BC-6F9D1CE8F099_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/ABC58B4A-CEA3-4195-A6BC-6F9D1CE8F099_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/66157D4A-FB67-4AC3-A775-12F128245D22_1_201_a.jpeg" data-size="3024x4032"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/66157D4A-FB67-4AC3-A775-12F128245D22_1_201_a-thumbnail.jpeg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/meslab-ply-from-zed-viewer-dump-1.png" data-size="766x640"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/meslab-ply-from-zed-viewer-dump-1-thumbnail.png" alt="Point Cloud from ZED-2" width="766" height="640"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/zed-openpose-3d-tracking.png" data-size="1720x1440"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/zed-openpose-3d-tracking-thumbnail.png" alt="ZED-2 and OpenPose integration" width="768" height="643"></a></figure>
 </div></div>
             ]]>
         </content>
