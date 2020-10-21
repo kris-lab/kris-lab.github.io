@@ -3,7 +3,7 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-21T17:27:24+02:00</updated>
+    <updated>2020-10-21T17:33:05+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="dev"/>
             <category term="Linux"/>
 
-        <updated>2020-10-21T17:27:24+02:00</updated>
+        <updated>2020-10-21T17:33:05+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/906/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA.jpeg" alt="" />
@@ -33,7 +33,7 @@
         <content type="html">
             <![CDATA[
                     <img src="https://blog.kris-lab.com/media/posts/906/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA.jpeg" alt="" />
-                <p>Red Pitaya has been already released many years ago and was somewhat not used by me for a couple of years. However, I decided to give it a second life. It's a pretty advanced ecosystem of applications based on FPGA acceleration. <br><br>The Red Pitaya team constantly evolves the marketplace of applications, tools, libs, and from time to time, they ship upgrade to the RP core.<br><br>Red Pitaya motherboard solution (oscilloscope, signal generator) with the logic board extension is a great asset in any home-lab. However, there are more extensions <a href="https://www.redpitaya.com/" target="_blank" rel="noopener noreferrer">available</a>.<br><br>These days the most interesting (for me) feature of Red Pitaya is the FPGA chip integrated into the development board under the Linux environment. It's easily accessible for the developers and easily integrable with your projects!</p>
+                <p>Red Pitaya has been already released many years ago and was somewhat not used by me for a couple of years. However, I decided to give it a second life. It's a pretty advanced ecosystem of applications based on FPGA acceleration. <br><br>The Red Pitaya team constantly evolves the marketplace of applications, tools, libs, and from time to time, they ship upgrade to the RP core.<br><br>Red Pitaya motherboard solution (oscilloscope, signal generator) with the logic analyzer extension and sensor extension module is a great asset in any home-lab. However, there are more extensions <a href="https://www.redpitaya.com/" target="_blank" rel="noopener noreferrer">available</a>.<br><br>These days the most interesting (for me) feature of Red Pitaya is the FPGA chip integrated into the development board under the Linux environment. It's easily accessible for the developers and easily integrable with your projects!</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/AAE2801F-987E-4969-86F1-27F8E9536A34_1_201_a.jpeg" data-size="3963x2972"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/AAE2801F-987E-4969-86F1-27F8E9536A34_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/76CC7D67-D68A-4910-AB0E-233DC7DE5157_1_201_a.jpeg" data-size="2933x2200"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/76CC7D67-D68A-4910-AB0E-233DC7DE5157_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
