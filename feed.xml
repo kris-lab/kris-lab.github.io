@@ -3,12 +3,50 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-21T11:31:28+02:00</updated>
+    <updated>2020-10-21T12:27:54+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
+    <entry>
+        <title>Coral TPU Edge with Mendel</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/coral-tpu-quick-test/"/>
+        <id>https://blog.kris-lab.com/coral-tpu-quick-test/</id>
+            <category term="tpu"/>
+            <category term="tensor"/>
+            <category term="parallel computing"/>
+            <category term="mendel"/>
+            <category term="machine learning"/>
+            <category term="coral"/>
+            <category term="Linux"/>
+            <category term="AI"/>
+
+        <updated>2020-10-21T12:27:54+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/905/414BACA7-45EE-480A-BF49-2854D7297F91_1_201_a.jpeg" alt="" />
+                    Another amazing product you need in your home-lab. The performance (versus price) of that unit is exceptional. See more at&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/905/414BACA7-45EE-480A-BF49-2854D7297F91_1_201_a.jpeg" alt="" />
+                <p>Another amazing product you need in your home-lab. The performance (versus price) of that unit is exceptional. See more at <a href="https://coral.ai/products/dev-board" target="_blank" rel="noopener noreferrer">Coral</a>.</p>
+<p>After a challenging flashing process (using Mendel linux), the unit finally worked. However, if your board was manufactured before 10 of April 2019, then there are some extra steps to be taken (<a href="https://coral.ai/docs/dev-board/get-started/#11-initiate-fastboot-mode" target="_blank" rel="noopener noreferrer">see official docs</a>). Also, using Macbook might be a little bit tricky as the FTDI driver (Virtual UART) doesn't always work stable on OSX. I suggest to follow instructions from Coral, but the most import - make sure that your USB cable is not the charging one, but DATA/Syncing one!</p>
+<p>Running pre-baked examples (models), I could easily get 60fps from the object recognition pipeline!</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/F2CB41D1-00CA-479E-8460-B163EFB23A92_1_201_a.jpeg" data-size="3471x2842"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/F2CB41D1-00CA-479E-8460-B163EFB23A92_1_201_a-thumbnail.jpeg" alt="" width="768" height="629"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/73ACA815-2290-4453-8DE5-CBCC60E4484A_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/73ACA815-2290-4453-8DE5-CBCC60E4484A_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/5B4F295B-F1F4-44D6-A9DB-A578DADD292B_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/5B4F295B-F1F4-44D6-A9DB-A578DADD292B_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/A16EB941-D63A-414E-BE26-C1585E2430A4_1_201_a.jpeg" data-size="2537x2495"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/A16EB941-D63A-414E-BE26-C1585E2430A4_1_201_a-thumbnail.jpeg" alt="" width="768" height="755"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>ZED-2 AI Stereo Camera</title>
         <author>
@@ -536,42 +574,6 @@
                 <p>Finally, the Jetson TX1 has arrived; to buy one in Europe it took me at least 4 weeks more than expected, but let's see what we can squeeze out of this tiny Nvidia's baby...</p>
 <p><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/JSmJFqW4334Zmod2FAdevUM7iyH2paUz4AVhNkWZe-iY9KqJLchcZ25MC5eQSIZJShJsTR14GTnkOGyygTdRDIGTBDdnGeO_yH5bRWuAlsSHqv24ZnghhgTk8oqSr3kjWKRVFPLR" alt="" width="1600" height="1200"><br><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/y6_AWhZM9s_dLP52WR7ykPU-T7oQwAAtFiKS7BNcNNz-DDIC4_e9cZgv4sF29P7KeAc0oTVkEOyN2HiRwfLBanQc6VA5PhjkzF2DuBSR0lW4WsNMl47KFf-3Qineddge2WY4fRNc" alt="" width="1600" height="800"><br><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/887/7y7EvU5KZN08H2Am2QBGZGu89wAmtVdBwYkIsU-tMW13Zq-wvJFRuukD9gnvcx0-tluqlmciIuKVYZkYggOK0cr8Pvt-6ZU6K5VD7ZtzUVCTvOHi_wmBq3iQULMcuE2aLboGFkXV" alt="" width="50%"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/a5JxoqQN_KU_s_eOtPZfre0DBy9tGFsmhb1DpPHK879qcK1Ew9o9d_TP_qUE2cVUSdXAteBYZH1OHon54QaaaEAg4GNQqVRSeI13yVRWDraAV6XMcHCiZOgmqy5j3zbXXQtRTf7A" alt="" width="50%"><br><img loading="lazy" src="https://blog.kris-lab.com/media/posts/887/Wb9pw_v5wDgpaAR5r0-O6FFxruE48nFrte8hPlbH8zi9zHKDH09FPfG6an_zlUAB343VfDSM6MLXlyoC6X9IG4fVYRWHI7SrGpCuCEUO5lTsN3LL1zdldELwoT8brykbWAm7a-au" alt="" width="1600" height="1168"></p>
 <p>Booted, upgraded, connected to Wifi, tested USB audio, tested MIPI camera with GStreamer... all works great!</p>
-<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Art 3D/VR challenge - more parts</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/art-3dvr-challenge-more-parts/"/>
-        <id>https://blog.kris-lab.com/art-3dvr-challenge-more-parts/</id>
-            <category term="audio card"/>
-            <category term="audio"/>
-            <category term="VR"/>
-            <category term="Ubuntu"/>
-            <category term="USB"/>
-            <category term="Linux"/>
-            <category term="Jetson"/>
-            <category term="Chihuahua-VR box"/>
-            <category term="Chihuahua-VR"/>
-            <category term="Chihuahua"/>
-
-        <updated>2020-08-25T23:47:55+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/888/dcd2eb933754229bac5c65277bf296e1.jpeg" alt="" />
-                    A very interesting audio device has arrived today. This is USB2.0 audio card based on chipset from C-Media Electronics Inc.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/888/dcd2eb933754229bac5c65277bf296e1.jpeg" alt="" />
-                <p>A very interesting audio device has arrived today. This is USB2.0 audio card based on chipset from C-Media Electronics Inc. which supports stereo output and input with sampling 44.1k and 48k. Tested, it works with Linux kernel 3.19 out of the box. I assume it works with older kernels as well (will test asap also with Jetson which is 3.10).</p>
-<p>Photos of two different products based on the same chipset...</p>
-<p><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/888/m9PxINt1U8uvrwTqqhuZNaL9v5PZeCP19Hmcau5haZZEP9uCG5do0ughErov4FNM8d8V1s3bd7fG9fppesMApKdW3cDDT8pjcz2mkt8-AeEFBI0UMU3mD73DogGzk8Vb875uZ_wc" alt="" width="100%"><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/888/h0lj1VuIp2V4nfiGgHPmzLdgle37I5FWhBKWW-Ssiwc2JUKjRstc6wU77QiysbA-u6bX4HQh6_GHJxKBeCejVxSkvmyyfKGWENYu_1k9NpKIfFUcmk3m1RJhHpQf_rMGc0aqFMsT" alt="" width="50%"><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/888/Df1PzQUB4gijRkaLkwmcpHHNPepyvt6rE1i-dEkSK15r0dXziAG8RUDlEjqf6fhTu9jHcMykzXutjnnOwIdqpb3Ee7kkCtbuSNKCFnX--AXh2gFpt_xpCDCNrzWud1fiPkIa_RmK" alt="" width="50%"></p>
-<p>As far as I can see and test there is a high hope to use this audio input/output in the VR projects. I would use one audio card as external input/output and one internally for built-in speaker and built-in microphones.</p>
 <p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
             ]]>
         </content>

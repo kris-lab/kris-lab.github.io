@@ -10,6 +10,29 @@
     },
     "items": [
         {
+            "id": "https://blog.kris-lab.com/coral-tpu-quick-test/",
+            "url": "https://blog.kris-lab.com/coral-tpu-quick-test/",
+            "title": "Coral TPU Edge with Mendel",
+            "summary": "Another amazing product you need in your home-lab. The performance (versus price) of that unit is exceptional. See more at&hellip;",
+            "content_html": "<p>Another amazing product you need in your home-lab. The performance (versus price) of that unit is exceptional. See more at <a href=\"https://coral.ai/products/dev-board\" target=\"_blank\" rel=\"noopener noreferrer\">Coral</a>.</p>\n<p>After a challenging flashing process (using Mendel linux), the unit finally worked. However, if your board was manufactured before 10 of April 2019, then there are some extra steps to be taken (<a href=\"https://coral.ai/docs/dev-board/get-started/#11-initiate-fastboot-mode\" target=\"_blank\" rel=\"noopener noreferrer\">see official docs</a>). Also, using Macbook might be a little bit tricky as the FTDI driver (Virtual UART) doesn't always work stable on OSX. I suggest to follow instructions from Coral, but the most import - make sure that your USB cable is not the charging one, but DATA/Syncing one!</p>\n<p>Running pre-baked examples (models), I could easily get 60fps from the object recognition pipeline!</p>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/905/gallery/F2CB41D1-00CA-479E-8460-B163EFB23A92_1_201_a.jpeg\" data-size=\"3471x2842\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/905/gallery/F2CB41D1-00CA-479E-8460-B163EFB23A92_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"629\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/905/gallery/73ACA815-2290-4453-8DE5-CBCC60E4484A_1_201_a.jpeg\" data-size=\"4032x3024\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/905/gallery/73ACA815-2290-4453-8DE5-CBCC60E4484A_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"576\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/905/gallery/5B4F295B-F1F4-44D6-A9DB-A578DADD292B_1_201_a.jpeg\" data-size=\"4032x3024\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/905/gallery/5B4F295B-F1F4-44D6-A9DB-A578DADD292B_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"576\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/905/gallery/A16EB941-D63A-414E-BE26-C1585E2430A4_1_201_a.jpeg\" data-size=\"2537x2495\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/905/gallery/A16EB941-D63A-414E-BE26-C1585E2430A4_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"755\"></a></figure>\n</div></div>",
+            "image": "https://blog.kris-lab.com/media/posts/905/414BACA7-45EE-480A-BF49-2854D7297F91_1_201_a.jpeg",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "tpu",
+                   "tensor",
+                   "parallel computing",
+                   "mendel",
+                   "machine learning",
+                   "coral",
+                   "Linux",
+                   "AI"
+            ],
+            "date_published": "2020-10-21T12:24:13+02:00",
+            "date_modified": "2020-10-21T12:27:54+02:00"
+        },
+        {
             "id": "https://blog.kris-lab.com/zed-2-ai-stereo-camera/",
             "url": "https://blog.kris-lab.com/zed-2-ai-stereo-camera/",
             "title": "ZED-2 AI Stereo Camera",
@@ -234,31 +257,6 @@
             ],
             "date_published": "2016-04-26T13:06:37+02:00",
             "date_modified": "2020-10-20T19:31:09+02:00"
-        },
-        {
-            "id": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts/",
-            "url": "https://blog.kris-lab.com/art-3dvr-challenge-more-parts/",
-            "title": "Art 3D/VR challenge - more parts",
-            "summary": "A very interesting audio device has arrived today. This is USB2.0 audio card based on chipset from C-Media Electronics Inc.",
-            "content_html": "<p>A very interesting audio device has arrived today. This is USB2.0 audio card based on chipset from C-Media Electronics Inc. which supports stereo output and input with sampling 44.1k and 48k. Tested, it works with Linux kernel 3.19 out of the box. I assume it works with older kernels as well (will test asap also with Jetson which is 3.10).</p>\n<p>Photos of two different products based on the same chipset...</p>\n<p><img loading=\"lazy\" style=\"font-style: inherit;\" src=\"https://blog.kris-lab.com/media/posts/888/m9PxINt1U8uvrwTqqhuZNaL9v5PZeCP19Hmcau5haZZEP9uCG5do0ughErov4FNM8d8V1s3bd7fG9fppesMApKdW3cDDT8pjcz2mkt8-AeEFBI0UMU3mD73DogGzk8Vb875uZ_wc\" alt=\"\" width=\"100%\"><img loading=\"lazy\" style=\"font-style: inherit;\" src=\"https://blog.kris-lab.com/media/posts/888/h0lj1VuIp2V4nfiGgHPmzLdgle37I5FWhBKWW-Ssiwc2JUKjRstc6wU77QiysbA-u6bX4HQh6_GHJxKBeCejVxSkvmyyfKGWENYu_1k9NpKIfFUcmk3m1RJhHpQf_rMGc0aqFMsT\" alt=\"\" width=\"50%\"><img loading=\"lazy\" style=\"font-style: inherit;\" src=\"https://blog.kris-lab.com/media/posts/888/Df1PzQUB4gijRkaLkwmcpHHNPepyvt6rE1i-dEkSK15r0dXziAG8RUDlEjqf6fhTu9jHcMykzXutjnnOwIdqpb3Ee7kkCtbuSNKCFnX--AXh2gFpt_xpCDCNrzWud1fiPkIa_RmK\" alt=\"\" width=\"50%\"></p>\n<p>As far as I can see and test there is a high hope to use this audio input/output in the VR projects. I would use one audio card as external input/output and one internally for built-in speaker and built-in microphones.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
-            "image": "https://blog.kris-lab.com/media/posts/888/dcd2eb933754229bac5c65277bf296e1.jpeg",
-            "author": {
-                "name": "Chris Stasiak"
-            },
-            "tags": [
-                   "audio card",
-                   "audio",
-                   "VR",
-                   "Ubuntu",
-                   "USB",
-                   "Linux",
-                   "Jetson",
-                   "Chihuahua-VR box",
-                   "Chihuahua-VR",
-                   "Chihuahua"
-            ],
-            "date_published": "2016-04-25T19:31:01+02:00",
-            "date_modified": "2020-08-25T23:47:55+02:00"
         }
     ]
 }
