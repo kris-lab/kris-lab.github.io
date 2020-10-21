@@ -3,7 +3,7 @@
     <title>Chris Stasiak</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-21T13:13:32+02:00</updated>
+    <updated>2020-10-21T13:19:20+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -62,7 +62,7 @@
             <category term="depth-vision"/>
             <category term="depth-maps"/>
 
-        <updated>2020-10-21T13:13:32+02:00</updated>
+        <updated>2020-10-21T13:19:20+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
@@ -73,8 +73,8 @@
             <![CDATA[
                     <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
                 <p>In a few words... this is a great camera and ecosystem (you need) if you start the prototyping phase of the product in the early stage.</p>
-<p><a href="https://www.stereolabs.com" target="_blank" rel="noopener noreferrer">Stereolabs</a> delivers a solid CUDA enabled SDK with plenty of examples, wrappers, and integrations. It's also well optimised for Jetson family.</p>
-<p>Unfortunately, I have experience some issues with compilation of OpenPose or OpenCV wrappers &amp; examples, but in most cases it's due to bugs in 3rd party dependencies (you might need some workarounds and hacks, too).</p>
+<p><a href="https://www.stereolabs.com" target="_blank" rel="noopener noreferrer">Stereolabs</a> delivers a solid CUDA enabled SDK with plenty of examples, wrappers, and integrations. It's also well optimized for the Jetson family.</p>
+<p>Unfortunately, I have experienced some issues with the compilation of OpenPose or OpenCV wrappers &amp; examples. In most of the cases, it's due to bugs in 3rd party dependencies (you might need some workarounds and hacks, too).</p>
 <p>In my case, the camera is used with Jetson Nano 4GB, Jetson TX-1, and Jetson Xavier AGX. It works perfectly well on TX-1 and Xavier, while Jetson Nano can experience performance problems in higher resolutions (due to limited CUDA throughput and slow 4GB memory).</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/903/gallery/54AE58D0-9216-4C9D-95B1-73B66FDC485B_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/903/gallery/54AE58D0-9216-4C9D-95B1-73B66FDC485B_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
