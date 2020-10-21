@@ -494,9 +494,6 @@
 <loc>https://blog.kris-lab.com/authors/chris-stasiak/page/3/</loc>
 </url>
 <url>
-<loc>https://blog.kris-lab.com/authors/chris-stasiak/page/4/</loc>
-</url>
-<url>
 <loc>https://blog.kris-lab.com/bipbip-agent-for-advanced-and-flexible-server-monitoring-2/</loc>
 <lastmod>2020-08-26T10:52:48+02:00</lastmod>
 </url>
@@ -1282,9 +1279,6 @@
 <loc>https://blog.kris-lab.com/tag/devops-2/</loc>
 </url>
 <url>
-<loc>https://blog.kris-lab.com/tag/devops-2/page/2/</loc>
-</url>
-<url>
 <loc>https://blog.kris-lab.com/tag/docker/</loc>
 </url>
 <url>
@@ -1499,9 +1493,6 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/tag/news/</loc>
-</url>
-<url>
-<loc>https://blog.kris-lab.com/tag/news/page/2/</loc>
 </url>
 <url>
 <loc>https://blog.kris-lab.com/tag/nfs/</loc>
@@ -1910,7 +1901,7 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/zed-2-ai-stereo-camera/</loc>
-<lastmod>2020-10-21T10:59:24+02:00</lastmod>
+<lastmod>2020-10-21T13:13:32+02:00</lastmod>
 <image:image>
 <image:loc>https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg</image:loc>
 <image:title><![CDATA[]]></image:title>
