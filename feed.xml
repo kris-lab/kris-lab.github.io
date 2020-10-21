@@ -1,51 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Chris Stasiak</title>
+    <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-21T18:04:29+02:00</updated>
+    <updated>2020-10-21T23:31:05+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
-    <entry>
-        <title>Red Pitaya Lab with FPGA</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/red-pitaya-lab-toolkit/"/>
-        <id>https://blog.kris-lab.com/red-pitaya-lab-toolkit/</id>
-            <category term="red-pitaya"/>
-            <category term="oscilloscope"/>
-            <category term="logic-analyzer"/>
-            <category term="fpga"/>
-            <category term="dev"/>
-            <category term="Linux"/>
-
-        <updated>2020-10-21T17:33:05+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/906/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA.jpeg" alt="" />
-                    Red Pitaya has been already released many years ago and was somewhat not used by me for a couple of&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/906/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA.jpeg" alt="" />
-                <p>Red Pitaya has been already released many years ago and was somewhat not used by me for a couple of years. However, I decided to give it a second life. It's a pretty advanced ecosystem of applications based on FPGA acceleration. <br><br>The Red Pitaya team constantly evolves the marketplace of applications, tools, libs, and from time to time, they ship upgrade to the RP core.<br><br>Red Pitaya motherboard solution (oscilloscope, signal generator) with the logic analyzer extension and sensor extension module is a great asset in any home-lab. However, there are more extensions <a href="https://www.redpitaya.com/" target="_blank" rel="noopener noreferrer">available</a>.<br><br>These days the most interesting (for me) feature of Red Pitaya is the FPGA chip integrated into the development board under the Linux environment. It's easily accessible for the developers and easily integrable with your projects!</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/AAE2801F-987E-4969-86F1-27F8E9536A34_1_201_a.jpeg" data-size="3963x2972"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/AAE2801F-987E-4969-86F1-27F8E9536A34_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/76CC7D67-D68A-4910-AB0E-233DC7DE5157_1_201_a.jpeg" data-size="2933x2200"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/76CC7D67-D68A-4910-AB0E-233DC7DE5157_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/D73478E1-6EF8-4A27-8A9F-06D01933155D.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/D73478E1-6EF8-4A27-8A9F-06D01933155D-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/C7D77B6C-BD1A-48F2-9CBB-505B0185F32F_1_201_a.jpeg" data-size="2893x4032"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/C7D77B6C-BD1A-48F2-9CBB-505B0185F32F_1_201_a-thumbnail.jpeg" alt="" width="768" height="1070"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/9940859B-B87B-4A76-BB8C-37FBAAAE9C50_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/9940859B-B87B-4A76-BB8C-37FBAAAE9C50_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/59F2C042-E8E7-4756-9942-6229ADCA58F5.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/59F2C042-E8E7-4756-9942-6229ADCA58F5-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/9E2649D6-B240-4130-ACB9-0A2116BF86CB_1_201_a.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/9E2649D6-B240-4130-ACB9-0A2116BF86CB_1_201_a-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
-</div></div>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Coral TPU Edge with Mendel</title>
         <author>
@@ -66,7 +29,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/905/414BACA7-45EE-480A-BF49-2854D7297F91_1_201_a.jpeg" alt="" />
-                    Another amazing product you need in your home-lab. The performance (versus price) of that unit is exceptional. See more at&hellip;
+                    Another amazing product you need in your home-lab. The performance (versus price) of that unit is exceptional. See more at Coral. After a challenging flashing process (using Mendel linux), the unit finally worked. However, if your board was manufactured before&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -80,6 +43,44 @@
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/5B4F295B-F1F4-44D6-A9DB-A578DADD292B_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/5B4F295B-F1F4-44D6-A9DB-A578DADD292B_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/A16EB941-D63A-414E-BE26-C1585E2430A4_1_201_a.jpeg" data-size="2537x2495"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/A16EB941-D63A-414E-BE26-C1585E2430A4_1_201_a-thumbnail.jpeg" alt="" width="768" height="755"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/905/gallery/F2CB41D1-00CA-479E-8460-B163EFB23A92_1_201_a.jpeg" data-size="3471x2842"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/905/gallery/F2CB41D1-00CA-479E-8460-B163EFB23A92_1_201_a-thumbnail.jpeg" alt="" width="768" height="629"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Red Pitaya Lab with FPGA</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/red-pitaya-lab-toolkit/"/>
+        <id>https://blog.kris-lab.com/red-pitaya-lab-toolkit/</id>
+            <category term="red-pitaya"/>
+            <category term="oscilloscope"/>
+            <category term="logic-analyzer"/>
+            <category term="fpga"/>
+            <category term="dev"/>
+            <category term="Linux"/>
+
+        <updated>2020-10-21T23:27:37+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/906/D73478E1-6EF8-4A27-8A9F-06D01933155D.jpeg" alt="" />
+                    Red Pitaya has been already released many years ago and was somewhat not used by me for a couple of years. However, I decided to give it a second life. It's a pretty advanced ecosystem of applications based on FPGA&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/906/D73478E1-6EF8-4A27-8A9F-06D01933155D.jpeg" alt="" />
+                <p>Red Pitaya has been already released many years ago and was somewhat not used by me for a couple of years. However, I decided to give it a second life. It's a pretty advanced ecosystem of applications based on FPGA acceleration. <br><br>The Red Pitaya team constantly evolves the marketplace of applications, tools, libs, and from time to time, they ship upgrade to the RP core.<br><br>Red Pitaya motherboard solution (oscilloscope, signal generator) with the logic analyzer extension and sensor extension module is a great asset in any home-lab. However, there are more extensions <a href="https://www.redpitaya.com/" target="_blank" rel="noopener noreferrer">available</a>.<br><br>These days the most interesting (for me) feature of Red Pitaya is the FPGA chip integrated into the development board under the Linux environment. It's easily accessible for the developers and easily integrable with your projects!</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/AAE2801F-987E-4969-86F1-27F8E9536A34_1_201_a.jpeg" data-size="3963x2972"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/AAE2801F-987E-4969-86F1-27F8E9536A34_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/76CC7D67-D68A-4910-AB0E-233DC7DE5157_1_201_a.jpeg" data-size="2933x2200"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/76CC7D67-D68A-4910-AB0E-233DC7DE5157_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/D73478E1-6EF8-4A27-8A9F-06D01933155D.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/D73478E1-6EF8-4A27-8A9F-06D01933155D-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/C7D77B6C-BD1A-48F2-9CBB-505B0185F32F_1_201_a.jpeg" data-size="2893x4032"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/C7D77B6C-BD1A-48F2-9CBB-505B0185F32F_1_201_a-thumbnail.jpeg" alt="" width="768" height="1070"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/9940859B-B87B-4A76-BB8C-37FBAAAE9C50_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/9940859B-B87B-4A76-BB8C-37FBAAAE9C50_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/59F2C042-E8E7-4756-9942-6229ADCA58F5.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/59F2C042-E8E7-4756-9942-6229ADCA58F5-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/9E2649D6-B240-4130-ACB9-0A2116BF86CB_1_201_a.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/9E2649D6-B240-4130-ACB9-0A2116BF86CB_1_201_a-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/906/gallery/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA-2.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/906/gallery/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA-2-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
 </div></div>
             ]]>
         </content>
@@ -103,7 +104,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
-                    In a few words... this is a great camera and ecosystem (you need) if you start the prototyping phase of&hellip;
+                    In a few words... this is a great camera and ecosystem (you need) if you start the prototyping phase of the product in the early stage. Stereolabs delivers a solid CUDA enabled SDK with plenty of examples, wrappers, and integrations.
                 ]]>
             </summary>
         <content type="html">
@@ -126,7 +127,7 @@
         </content>
     </entry>
     <entry>
-        <title>2017...2020 journey with Vresh &amp; Tag-ya</title>
+        <title>2017 ¤ 2020 journey with exciting Vresh &amp; Tag-ya</title>
         <author>
             <name>Chris Stasiak</name>
         </author>
@@ -140,11 +141,11 @@
             <category term="VR"/>
             <category term="360"/>
 
-        <updated>2020-10-21T11:31:28+02:00</updated>
+        <updated>2020-10-21T23:31:05+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/902/Screenshot-2020-10-20-at-13.45.30.png" alt="" />
-                    In 2017, I have decided to accept the offer of CTO &amp; Partner in a startup called Vrenetic. It all&hellip;
+                    In 2017, I have decided to accept the offer of CTO &amp; Partner in a startup called Vrenetic. It all started in Los Angeles as a vision of two movie producers from Hollywood - Roland Emmerich and Marco Weber. At that time the&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -226,7 +227,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg" alt="" />
-                    [2020/Q3] Quick update Last decade (in the world without COVID-19), I have shared my time between Los Angeles, London, Warsaw,&hellip;
+                    [2020/Q3] Quick update Last decade (in the world without COVID-19), I have shared my time between Los Angeles, London, Warsaw, Kyiv, and Beijing (see 2017-2020). In the new reality of 2020+, I have decided to move south of Europe and&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -266,7 +267,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/898/IMG_1470.JPG" alt="" />
-                    During the Covid-19 lockdown, there is a lot of time for reading. There was a book on my shelf since&hellip;
+                    During the Covid-19 lockdown, there is a lot of time for reading. There was a book on my shelf since 2013 which I did approach multiple times, but never lucky enough to take it properly and seriously. However, there is&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -305,7 +306,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/883/lowlight_usb_camera_board-zoom.jpg" alt="" />
-                    Introduction I was researching the right cameras for very long time. The market is full of products on every level:&hellip;
+                    Introduction I was researching the right cameras for very long time. The market is full of products on every level: I have found a plenty of producers and I did research on following: This is my very abstract drawing of&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -378,7 +379,7 @@
         <updated>2020-10-20T19:21:09+02:00</updated>
             <summary>
                 <![CDATA[
-                     Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project&hellip;
+                     Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -418,7 +419,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/892/dNPBbNbk28RLLlPPI_CAO9D0bSggepUHdwbylykPAKINxP7G65mRUSdL3TtwFdfFHm-I28fEuHvX6GO1nXfwZp026ddUFG-tdQVGqLAHVy3Q6N-4Mv54_mCY8G0jlaWNQ0_FW4YC.png" alt="" />
-                    What is that? As you can find on my blog (tag: VR) I have been working for few weeks on the&hellip;
+                    What is that? As you can find on my blog (tag: VR) I have been working for few weeks on the 3D/VR real-time platform for streaming and communication. The main goal is to find the cutting edge technology which would allow&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -481,7 +482,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/890/WRVK1D8ejNPfH3TjXFKsbuVny9NymcW210AU_vx5fvsgjjlD0LG0Rr8tBmSAmvksazQC7DF76Wo9X_DKCeiPxVJJWRs_lONioe3IEjTgQiiI_Dx7ZZTbDL-DSwSR121AWr3Bq-u" alt="" />
-                    Jetson TX1 works perfectly when mounted on Auvidea J100 carrier board. It is powered with 12V, starts automatically and boots&hellip;
+                    Jetson TX1 works perfectly when mounted on Auvidea J100 carrier board. It is powered with 12V, starts automatically and boots without any troubles. TX1 + J100 is fully independent platform. Please see the photo below which presents working setup with&hellip;
                 ]]>
             </summary>
         <content type="html">

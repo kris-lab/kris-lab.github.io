@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/20172020-journey/</loc>
-<lastmod>2020-10-21T11:31:28+02:00</lastmod>
+<lastmod>2020-10-21T23:31:05+02:00</lastmod>
 <image:image>
 <image:loc>https://blog.kris-lab.com/media/posts/902/Screenshot-2020-10-20-at-13.45.30.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -322,7 +322,7 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/art-3dvr-challenge-week-1-abstract-overview/</loc>
-<lastmod>2020-10-20T16:33:47+02:00</lastmod>
+<lastmod>2020-10-21T23:15:27+02:00</lastmod>
 <image:image>
 <image:loc>https://blog.kris-lab.com/media/posts/889/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -993,9 +993,9 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/red-pitaya-lab-toolkit/</loc>
-<lastmod>2020-10-21T17:33:05+02:00</lastmod>
+<lastmod>2020-10-21T23:27:37+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.kris-lab.com/media/posts/906/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA.jpeg</image:loc>
+<image:loc>https://blog.kris-lab.com/media/posts/906/D73478E1-6EF8-4A27-8A9F-06D01933155D.jpeg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
@@ -1024,6 +1024,10 @@
 </image:image>
 <image:image>
 <image:loc>https://blog.kris-lab.com/media/posts/906/gallery/9E2649D6-B240-4130-ACB9-0A2116BF86CB_1_201_a-thumbnail.jpeg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://blog.kris-lab.com/media/posts/906/gallery/99857817-8C1C-4E2E-ADBC-7C4CC878A3EA-2-thumbnail.jpeg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -1896,7 +1900,7 @@
 </url>
 <url>
 <loc>https://blog.kris-lab.com/video-streaming-benchmark-with-ffmpeg-ffserver-wowza-24/</loc>
-<lastmod>2020-08-25T23:41:03+02:00</lastmod>
+<lastmod>2020-10-21T23:15:19+02:00</lastmod>
 <image:image>
 <image:loc>https://blog.kris-lab.com/media/posts/878/VOD2glDGodkaP2H9yO_rXFZYmwDXqExVHNbsHRWaf2LY9MZmFjKPlGpNrxxV5oO_QE1iCIqX7dQRnxheAlq3JJVX4p-DkH_l09nPd7kLwIOakkLdq-HBBYR8HYzIbJ7DCcGGAFY</image:loc>
 <image:title><![CDATA[]]></image:title>
