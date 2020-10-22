@@ -3,7 +3,7 @@
     <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-22T14:23:31+02:00</updated>
+    <updated>2020-10-22T15:06:43+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -35,7 +35,7 @@
             <category term="ClothCap"/>
             <category term="CAPE"/>
 
-        <updated>2020-10-22T14:23:31+02:00</updated>
+        <updated>2020-10-22T15:06:43+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/904/cape-body-extraction-from-clothed-many-poses.png" alt="" />
@@ -106,8 +106,8 @@
 </ul>
 <hr>
 <p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">I was able to succeed and download all resources, setup the environment, and run CAPE pipelines. However, all those tasks are not trivial and require a lot of computing power. I started my ecosystem on Jetson TX-1, but then quickly moved to Jetson Xavier AGX (30+ TFLOPS, 512 CUDA Volta core, 64 Tensor cores, 32GB RAM).</span></p>
-<p>All screenshots in this blog post are taken from my environment.</p>
-<hr>
+<p>All screenshots, photos, videos in this blog post are taken from my environment.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/GQKyFqejWfU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/904/gallery/cape-neural-output-obj-1.png" data-size="2266x1440"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/904/gallery/cape-neural-output-obj-1-thumbnail.png" alt="" width="768" height="488"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/904/gallery/cape-tensorflow-graph-2020-06.png" data-size="1386x750"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/904/gallery/cape-tensorflow-graph-2020-06-thumbnail.png" alt="" width="768" height="416"></a></figure>
