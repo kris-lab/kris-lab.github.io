@@ -3,7 +3,7 @@
     <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-22T14:13:23+02:00</updated>
+    <updated>2020-10-22T14:23:31+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -19,9 +19,11 @@
             <category term="virtual-try-on"/>
             <category term="virtual-fitting-room"/>
             <category term="tensor"/>
+            <category term="machine learning"/>
             <category term="jetson-xavier-agx"/>
             <category term="fitting-room"/>
             <category term="fashion"/>
+            <category term="artificial intelligence"/>
             <category term="TX1"/>
             <category term="SMPLX"/>
             <category term="SMPL"/>
@@ -33,7 +35,7 @@
             <category term="ClothCap"/>
             <category term="CAPE"/>
 
-        <updated>2020-10-22T14:13:23+02:00</updated>
+        <updated>2020-10-22T14:23:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/904/cape-body-extraction-from-clothed-many-poses.png" alt="" />

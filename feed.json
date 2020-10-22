@@ -23,9 +23,11 @@
                    "virtual-try-on",
                    "virtual-fitting-room",
                    "tensor",
+                   "machine learning",
                    "jetson-xavier-agx",
                    "fitting-room",
                    "fashion",
+                   "artificial intelligence",
                    "TX1",
                    "SMPLX",
                    "SMPL",
@@ -38,7 +40,7 @@
                    "CAPE"
             ],
             "date_published": "2020-10-22T12:18:34+02:00",
-            "date_modified": "2020-10-22T14:13:23+02:00"
+            "date_modified": "2020-10-22T14:23:31+02:00"
         },
         {
             "id": "https://blog.kris-lab.com/coral-tpu-quick-test/",
