@@ -3,12 +3,117 @@
     <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-21T23:31:05+02:00</updated>
+    <updated>2020-10-22T14:13:23+02:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
+    <entry>
+        <title>Future of AI driven Virtual Try-On</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/announcing-virtual-try-on-with-fitlabs/"/>
+        <id>https://blog.kris-lab.com/announcing-virtual-try-on-with-fitlabs/</id>
+            <category term="virtual-try-on"/>
+            <category term="virtual-fitting-room"/>
+            <category term="tensor"/>
+            <category term="jetson-xavier-agx"/>
+            <category term="fitting-room"/>
+            <category term="fashion"/>
+            <category term="TX1"/>
+            <category term="SMPLX"/>
+            <category term="SMPL"/>
+            <category term="Max Planck Institutes"/>
+            <category term="MPI"/>
+            <category term="MANO"/>
+            <category term="Jetson TX1"/>
+            <category term="GPU"/>
+            <category term="ClothCap"/>
+            <category term="CAPE"/>
+
+        <updated>2020-10-22T14:13:23+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/904/cape-body-extraction-from-clothed-many-poses.png" alt="" />
+                    Since the beginning of summer 2020, I'm involved in a pretty unique project in the area of the fashion industry. To be more specific, it's the technology for supporting the virtual try-on for both: online and offline shopping! You might&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/904/cape-body-extraction-from-clothed-many-poses.png" alt="" />
+                <p>Since the beginning of summer 2020, I'm involved in a pretty unique project in the area of the fashion industry. To be more specific, it's the technology for supporting the virtual try-on for both: online and offline shopping!</p>
+<p><span data-preserver-spaces="true">You might find on the internet a lot of research around virtual fitting rooms, and also some early-stage solutions, but in reality, there is no usable product for consumers yet. All big players are chasing for technology which would re-shape the clothes purchase behaviors and increase the consumer experience, but in reality, it's a very complex problem.</span></p>
+<hr>
+<p><span data-preserver-spaces="true">These days most of the advanced research is focused on multiple topics</span></p>
+<ul>
+<li class="ql-indent-1"><strong><span data-preserver-spaces="true">Rendering</span></strong>
+<ul>
+<li class="ql-indent-1"><span data-preserver-spaces="true">3D human body - including the face, hands, feet, and including poses &amp; expressions</span></li>
+<li class="ql-indent-1"><span data-preserver-spaces="true">3D human apparel features - extra layers on the body including clothes and accessories</span></li>
+</ul>
+</li>
+<li class="ql-indent-1"><strong><span data-preserver-spaces="true">AI training and inference</span></strong>
+<ul>
+<li class="ql-indent-1"><span data-preserver-spaces="true">Recognition of human pose, expression, body dimensions using 2D/3D/4D signals (photos, 3D scans, </span><span data-preserver-spaces="true">volumetric capture)</span></li>
+<li class="ql-indent-1"><span data-preserver-spaces="true">Learning from garments - extraction of 2D/3D/4D physical parameters and unifying into re-usable models</span></li>
+<li class="ql-indent-1"><span data-preserver-spaces="true">Learning from human bodies - extraction of 2D/3D/4D physical parameters and unifying into re-usable models</span></li>
+<li class="ql-indent-1"><span data-preserver-spaces="true">Estimation of user avatar - reconstruction of physical parameters and unifying model using as little data as possible (eg 1 photo)</span></li>
+<li class="ql-indent-1"><span data-preserver-spaces="true">Estimation of virtual try-on look - estimation of 3D model of a 3D avatar wearing the 3D garment</span></li>
+</ul>
+</li>
+<li><strong>Capturing</strong>
+<ul>
+<li>Hardware
+<ul>
+<li>single stereo camera stream - it's achieved by high-quality image (CMOS) sensors OR infrared (IR) sensors OR laser (LiDAR) scanning OR light-field sensors. You can find great results using (cheap) Intel RealSense, StereoLabs, Azure cameras. As result, the camera produces a depth map and a point cloud of limited "FOV"</li>
+<li>multi stereo camera stream - it's achieved by structured layout/mounting of stereo cameras around the object. All cameras are synchronized in time. As result, the system produces a complete depth map and a point cloud that can be transformed into a wireframe and then mesh.</li>
+</ul>
+</li>
+<li>Tools
+<ul>
+<li>Basic: stereo recording, point cloud stitching, wireframe, mesh, export</li>
+<li>Advanced: calibration, point cloud noise reduction, GPU acceleration</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Even though the list is already long, this is just the tip of the mountain if you think about the practical implementation of such technology into the existing fashion retail chain.</p>
+<hr>
+<p><span data-preserver-spaces="true">In my opinion (Q3/2020), the most advanced research stack with the highest chance of adoption on the market is the achievement of Max Planck Institutes researchers. Of course, the impressive result is possible due to the previous work of a great group of researchers around the world.</span></p>
+<p><span data-preserver-spaces="true">So, why the MPI seems a good fit? Well, the strategy of breaking the problem into multiple problems (4D scanning, 3D modeling, AI learning, AI inference, visualizations, rich tooling, great documentation) and close collaboration seems to be a good way to go.</span></p>
+<p><span data-preserver-spaces="true">My finding regarding the MPI stack (it might still include some errors, but in general worked for me)</span></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="1">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/904/gallery/fittings-mpi-stack.png" data-size="1720x1260"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/904/gallery/fittings-mpi-stack-thumbnail.png" alt="" width="768" height="563"></a></figure>
+</div></div>
+<p>AI Research</p>
+<ul>
+<li><a href="https://cape.is.tue.mpg.de/">https://cape.is.tue.mpg.de/</a></li>
+<li><a href="https://smpl.is.tue.mpg.de/">https://smpl.is.tue.mpg.de/</a></li>
+<li><a href="http://smpl-x.is.tue.mpg.de/">http://smpl-x.is.tue.mpg.de/</a></li>
+<li><a href="https://mano.is.tue.mpg.de/">https://mano.is.tue.mpg.de/</a></li>
+<li><a href="http://smplify.is.tue.mpg.de/">http://smplify.is.tue.mpg.de/</a></li>
+<li><a href="http://clothcap.is.tue.mpg.de/">http://clothcap.is.tue.mpg.de/</a></li>
+</ul>
+<p>Tools</p>
+<ul>
+<li><a href="https://github.com/QianliM/cape_utils">https://github.com/QianliM/cape_utils</a></li>
+<li><a href="https://github.com/MPI-IS/mesh">https://github.com/MPI-IS/mesh</a></li>
+</ul>
+<hr>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">I was able to succeed and download all resources, setup the environment, and run CAPE pipelines. However, all those tasks are not trivial and require a lot of computing power. I started my ecosystem on Jetson TX-1, but then quickly moved to Jetson Xavier AGX (30+ TFLOPS, 512 CUDA Volta core, 64 Tensor cores, 32GB RAM).</span></p>
+<p>All screenshots in this blog post are taken from my environment.</p>
+<hr>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/904/gallery/cape-neural-output-obj-1.png" data-size="2266x1440"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/904/gallery/cape-neural-output-obj-1-thumbnail.png" alt="" width="768" height="488"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/904/gallery/cape-tensorflow-graph-2020-06.png" data-size="1386x750"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/904/gallery/cape-tensorflow-graph-2020-06-thumbnail.png" alt="" width="768" height="416"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/904/gallery/cape-neural-output-obj-2.png" data-size="2151x1440"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/904/gallery/cape-neural-output-obj-2-thumbnail.png" alt="" width="768" height="514"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Coral TPU Edge with Mendel</title>
         <author>
@@ -17,15 +122,17 @@
         <link href="https://blog.kris-lab.com/coral-tpu-quick-test/"/>
         <id>https://blog.kris-lab.com/coral-tpu-quick-test/</id>
             <category term="tpu"/>
+            <category term="tools"/>
             <category term="tensor"/>
             <category term="parallel computing"/>
             <category term="mendel"/>
             <category term="machine learning"/>
             <category term="coral"/>
+            <category term="artificial intelligence"/>
             <category term="Linux"/>
             <category term="AI"/>
 
-        <updated>2020-10-21T12:38:04+02:00</updated>
+        <updated>2020-10-22T09:18:30+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/905/414BACA7-45EE-480A-BF49-2854D7297F91_1_201_a.jpeg" alt="" />
@@ -54,6 +161,7 @@
         </author>
         <link href="https://blog.kris-lab.com/red-pitaya-lab-toolkit/"/>
         <id>https://blog.kris-lab.com/red-pitaya-lab-toolkit/</id>
+            <category term="tools"/>
             <category term="red-pitaya"/>
             <category term="oscilloscope"/>
             <category term="logic-analyzer"/>
@@ -61,7 +169,7 @@
             <category term="dev"/>
             <category term="Linux"/>
 
-        <updated>2020-10-21T23:27:37+02:00</updated>
+        <updated>2020-10-22T09:18:19+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/906/D73478E1-6EF8-4A27-8A9F-06D01933155D.jpeg" alt="" />
@@ -94,13 +202,15 @@
         <id>https://blog.kris-lab.com/zed-2-ai-stereo-camera/</id>
             <category term="zed-2"/>
             <category term="zed"/>
+            <category term="tools"/>
             <category term="stereolabs"/>
             <category term="stereo-vision"/>
             <category term="point-cloud"/>
             <category term="depth-vision"/>
             <category term="depth-maps"/>
+            <category term="artificial intelligence"/>
 
-        <updated>2020-10-21T18:04:29+02:00</updated>
+        <updated>2020-10-22T09:18:44+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/903/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" alt="" />
@@ -444,134 +554,6 @@
 <p><strong>Contribution</strong></p>
 <p><img loading="lazy" src="https://blog.kris-lab.com/media/posts/892/gxzP_VzJt2MEOFIJ6rEKNlduEqgnL-6UPZuHFyySQWjUQh8JokCK4Ug_vrppOVbCYM5SrQOS7xPJE8oQ7qWJyr9KmfLR4bwEOyk5ay8pt_NxO6f3B1bmWLGyY-7p6yx1PT9Gjaqd" alt="" width="1600" height="1038"></p>
 <p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR...).</p>
-<p>See <a href="https://blog.kris-lab.com/contact/">my contact page</a> if required.</p>
-<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Art 3D/VR challenge – Jetson TX1 module with Auvidea J100 carrier lite board</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/art-3dvr-challenge-jetson-tx1-module-with-auvidea-j100-carrier-lite-board/"/>
-        <id>https://blog.kris-lab.com/art-3dvr-challenge-jetson-tx1-module-with-auvidea-j100-carrier-lite-board/</id>
-            <category term="nvidia"/>
-            <category term="WiFi"/>
-            <category term="VR"/>
-            <category term="Ubuntu"/>
-            <category term="USB3.0"/>
-            <category term="USB"/>
-            <category term="Tegra X1"/>
-            <category term="TX1"/>
-            <category term="MIPI"/>
-            <category term="Linux"/>
-            <category term="Jetson TX1"/>
-            <category term="Jetson"/>
-            <category term="J100"/>
-            <category term="HDMI"/>
-            <category term="GStreamer"/>
-            <category term="Chihuahua-VR box"/>
-            <category term="Chihuahua-VR"/>
-            <category term="Chihuahua"/>
-            <category term="Carrier board"/>
-            <category term="CSI-2"/>
-            <category term="Auvidea"/>
-
-        <updated>2020-08-26T00:40:21+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/890/WRVK1D8ejNPfH3TjXFKsbuVny9NymcW210AU_vx5fvsgjjlD0LG0Rr8tBmSAmvksazQC7DF76Wo9X_DKCeiPxVJJWRs_lONioe3IEjTgQiiI_Dx7ZZTbDL-DSwSR121AWr3Bq-u" alt="" />
-                    Jetson TX1 works perfectly when mounted on Auvidea J100 carrier board. It is powered with 12V, starts automatically and boots without any troubles. TX1 + J100 is fully independent platform. Please see the photo below which presents working setup with&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/890/WRVK1D8ejNPfH3TjXFKsbuVny9NymcW210AU_vx5fvsgjjlD0LG0Rr8tBmSAmvksazQC7DF76Wo9X_DKCeiPxVJJWRs_lONioe3IEjTgQiiI_Dx7ZZTbDL-DSwSR121AWr3Bq-u" alt="" />
-                <p>Jetson TX1 works perfectly when mounted on Auvidea J100 carrier board. It is powered with 12V, starts automatically and boots without any troubles.</p>
-<p>TX1 + J100 is fully independent platform. Please see the photo below which presents working setup with extra USB key for wireless keyboard/touchpad (on the right), HDMI output (at the back), MIPI/CSI-2 output (at the back), power cable (on the left) and Wifi antennas (on the left).</p>
-<p><img loading="lazy" style="font-style: inherit;" title="Jetson TX1 module" src="https://blog.kris-lab.com/media/posts/890/C9nNBsp-XHUP3_ZeSUHiRyjJG4FyJ1IEBUSXJ_d92vfD9sYrnfYtww1FreyjTA4dwtZ9ebrz4ZahrzWd1VgKPVV5nXGX5qRmZswuUFW6ZLy5-nT_BGDv-2MSvQPUnU2nP2Iw-0cc" alt="" width="50%" height="1600"><img loading="lazy" style="font-style: inherit;" src="https://blog.kris-lab.com/media/posts/890/xsyTlTwFkvR3RtVxsBEjIB1_HcxhV7gOcMlWT3z3GJpX4MKPjPRkB109AGhSFoBfTbgEI91uhECld5-5valzRtlbiGROadQHWayEEVdFwxXPWIIUMYzYHwMrj0vuPgko3ahmSj5s" alt="" width="50%"></p>
-<p><strong>Jetson TX1 module specification</strong></p>
-<div>
-<table border="0" width="371" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td>GPU</td>
-<td>1 TFLOP/s 256-core with <a href="https://developer.nvidia.com/maxwell-compute-architecture" target="_blank" rel="noopener">NVIDIA Maxwell™ Architecture</a></td>
-</tr>
-<tr>
-<td>CPU</td>
-<td>64-bit ARM® A57 CPUs</td>
-</tr>
-<tr>
-<td>Memory</td>
-<td>4 GB LPDDR4 | 25.6 GB/s</td>
-</tr>
-<tr>
-<td>Video decode</td>
-<td>4K 60 Hz</td>
-</tr>
-<tr>
-<td>Video encode</td>
-<td>4K 30 Hz</td>
-</tr>
-<tr>
-<td>CSI</td>
-<td>Up to 6 cameras | 1400 Mpix/s</td>
-</tr>
-<tr>
-<td>Display</td>
-<td>2x DSI, 1x eDP 1.4, 1x DP 1.2/HDMI</td>
-</tr>
-<tr>
-<td>Connectivity</td>
-<td>Connects to 802.11ac Wi-Fi and Bluetooth-enabled devices</td>
-</tr>
-<tr>
-<td>Networking</td>
-<td>1 Gigabit Ethernet</td>
-</tr>
-<tr>
-<td>PCIE</td>
-<td>Gen 2 1x1 + 1x4</td>
-</tr>
-<tr>
-<td>Storage</td>
-<td>16 GB eMMC, SDIO, SATA</td>
-</tr>
-<tr>
-<td>Other</td>
-<td>3x UART, 3x SPI, 4x I2C, 4x I2S, GPIOs</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><img loading="lazy" title="Jetson TX1 module" src="https://blog.kris-lab.com/media/posts/890/mVLx1AqrGdaXqzGNYC6ATFMUAiXovWO8HOdyhoi9mt5y-8ydycJsXGdyKrhb-Feoj1dphc1GMLE6RM0F1g5aeXAeq6tgUhatChYvrvelivPn26W0aFZNbCHmfukL6eh3TNuOSqTA" alt="" width="33%" height="1600"><img loading="lazy" title="Jetson TX1 module" src="https://blog.kris-lab.com/media/posts/890/sfcLieDxibElFZUSbb-mlEcJ2KXHbDEaOPn6mJ6Fbd6TtKv8tsQuZjNRo6jUhtMD5zCTiL-EWKp9llgMEMKPZl1phsl8txyK0VKkQ9JIAwidXfZqNEL6LkZYtZrRyLBcPAlYRKSj" alt="" width="33%" height="1200"><img loading="lazy" title="Jetson TX1 + Auvidea J100" src="https://blog.kris-lab.com/media/posts/890/lTaD-6Ks_XUQXIrJQV1vhkGpnVgL5IAfGELHTEARegAvFgCbNf4uKjzQ-Aka_QYaneFbNrjLUEJxbfGbJApvgVtbFyHQ9fk4hDALqhWZ8DHN8-CqAQqtWN_FSv8RzeCLNVq78kDj" alt="" width="33%" height="1600"></p>
-<p><strong>Auvidea J100 technical details</strong></p>
-<div title="Page 3">
-<ul>
-<li>carrier board for one NVIDIA® JetsonTM TX1 compute module</li>
-<li>standalone or mounted on modular motherboard</li>
-<li>two 4 lane CSI-2 (22 pin FPC 0.5mm pitch)</li>
-<li>two 2 lane CSI-2 (15 pin FPC 1.0mm pitch)</li>
-<li>micro SD card</li>
-<li>2 USB3 type A (10 pin micro USB3)</li>
-<li>UART 0 (3.3V TTL) (6 pin) - console access</li>
-<li>2 I2S digital audio (6 pins each)</li>
-<li>fan connector (4 pin)</li>
-<li>mini HDMI out</li>
-<li>UART, Gb Ethernet, I2C, USB2, SATA, 4x PCIe and CAN (on 3 motherboard connectors on the bottom)</li>
-<li>power: 12V (4 pin) - alternatively powered by motherboard (redundant)</li>
-<li>size: 50 x 87 mm (same size as TX1)</li>
-<li>weight: 26 grams (just the J100)</li>
-<li>model: 38188-2 (J100 rev 2)</li>
-</ul>
-</div>
-<hr>
-<h6 style="text-align: center;">The cost of jetson tx1 is <strong>$650</strong> including delivery to UK. the cost of j100 is <strong>$330</strong> including delivery to UK.</h6>
-<hr>
-<p><strong>Contribution</strong></p>
-<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (go, php, ruby, js, node.js, objective-c, java…).</p>
 <p>See <a href="https://blog.kris-lab.com/contact/">my contact page</a> if required.</p>
 <p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
             ]]>
