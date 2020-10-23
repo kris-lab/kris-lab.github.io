@@ -10,6 +10,27 @@
     },
     "items": [
         {
+            "id": "https://blog.kris-lab.com/realsense-d455-stereo-camera-from-intel/",
+            "url": "https://blog.kris-lab.com/realsense-d455-stereo-camera-from-intel/",
+            "title": "RealSense D455 Stereo Camera from Intel",
+            "summary": "The new arrival in my home-lab. The Intel RealSense D455 stereo camera - just freshly released. It's made well and works out of the box. Next week will be testing the accuracy of the depth map and also the quality&hellip;",
+            "content_html": "<p>The new arrival in my home-lab. The Intel RealSense D455 stereo camera - just freshly released. It's made well and works out of the box.</p>\n<p>Next week will be testing the accuracy of the depth map and also the quality of the RGB mapping onto the point cloud - this is very critical for my current multi-camera projects.<br><br>I really hope this camera is a big improvement comparing to D435i and also comparing to the competitors like <a href=\"https://blog.kris-lab.com/zed-2-ai-stereo-camera/\">ZED-2.</a> The image sensor has a lower resolution than the former D435i, but the overall quality of the image and latency is pretty good (feels better).<br><br>Stay tuned.</p>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/042B5D9A-5AB7-4961-832C-0E9EAC19B7FE_1_201_a.jpeg\" data-size=\"3024x2927\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/042B5D9A-5AB7-4961-832C-0E9EAC19B7FE_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"743\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/394D1E50-75AE-4030-8C42-2F89758B5267_1_201_a.jpeg\" data-size=\"2739x3343\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/394D1E50-75AE-4030-8C42-2F89758B5267_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"937\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/9B18F2DD-A8A0-48AE-9B0A-BEBE7E62DB48_1_201_a.jpeg\" data-size=\"2809x1848\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/9B18F2DD-A8A0-48AE-9B0A-BEBE7E62DB48_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"505\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/E4A58657-A196-49A1-9469-66EF4B332426_1_201_a.jpeg\" data-size=\"2862x3413\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/E4A58657-A196-49A1-9469-66EF4B332426_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"916\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/5D4703F7-7106-4F25-AC31-CC66767A7D3C_1_201_a.jpeg\" data-size=\"4032x2578\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/5D4703F7-7106-4F25-AC31-CC66767A7D3C_1_201_a-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"491\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/2CF55518-21F9-4E99-B526-6DEADA649322_1_201_a-2.jpeg\" data-size=\"2296x2537\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/2CF55518-21F9-4E99-B526-6DEADA649322_1_201_a-2-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"849\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/908/gallery/2F0A885F-B9EE-43C6-BD92-C6B7A5C2E67F_1_201_a-3.jpeg\" data-size=\"3024x3024\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/908/gallery/2F0A885F-B9EE-43C6-BD92-C6B7A5C2E67F_1_201_a-3-thumbnail.jpeg\" alt=\"\" width=\"768\" height=\"768\"></a></figure>\n</div></div>",
+            "image": "https://blog.kris-lab.com/media/posts/908/4E051C33-D2A4-416E-A8D2-65242729DF44_1_201_a.jpeg",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "volumetric capture",
+                   "stereo-vision",
+                   "point-cloud",
+                   "depth-vision",
+                   "depth-maps",
+                   "3d scan"
+            ],
+            "date_published": "2020-10-23T23:32:43+02:00",
+            "date_modified": "2020-10-23T23:41:52+02:00"
+        },
+        {
             "id": "https://blog.kris-lab.com/flow-from-plumelabs-air-quality-sensor/",
             "url": "https://blog.kris-lab.com/flow-from-plumelabs-air-quality-sensor/",
             "title": "Flow from PlumeLabs. Air Quality Sensor",
@@ -217,26 +238,6 @@
             ],
             "date_published": "2016-05-01T19:35:49+02:00",
             "date_modified": "2020-10-20T19:40:44+02:00"
-        },
-        {
-            "id": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016/",
-            "url": "https://blog.kris-lab.com/art-3dvr-challenge-progress-by-april-2016/",
-            "title": "Art 3D/VR challenge – progress by April 2016",
-            "summary": " Contribution Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and&hellip;",
-            "content_html": "<figure class=\"post__image post__image--center\"><a title=\"VR progress\" href=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" target=\"_blank\" rel=\"noopener\"><img loading=\"lazy\"  src=\"https://blog.kris-lab.com/media/posts/882/sEMBCz9-pjyQk4M6mkq4AIvjL8quBeNk4035X4rv9GryvtmatdsSeAf_ZZHwkBjAkWYlZZVXPLnFAwxZy024oWOSN8qvGD4DatKxuD1p_yZcIM7NqXQD2n8l7EaNbHIhqIiV92R7\" alt=\"\" width=\"50%\" height=\"1103\"></figure></a></p>\n<p><strong>Contribution</strong></p>\n<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>\n<p>See <a href=\"https://blog.kris-lab.com/contact/\">my contact page</a> if required.</p>\n<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>",
-            "author": {
-                "name": "Chris Stasiak"
-            },
-            "tags": [
-                   "virtual reality",
-                   "VR/3D",
-                   "VR",
-                   "Chihuahua-VR box",
-                   "Chihuahua-VR",
-                   "Chihuahua"
-            ],
-            "date_published": "2016-05-01T15:46:28+02:00",
-            "date_modified": "2020-10-20T19:21:09+02:00"
         }
     ]
 }
