@@ -3,12 +3,68 @@
     <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-23T23:41:52+02:00</updated>
+    <updated>2020-10-26T18:30:06+01:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
+    <entry>
+        <title>X-Cores from Jetson Xavier AGX</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/ai-powered-by-jetson-xavier-agx/"/>
+        <id>https://blog.kris-lab.com/ai-powered-by-jetson-xavier-agx/</id>
+            <category term="tensor"/>
+            <category term="nvidia"/>
+            <category term="news"/>
+            <category term="jetson-xavier-agx"/>
+            <category term="home-lab"/>
+            <category term="artificial intelligence"/>
+            <category term="Jetson"/>
+            <category term="GPU"/>
+            <category term="Air Quality"/>
+            <category term="ARM"/>
+
+        <updated>2020-10-26T18:30:06+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/909/IMG_2925.jpg" alt="" />
+                    New Jetson Xavier AGX with 32GB RAM It delivers 30+ TFLOPS for AI with its amazing X-Cores architecture! Flashing problem Unfortunately, I have experienced problems with loading JetPack 4.4.1 into Xavier AGX. It was the first time I have ever&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/909/IMG_2925.jpg" alt="" />
+                <p><span data-preserver-spaces="true">New Jetson Xavier AGX with 32GB RAM</span></p>
+<ul>
+<li><span data-preserver-spaces="true">512 x CUDA Volta cores</span></li>
+<li><span data-preserver-spaces="true">64 x Tensor cores</span></li>
+<li><span data-preserver-spaces="true">8 x 64-bit Nvidia Carmel CPU cores</span></li>
+</ul>
+<p><span data-preserver-spaces="true">It delivers 30+ TFLOPS for AI with its amazing X-Cores architecture!</span></p>
+<p><strong><span data-preserver-spaces="true">Flashing problem</span></strong></p>
+<p><span data-preserver-spaces="true">Unfortunately, I have experienced problems with loading JetPack 4.4.1 into Xavier AGX. It was the first time I have ever had any problems with Jetson products starting from TK-1 (ages ago). Fortunately, with few hacks, I managed to complete the process. So the issue was that Xavier communication via USB-3.0 was constantly restarted (not sure why). It happened between step "Jetson OS Image" and "Flash Jetson OS" step. As result, the flashing couldn't start! To clarify, I use Ubuntu 18.04 from Vagrant Cloud running on OSX - it's the host running the Jetson SDK Manager.</span></p>
+<p><span data-preserver-spaces="true">The solution was pretty simple, but requires to watch the SDK Manager terminal output and re-attach the USB device (Jetson) to the virtual machine once the step "Jetson OS Image" finished and before the "Flash Jetson OS" started (there are multiple attempts before SDK manager fails).</span></p>
+<p><span data-preserver-spaces="true">Why does it happen? No idea, but it might be the issue with VirtualBox (6.1.12) and USB-3.0 controller, or OSX Catalina (10.15.7) or Vagrant (2.2.9). Anyway, I have never experienced that problem before with Jetson TK-1, Jetson TX-1 or Jetson Nano, and I think it might be something about Jetson Xavier recovery mode (TBD).</span></p>
+<p><strong><span data-preserver-spaces="true">Conclusion</span></strong></p>
+<p><span data-preserver-spaces="true">I'm super happy with the performance of AGX, which is outstanding compared to any other Jetson family member or any solution from competitors.</span></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2885.jpg" data-size="2848x3249"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2885-thumbnail.jpg" alt="" width="768" height="876"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2909.jpg" data-size="2340x2399"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2909-thumbnail.jpg" alt="" width="768" height="787"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2919.jpg" data-size="2258x2085"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2919-thumbnail.jpg" alt="" width="768" height="709"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2918-2.jpg" data-size="3024x3742"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2918-2-thumbnail.jpg" alt="" width="768" height="950"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2927.jpg" data-size="3024x4032"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2927-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2924.jpg" data-size="2536x3475"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2924-thumbnail.jpg" alt="" width="768" height="1052"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2937.jpg" data-size="3960x2703"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/IMG_2937-thumbnail.jpg" alt="" width="768" height="524"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/909/gallery/jetson-ubuntu-virtualbox-error.png" data-size="1605x1305"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/909/gallery/jetson-ubuntu-virtualbox-error-thumbnail.png" alt="" width="768" height="624"></a></figure>
+</div></div>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>RealSense D455 Stereo Camera from Intel</title>
         <author>
@@ -480,89 +536,6 @@
                 <hr>
 <p>During the Covid-19 lockdown, there is a lot of time for reading. There was a book on my shelf since 2013 which I did approach multiple times, but never lucky enough to take it properly and seriously.<br><br>However, there is a special time for everything (I guess) - the book is actually fascinating. I found it very interesting to go again over the basics of math, physics, real-world perception from the ONLY source code point of view (mixed with physics) rather than the ONLY business point of view (mixed with the chase for growth only).<br><br>Over last 15 years of commercial experience there was so many decision taken by me with focus on profit first (and delivery deadline) rather than the code quality and proper research/abstraction so seems I forgot what it means the real science and simply math &amp; physics with the pleasure of coding.<br><br>Anyway, I recommend that book to everyone who is deep in the heart a scientist and engineer but in the real world has been hacked by a "virus" called responsible management and then by profits, investors, partners, and co-founders.<br>Finally, there is no "magic" and we have to live with growing technical debt in the backlog! Maybe it's worth sometimes to try a long term thinking rather than short term thinking only: seed, series A, and hopefully B, too.<br><br>I guess there is no magic equation and we simply have to keep being responsible and try to balance the chaos.</p>
 <p>The official website of <strong><a href="https://natureofcode.com/" target="_blank" rel="noopener noreferrer">The Nature of Code</a></strong></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Art 3D/VR challenge – waiting for camera</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-camera/"/>
-        <id>https://blog.kris-lab.com/art-3dvr-challenge-waiting-for-camera/</id>
-            <category term="virtual reality"/>
-            <category term="VR"/>
-            <category term="USB"/>
-            <category term="Stereoscopic"/>
-            <category term="MIPI"/>
-            <category term="M12"/>
-            <category term="Lens"/>
-            <category term="Jetson TX1"/>
-            <category term="Jetson"/>
-            <category term="ISP"/>
-            <category term="Chihuahua-VR"/>
-            <category term="Camera"/>
-            <category term="CSI-2"/>
-            <category term="CSI"/>
-            <category term="3D"/>
-
-        <updated>2020-10-20T19:40:44+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/883/lowlight_usb_camera_board-zoom.jpg" alt="" />
-                    Introduction I was researching the right cameras for very long time. The market is full of products on every level: I have found a plenty of producers and I did research on following: This is my very abstract drawing of&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/883/lowlight_usb_camera_board-zoom.jpg" alt="" />
-                <p><strong>Introduction</strong></p>
-<p>I was researching the right cameras for very long time. The market is full of products on every level:</p>
-<ul>
-<li>plain CMOS image sensor</li>
-<li>camera modules with e.g. MIPI/CSI interface</li>
-<li>dedicated camera boards with e.g. USB 2.0/3.0, HDMI interface</li>
-<li>final products with e.g. lenses, enclosure</li>
-</ul>
-<p>I have found a plenty of producers and I did research on following:</p>
-<ul>
-<li>Sony (IMX series: IMX135, IMX214)</li>
-<li>Aptina (AR series: AR1820, AR0330)</li>
-<li>OmniVision (OV series, OV4682, OV5680)</li>
-</ul>
-<p>This is my very abstract drawing of what I have found so far...</p>
-<p><a title="Camera technology workflow" href="https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8" target="_blank" rel="noopener"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/883/r5qjkVvf4iNsr-gx6ohaVf8-czh6mHMZw4SZTUM46azNb33mMFIirfooJiTiT_Yz00WWt8YKAxdMw_4i1fyK8L2iycmKACi1cfNRgciHuZZj3IrPPkn-lc5HYMaCr2UwHgn_D2w8" alt="" width="1600" height="528"></a></p>
-<p><strong>Requirements</strong></p>
-<p>My main requirements is compatibility with Ubuntu and Jetson TX1 which runs kernel of 3.10.67 version and also:</p>
-<ul>
-<li>min. FullHD with min. 30fps</li>
-<li>support for min. MIPI/CSI-2 and USB 3.0 (prototype only)</li>
-<li>min. 1/3" image sensor</li>
-<li>support for 16:9 and 4:3</li>
-<li>support for M12, S-mount</li>
-<li>built-in ISP (Image Signal Processing)</li>
-<li>configurable: Brightness, Contrast, Sharpness, Saturation control, Gamma control Gain, Exposure (Manual and Auto), White Balance (Manual and Auto)</li>
-<li>preferably configurable scene modes: auto, night, sport, normal, high sensitive, prtraint, landscape and more</li>
-<li>preferably configurable special effects: grayscale, negtive, solarize, sepia and more</li>
-<li>support for external trigger</li>
-<li>support for extra GPIO</li>
-<li>support for YUV422 (uncompressed)</li>
-<li>preferably BSI technology</li>
-<li>preferably 10+ bit per pixel (RAW10)</li>
-<li>support for electronic rolling shutter (and also global shutter reset)</li>
-<li>very low SNR</li>
-<li>very small, less than 35Hx35Wx20D mm</li>
-</ul>
-<p><strong>Betting on...</strong></p>
-<p>I have decided to go with <strong>Aptina AR1820HS</strong> module with <strong>USB3.0</strong> adapter board. I have high hopes to use just module without USB adapter in final version. The main interface will be MIPI/CSI-2 which is properly supported with Jetson TX1. Also <strong>AR1820HS</strong> seems to be supported by linux with MIPI/CSI-2 and I2C interface.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://blog.kris-lab.com/media/posts/883/LAsaKZq6MLwsJIos_4X-29M8TxXqqDiZpZP3vxAfwaZBIUypz-nrs5FND92yf97AmxekOOtmFDCS18WkAdNfWbtdIYXdP2OUkSDEJGS-CFJ3Lws7cQvSq2v9D-U_u-DHz54BJtOj" alt="" width="310" height="269"></figure>
-<hr>
-<h6 style="text-align: center;">Stereo cameras have been just ordered. Delivery time is 3 weeks so let's wait and test another options in meantime! total cost is <strong>$550</strong> including delivery to UK.</h6>
-<hr>
-<p><strong>Contribution</strong></p>
-<p>Feel free to contact me if you are interested in meeting the team and contribution to this project in any programming language (puppet, go, php, ruby, js, node.js, objective-c, java… and hardware, PCB, 3D printing, UI/UX, PR… and financial support...)</p>
-<p>See <a href="https://blog.kris-lab.com/contact/">my contact page</a> if required.</p>
-<p>© COPYRIGHT KRZYSZTOF STASIAK 2016. ALL RIGHTS RESERVED</p>
             ]]>
         </content>
     </entry>
