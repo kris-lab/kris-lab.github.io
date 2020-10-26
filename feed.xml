@@ -3,7 +3,7 @@
     <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-26T20:38:48+01:00</updated>
+    <updated>2020-10-26T21:52:31+01:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
@@ -29,11 +29,11 @@
             <category term="Air Quality"/>
             <category term="ARM"/>
 
-        <updated>2020-10-26T20:38:48+01:00</updated>
+        <updated>2020-10-26T21:52:31+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/909/IMG_2925.jpg" alt="" />
-                    New Jetson Xavier AGX with 32GB RAM and compute capability of 7.2 ! It delivers 30+ TFLOPS for AI with its amazing X-Cores architecture! Flashing problem Unfortunately, I have experienced problems with loading JetPack 4.4.1 into Xavier AGX. It was&hellip;
+                    New Jetson Xavier AGX with 32GB RAM and compute capability of 7.2 ! It delivers 30+ TFLOPS for AI with its amazing X-Cores architecture! Flash Jetson OS - issue Unfortunately, I have experienced problems with loading JetPack 4.4.1 into Xavier&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -46,7 +46,7 @@
 <li><span data-preserver-spaces="true">8 x 64-bit Nvidia Carmel CPU core</span></li>
 </ul>
 <p><span data-preserver-spaces="true">It delivers 30+ TFLOPS for AI with its amazing X-Cores architecture!</span></p>
-<p><strong><span data-preserver-spaces="true">Flashing problem</span></strong></p>
+<p><strong><span data-preserver-spaces="true">Flash Jetson OS - issue</span></strong></p>
 <p><span data-preserver-spaces="true">Unfortunately, I have experienced problems with loading JetPack 4.4.1 into Xavier AGX. It was the first time I have ever had any problems with Jetson products starting from TK-1 (ages ago). Fortunately, with few hacks, I managed to complete the process. So the issue was that Xavier communication via USB-3.0 was constantly restarted (not sure why). It happened between step "Jetson OS Image" and "Flash Jetson OS" step. As result, the flashing couldn't start! To clarify, I use Ubuntu 18.04 from Vagrant Cloud running on OSX - it's the host running the Jetson SDK Manager.</span></p>
 <p><span data-preserver-spaces="true">The solution was pretty simple, but requires to watch the SDK Manager terminal output and re-attach the USB device (Jetson) to the virtual machine once the step "Jetson OS Image" finished and before the "Flash Jetson OS" started (there are multiple attempts before SDK manager fails).</span></p>
 <p><span data-preserver-spaces="true">Why does it happen? No idea, but it might be the issue with VirtualBox (6.1.12) and USB-3.0 controller, or OSX Catalina (10.15.7) or Vagrant (2.2.9). Anyway, I have never experienced that problem before with Jetson TK-1, Jetson TX-1 or Jetson Nano, and I think it might be something about Jetson Xavier recovery mode (TBD).</span></p>
