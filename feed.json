@@ -10,6 +10,30 @@
     },
     "items": [
         {
+            "id": "https://blog.kris-lab.com/jetson-xavier-with-2-stereo-cameras-zed-2-realsense-d455/",
+            "url": "https://blog.kris-lab.com/jetson-xavier-with-2-stereo-cameras-zed-2-realsense-d455/",
+            "title": "Jetson Xavier AGX simultaneously with stereo camera ZED-2 &amp; RealSense D455",
+            "summary": "A few weeks ago, I tested Jetson Nano (4GB) with ZED-2 (SDK v3.2), and I wasn't really impressed with the performance. As a result, I had to upgrade the setup for my stereo-vision projects. So I bought Jetson Xavier AGX&hellip;",
+            "content_html": "<p><span data-preserver-spaces=\"true\">A few weeks ago, I tested Jetson Nano (4GB) with ZED-2 (SDK v3.2), and I wasn't really impressed with the performance. As a result, I had to upgrade the setup for my stereo-vision projects.</span></p>\n<p><span data-preserver-spaces=\"true\">So I bought Jetson Xavier AGX (32GB)... and performed a small test with Jetson Xavier AGX (Ubuntu@18.04) and two stereo cameras connected via USB-3 (ZED-2 and Intel RealSense D455). The main goal was to experience if that system could work efficiently.</span></p>\n<p><strong><span data-preserver-spaces=\"true\">The short answer is YES</span></strong><span data-preserver-spaces=\"true\">. The StereoLabs ZED-2 camera was set to </span><a target=\"_blank\" href=\"mailto:2K@15\" class=\"editor-rtfLink\" rel=\"noopener\"><span data-preserver-spaces=\"true\">2K@15</span></a><span data-preserver-spaces=\"true\"> mode (the highest available), and the Intel RealSense D455 was set to max for depth sensor and RGB sensor.</span></p>\n<p><span data-preserver-spaces=\"true\">Both solutions were able to deliver a real-time stream of point clouds and leave room in CPU/GPU for other tasks.</span></p>\n<p><span data-preserver-spaces=\"true\">NOTE: the latest ZED-2 SDK v3.3 might work a little bit better on Jetson Nano (4GB), but doubt it will make sense to use such a configuration.</span></p>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-columns=\"1\">\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-31-16.png\" data-size=\"3440x1440\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-31-16-thumbnail.png\" alt=\"\" width=\"768\" height=\"321\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-28-54-3.png\" data-size=\"3440x1440\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-28-54-3-thumbnail.png\" alt=\"\" width=\"768\" height=\"321\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.kris-lab.com/media/posts/910/gallery/IMG_2984.jpg\" data-size=\"2562x2817\"><img loading=\"lazy\" src=\"https://blog.kris-lab.com/media/posts/910/gallery/IMG_2984-thumbnail.jpg\" alt=\"\" width=\"768\" height=\"844\"></a></figure>\n</div></div>",
+            "image": "https://blog.kris-lab.com/media/posts/910/IMG_2964.jpg",
+            "author": {
+                "name": "Chris Stasiak"
+            },
+            "tags": [
+                   "zed-2",
+                   "stereolabs",
+                   "stereo-vision",
+                   "point-cloud",
+                   "news",
+                   "jetson-xavier-agx",
+                   "intel realsense",
+                   "d455",
+                   "Jetson"
+            ],
+            "date_published": "2020-10-27T16:49:54+01:00",
+            "date_modified": "2020-10-27T17:27:11+01:00"
+        },
+        {
             "id": "https://blog.kris-lab.com/ai-powered-by-jetson-xavier-agx/",
             "url": "https://blog.kris-lab.com/ai-powered-by-jetson-xavier-agx/",
             "title": "X-Cores from Jetson Xavier AGX",
@@ -34,7 +58,7 @@
                    "ARM"
             ],
             "date_published": "2020-10-26T18:24:25+01:00",
-            "date_modified": "2020-10-27T10:17:13+01:00"
+            "date_modified": "2020-10-27T17:22:49+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/realsense-d455-stereo-camera-from-intel/",
@@ -50,12 +74,13 @@
                    "volumetric capture",
                    "stereo-vision",
                    "point-cloud",
+                   "news",
                    "depth-vision",
                    "depth-maps",
                    "3d scan"
             ],
             "date_published": "2020-10-23T23:32:43+02:00",
-            "date_modified": "2020-10-23T23:41:52+02:00"
+            "date_modified": "2020-10-27T17:22:16+01:00"
         },
         {
             "id": "https://blog.kris-lab.com/flow-from-plumelabs-air-quality-sensor/",
@@ -217,24 +242,6 @@
             ],
             "date_published": "2020-09-13T10:42:00+02:00",
             "date_modified": "2020-10-20T18:03:01+02:00"
-        },
-        {
-            "id": "https://blog.kris-lab.com/book-the-nature-of-code/",
-            "url": "https://blog.kris-lab.com/book-the-nature-of-code/",
-            "title": "Book: The Nature of Code",
-            "summary": "During the Covid-19 lockdown, there is a lot of time for reading. There was a book on my shelf since 2013 which I did approach multiple times, but never lucky enough to take it properly and seriously. However, there is&hellip;",
-            "content_html": "<hr>\n<p>During the Covid-19 lockdown, there is a lot of time for reading. There was a book on my shelf since 2013 which I did approach multiple times, but never lucky enough to take it properly and seriously.<br><br>However, there is a special time for everything (I guess) - the book is actually fascinating. I found it very interesting to go again over the basics of math, physics, real-world perception from the ONLY source code point of view (mixed with physics) rather than the ONLY business point of view (mixed with the chase for growth only).<br><br>Over last 15 years of commercial experience there was so many decision taken by me with focus on profit first (and delivery deadline) rather than the code quality and proper research/abstraction so seems I forgot what it means the real science and simply math &amp; physics with the pleasure of coding.<br><br>Anyway, I recommend that book to everyone who is deep in the heart a scientist and engineer but in the real world has been hacked by a \"virus\" called responsible management and then by profits, investors, partners, and co-founders.<br>Finally, there is no \"magic\" and we have to live with growing technical debt in the backlog! Maybe it's worth sometimes to try a long term thinking rather than short term thinking only: seed, series A, and hopefully B, too.<br><br>I guess there is no magic equation and we simply have to keep being responsible and try to balance the chaos.</p>\n<p>The official website of <strong><a href=\"https://natureofcode.com/\" target=\"_blank\" rel=\"noopener noreferrer\">The Nature of Code</a></strong></p>",
-            "image": "https://blog.kris-lab.com/media/posts/898/IMG_1470.JPG",
-            "author": {
-                "name": "Chris Stasiak"
-            },
-            "tags": [
-                   "research",
-                   "news",
-                   "books"
-            ],
-            "date_published": "2020-08-26T20:47:46+02:00",
-            "date_modified": "2020-10-20T16:29:27+02:00"
         }
     ]
 }
