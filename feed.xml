@@ -3,12 +3,50 @@
     <title>__Chris_Stasiak__</title>
     <link href="https://blog.kris-lab.com/feed.xml" rel="self" />
     <link href="https://blog.kris-lab.com" />
-    <updated>2020-10-27T17:27:11+01:00</updated>
+    <updated>2020-11-02T10:13:22+01:00</updated>
     <author>
         <name>Chris Stasiak</name>
     </author>
     <id>https://blog.kris-lab.com</id>
 
+    <entry>
+        <title>Jetson Xavier AGX with 20Gbits bandwidth for USB-3.0 devices</title>
+        <author>
+            <name>Chris Stasiak</name>
+        </author>
+        <link href="https://blog.kris-lab.com/jetson-xavier-agx-with-20gbits-for-usb-3x/"/>
+        <id>https://blog.kris-lab.com/jetson-xavier-agx-with-20gbits-for-usb-3x/</id>
+            <category term="zed-2"/>
+            <category term="jetson-xavier-agx"/>
+            <category term="intel realsense"/>
+            <category term="d455"/>
+            <category term="USB3.0"/>
+            <category term="StarTech"/>
+            <category term="PEXUSB3S44V"/>
+            <category term="PCIe"/>
+            <category term="Jetson"/>
+
+        <updated>2020-11-02T10:13:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.kris-lab.com/media/posts/911/6503A6C5-EE86-420E-BA12-E01340068A24_1_201_a.jpeg" alt="" />
+                    If you wonder how to significantly extended the USB-3.0 capabilities of your Jetson Xavier AGX then the answer is a PCIe card with dedicated 5Gbits channels and extra power input. I have found the product from StarTech (PEXUSB3S44V) which includes&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.kris-lab.com/media/posts/911/6503A6C5-EE86-420E-BA12-E01340068A24_1_201_a.jpeg" alt="" />
+                <p>If you wonder how to significantly extended the USB-3.0 capabilities of your Jetson Xavier AGX then the answer is a PCIe card with dedicated 5Gbits channels and extra power input.</p>
+<p>I have found the product from StarTech (<a href="https://www.amazon.es/gp/product/B00HJZEA2S" target="_blank" rel="noopener noreferrer">PEXUSB3S44V</a>) which includes 4 dedicated channels of the total bandwidth of 20Gbits.</p>
+<p>Tested to be working perfectly well with ZED-2 camera and Intel RealSense D455 under Ubuntu 18.04 and JetPack 4.4.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/911/gallery/590DD22C-E74D-4C58-8ABC-32FCF2283FF8_1_201_a.jpeg" data-size="2615x2084"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/911/gallery/590DD22C-E74D-4C58-8ABC-32FCF2283FF8_1_201_a-thumbnail.jpeg" alt="" width="768" height="612"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/911/gallery/A45D596F-2AD1-4A7E-B7B5-DE955190C6EC_1_201_a.jpeg" data-size="2510x2676"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/911/gallery/A45D596F-2AD1-4A7E-B7B5-DE955190C6EC_1_201_a-thumbnail.jpeg" alt="" width="768" height="819"></a></figure>
+<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/911/gallery/C60D9924-E6CE-48C4-947A-68A1137362FF_1_201_a.jpeg" data-size="3364x2071"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/911/gallery/C60D9924-E6CE-48C4-947A-68A1137362FF_1_201_a-thumbnail.jpeg" alt="" width="768" height="473"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Jetson Xavier AGX simultaneously with stereo camera ZED-2 &amp; RealSense D455</title>
         <author>
@@ -26,7 +64,7 @@
             <category term="d455"/>
             <category term="Jetson"/>
 
-        <updated>2020-10-27T17:27:11+01:00</updated>
+        <updated>2020-10-28T17:38:32+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.kris-lab.com/media/posts/910/IMG_2964.jpg" alt="" />
@@ -36,11 +74,11 @@
         <content type="html">
             <![CDATA[
                     <img src="https://blog.kris-lab.com/media/posts/910/IMG_2964.jpg" alt="" />
-                <p><span data-preserver-spaces="true">A few weeks ago, I tested Jetson Nano (4GB) with ZED-2 (SDK v3.2), and I wasn't really impressed with the performance. As a result, I had to upgrade the setup for my stereo-vision projects.</span></p>
-<p><span data-preserver-spaces="true">So I bought Jetson Xavier AGX (32GB)... and performed a small test with Jetson Xavier AGX (Ubuntu@18.04) and two stereo cameras connected via USB-3 (ZED-2 and Intel RealSense D455). The main goal was to experience if that system could work efficiently.</span></p>
-<p><strong><span data-preserver-spaces="true">The short answer is YES</span></strong><span data-preserver-spaces="true">. The StereoLabs ZED-2 camera was set to </span><a target="_blank" href="mailto:2K@15" class="editor-rtfLink" rel="noopener"><span data-preserver-spaces="true">2K@15</span></a><span data-preserver-spaces="true"> mode (the highest available), and the Intel RealSense D455 was set to max for depth sensor and RGB sensor.</span></p>
+                <p><span data-preserver-spaces="true">A few weeks ago, I tested <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank" rel="noopener noreferrer">Jetson Nano (4GB)</a> with ZED-2 (SDK v3.2), and I wasn't really impressed with the performance. As a result, I had to upgrade the setup for my stereo-vision projects.</span></p>
+<p><span data-preserver-spaces="true">So I bought <a href="https://blog.kris-lab.com/ai-powered-by-jetson-xavier-agx/" target="_blank" rel="noopener noreferrer">Jetson Xavier AGX</a> (32GB)... and performed a small test with Jetson Xavier AGX (Ubuntu@18.04) and two stereo cameras connected via USB-3 (ZED-2 and Intel RealSense D455). The main goal was to experience if that system could work efficiently.</span></p>
+<p><strong><span data-preserver-spaces="true">The short answer is YES</span></strong><span data-preserver-spaces="true">. The StereoLabs <a href="https://blog.kris-lab.com/zed-2-ai-stereo-camera/" target="_blank" rel="noopener noreferrer">ZED-2 </a>camera was set to </span><a target="_blank" href="mailto:2K@15" class="editor-rtfLink" rel="noopener"><span data-preserver-spaces="true">2K@15</span></a><span data-preserver-spaces="true"> mode (the highest available), and the <a href="https://blog.kris-lab.com/realsense-d455-stereo-camera-from-intel/" target="_blank" rel="noopener noreferrer">Intel RealSense D455</a> was set to max for depth sensor and RGB sensor.</span></p>
 <p><span data-preserver-spaces="true">Both solutions were able to deliver a real-time stream of point clouds and leave room in CPU/GPU for other tasks.</span></p>
-<p><span data-preserver-spaces="true">NOTE: the latest ZED-2 SDK v3.3 might work a little bit better on Jetson Nano (4GB), but doubt it will make sense to use such a configuration.</span></p>
+<p><span data-preserver-spaces="true">NOTE: the latest <a href="https://www.stereolabs.com/developers/release/" target="_blank" rel="noopener noreferrer">ZED-2 SDK v3.3 </a>might work a little bit better on Jetson Nano (4GB), but doubt it will make sense to use such a configuration.</span></p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="1">
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-31-16.png" data-size="3440x1440"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-31-16-thumbnail.png" alt="" width="768" height="321"></a></figure>
 <figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-28-54-3.png" data-size="3440x1440"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/910/gallery/Screenshot-from-2020-10-27-16-28-54-3-thumbnail.png" alt="" width="768" height="321"></a></figure>
@@ -519,44 +557,6 @@
 <li><a href="https://vresh.com/">https://vresh.com/</a></li>
 <li><a href="http://blog.vresh.com/">http://blog.vresh.com/</a></li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Moved to Barcelona</title>
-        <author>
-            <name>Chris Stasiak</name>
-        </author>
-        <link href="https://blog.kris-lab.com/moved-to-barcelona/"/>
-        <id>https://blog.kris-lab.com/moved-to-barcelona/</id>
-            <category term="news"/>
-
-        <updated>2020-10-20T18:03:01+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg" alt="" />
-                    [2020/Q3] Quick update Last decade (in the world without COVID-19), I have shared my time between Los Angeles, London, Warsaw, Kyiv, and Beijing (see 2017-2020). In the new reality of 2020+, I have decided to move south of Europe and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.kris-lab.com/media/posts/901/IMG_1836-2.jpeg" alt="" />
-                <p>[2020/Q3] Quick update</p>
-<p><span data-preserver-spaces="true">Last decade (in the world without COVID-19), I have shared my time between Los Angeles, London, Warsaw, Kyiv, and Beijing (</span><a href="https://blog.kris-lab.com/20172020-journey/" target="_blank" rel="noopener noreferrer"><span data-preserver-spaces="true">see 2017-2020</span></a><span data-preserver-spaces="true">). In the new reality of 2020+, I have decided to move south of Europe and reboot my life. So, I have just moved to Barcelona to continue working on VR/AR/360 projects and additionally focus on fashion tech and PropTech using the newest achievements of researchers from Max Planck Institutes.</span></p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/469C25B4-6F2B-4B5F-841C-31B8E858DFDD.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/469C25B4-6F2B-4B5F-841C-31B8E858DFDD-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/IMG_1980.jpeg" data-size="3024x4032"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/IMG_1980-thumbnail.jpeg" alt="" width="768" height="1024"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/IMG_2447.jpeg" data-size="4032x2823"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/IMG_2447-thumbnail.jpeg" alt="" width="768" height="538"></a></figure>
-</div></div>
-<hr>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-columns="3">
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a.jpeg" data-size="3024x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/E65D4FC7-BFC3-4A3E-9E27-1C2D6136A84E_1_201_a-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/408D0081-7171-4CA1-9177-C3C0DD9AD373_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/408D0081-7171-4CA1-9177-C3C0DD9AD373_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/2D69B5BA-AE01-4868-8792-569608E777D2_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/2D69B5BA-AE01-4868-8792-569608E777D2_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/ABC58B4A-CEA3-4195-A6BC-6F9D1CE8F099_1_201_a-2.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/ABC58B4A-CEA3-4195-A6BC-6F9D1CE8F099_1_201_a-2-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/BDA5CE02-72E7-4BB0-B903-FE3B5E642DBE_1_201_a.jpeg" data-size="2696x2696"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/BDA5CE02-72E7-4BB0-B903-FE3B5E642DBE_1_201_a-thumbnail.jpeg" alt="" width="768" height="768"></a></figure>
-<figure class="gallery__item"><a href="https://blog.kris-lab.com/media/posts/901/gallery/54AE58D0-9216-4C9D-95B1-73B66FDC485B_1_201_a.jpeg" data-size="4032x3024"><img loading="lazy" src="https://blog.kris-lab.com/media/posts/901/gallery/54AE58D0-9216-4C9D-95B1-73B66FDC485B_1_201_a-thumbnail.jpeg" alt="" width="768" height="576"></a></figure>
-</div></div>
             ]]>
         </content>
     </entry>
